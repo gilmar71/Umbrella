@@ -104,16 +104,6 @@ header .container_umbrella img {
   max-width: 220px;
   width: 100%;
 }
-@media (max-width: 1600px) {
-  header .container_umbrella img {
-    max-width: 182px;
-  }
-}
-@media (max-width: 1400px) {
-  header .container_umbrella img {
-    max-width: 158px;
-  }
-}
 header .container_umbrella .itens {
   display: flex;
   align-items: center;
@@ -133,16 +123,6 @@ header .container_umbrella .itens a {
   padding-top: 196px;
   position: relative;
 }
-@media (max-width: 1600px) {
-  #banner {
-    padding-top: 163px;
-  }
-}
-@media (max-width: 1400px) {
-  #banner {
-    padding-top: 141px;
-  }
-}
 #banner .title {
   display: flex;
   position: relative;
@@ -151,16 +131,7 @@ header .container_umbrella .itens a {
 #banner .title h1 {
   text-align: center;
   color: #ffffff;
-}
-@media (max-width: 1600px) {
-  #banner .title h1 {
-    font-size: 75px;
-  }
-}
-@media (max-width: 1400px) {
-  #banner .title h1 {
-    font-size: 65px;
-  }
+  line-height: normal;
 }
 #banner .title h1 span {
   color: var(--secondary-color);
@@ -179,16 +150,6 @@ header .container_umbrella .itens a {
   position: absolute;
   left: -7.8vw;
   top: -15px;
-}
-@media only screen and (max-width: 1600px) {
-  #banner .title .aviao {
-    width: 288px;
-  }
-}
-@media (max-width: 1400px) {
-  #banner .title .aviao {
-    width: 249px;
-  }
 }
 #banner .title .carimbo {
   display: block;
@@ -259,11 +220,6 @@ header .container_umbrella .itens a {
 #quem-somos .text p + * {
   margin-top: 26px;
 }
-#quem-somos .text a .whattsapp {
-  max-width: 24px;
-  width: 100%;
-  height: 24px;
-}
 #quem-somos .image {
   display: block;
   max-width: 554px;
@@ -271,54 +227,51 @@ header .container_umbrella .itens a {
   height: 469px;
   object-fit: cover;
 }
-#registro {
+#registro_marca {
   background-color: var(--quaternary-color);
   width: 100%;
   padding-top: 74px;
   padding-bottom: 80px;
 }
-#registro .container_umbrella {
+#registro_marca .container_umbrella {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
-#registro .top {
-  text-align: center;
-}
-#registro .top h2 {
+#registro_marca .container_umbrella h2 {
   color: var(--secondary-color);
   margin-bottom: 0;
 }
-#registro .top h2 + * {
+#registro_marca .container_umbrella h2 + * {
   margin-top: 25px;
 }
-#registro .top p {
+#registro_marca .container_umbrella p {
   max-width: 890px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-#registro .middle {
+#registro_marca .container_umbrella .middle {
   background-image: url(../images/registro-de-marca-bg.png);
-  max-width: 1160px;
-  width: 100%;
+  width: 60.42vw;
   height: 349px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 65px;
   position: relative;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
-#registro .middle p {
+#registro_marca .container_umbrella .middle p {
   max-width: 660px;
   width: 100%;
   height: 126px;
   text-align: center;
   color: #ffffff;
 }
-#registro .middle a {
+#registro_marca .container_umbrella .middle a {
   color: #fdfdfd;
   display: flex;
   align-items: center;
@@ -327,27 +280,20 @@ header .container_umbrella .itens a {
   position: absolute;
   bottom: -15px;
 }
-#registro .middle .martelo {
+#registro_marca .container_umbrella .middle .martelo {
   position: absolute;
-  left: -95px;
+  left: -4.95vw;
   bottom: -35px;
 }
-#registro .middle .megafone {
+#registro_marca .container_umbrella .middle .megafone {
   position: absolute;
-  right: -145px;
+  right: -7.55vw;
   top: -25px;
 }
-#registro .middle .element {
-  position: absolute;
-  top: -135px;
-  left: -390px;
-}
-#registro .bottom p {
+#registro_marca .container_umbrella p {
   text-align: center;
-  max-width: 890px;
-  width: 100%;
-  height: 45px;
-  margin-top: 30px;
+  width: 46.35vw;
+  margin-top: 33px;
 }
 #triade {
   background-color: var(--primary-color);
@@ -378,9 +324,15 @@ header .container_umbrella .itens a {
   .container_umbrella {
     max-width: 1300px;
   }
+  header .logo {
+    max-width: 182px;
+  }
 }
 @media only screen and (max-width: 1400px) {
   .container_umbrella {
     max-width: 1300px;
+  }
+  header .logo {
+    max-width: 152px;
   }
 }
