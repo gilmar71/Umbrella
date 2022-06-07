@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Buntype";
+  src: url("../fonts/buntypes.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.ttf") format("opentype");
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+strong,
+time,
+address,
+i,
+a,
+b,
+label,
+li,
+td {
+  text-rendering: optimizeLegibility !important;
+}
+[class*="-buntype"] {
+  font-family: "Buntype";
+}
+[class*="-montserrat"] {
+  font-family: "montserrat";
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+[class*="bold"] {
+  font-weight: 700;
+}
+[class*="semibold"] {
+  font-weight: 600;
+}
+[class*="medium"] {
+  font-weight: 500;
+}
+[class*="regular"] {
+  font-weight: 400;
+}
+[class*="light"] {
+  font-weight: 300;
+}
+[class*="italic"] {
+  font-style: italic !important;
+}
+[class*="titulo-1"] {
+  font-size: 80px;
+}
+[class*="titulo-2"] {
+  font-size: 48px;
+}
+[class*="titulo-3"] {
+  font-size: 32px;
+}
+[class*="titulo-4"] {
+  font-size: 20px;
+}
+[class*="paragrafo-1"] {
+  font-size: 24px;
+}
+[class*="paragrafo-2"] {
+  font-size: 16px;
+}
+[class*="paragrafo-3"] {
+  font-size: 15px;
+}
+[class*="link-1"] {
+  font-size: 24px;
+}
+[class*="link-2"] {
+  font-size: 18px;
+}
+[class*="link-3"] {
+  font-size: 16px;
+}
