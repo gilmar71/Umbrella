@@ -94,6 +94,22 @@ header .container_umbrella {
   display: flex;
   justify-content: space-between;
 }
+header .block_bar {
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  display: none;
+  z-index: 10;
+}
+header .block_bar .bar {
+  width: 35px;
+  height: 2px;
+  background-color: #000;
+  margin: 6px 0;
+  transition: 0.3s;
+  border-radius: 25px;
+}
 header img {
   display: block;
   max-width: 220px;
@@ -368,11 +384,11 @@ header .itens a {
   .paragrafo-1 {
     font-size: 22px;
   }
-  .paragrafo-2 {
-    font-size: 15px;
+  header .block_bar {
+    display: block;
   }
   header .itens {
-    gap: 1.8vw;
+    display: none;
   }
   header .itens a {
     font-size: 14px;
@@ -387,11 +403,15 @@ header .itens a {
   #banner .underline img {
     width: 180px;
   }
-  #quem-somos .text p {
-    font-size: 11px;
+  #quem-somos .container_umbrella {
+    align-items: center;
+    justify-content: center;
+  }
+  #quem-somos .text {
+    text-align: center;
   }
   #quem-somos .image {
-    width: 380px;
+    display: none;
   }
   #registro_marca {
     padding-top: 50px;

@@ -114,6 +114,24 @@ header {
     justify-content: space-between;
   }
 
+  .block_bar {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    display: none;
+    z-index: 10;
+
+    .bar {
+      width: 35px;
+      height: 2px;
+      background-color: #000;
+      margin: 6px 0;
+      transition: 0.3s;
+      border-radius: 25px;
+    }
+  }
+
   img {
     display: block;
     max-width: 220px;
@@ -467,15 +485,13 @@ header {
     font-size: 22px;
   }
 
-  .paragrafo-2 {
-    font-size: 15px;
-  }
-
   header {
-    .logo {
+    .block_bar {
+      display: block;
     }
+
     .itens {
-      gap: 1.8vw;
+      display: none;
 
       a {
         font-size: 14px;
@@ -502,14 +518,16 @@ header {
   }
 
   #quem-somos {
+    .container_umbrella {
+      align-items: center;
+      justify-content: center;
+    }
     .text {
-      p {
-        font-size: 11px;
-      }
+      text-align: center;
     }
 
     .image {
-      width: 380px;
+      display: none;
     }
   }
 
