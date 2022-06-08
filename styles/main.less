@@ -112,21 +112,22 @@ header {
   .container_umbrella {
     display: flex;
     justify-content: space-between;
+  }
 
-    img {
-      display: block;
-      max-width: 220px;
-      width: 100%;
-    }
+  img {
+    display: block;
+    max-width: 220px;
+    width: 100%;
+  }
 
-    .itens {
-      display: flex;
-      align-items: center;
-      gap: 2.6vw;
+  .itens {
+    display: flex;
+    align-items: center;
+    gap: 2.4vw;
 
-      a {
-        color: #000000;
-      }
+    a {
+      font-size: 20px;
+      color: #000000;
     }
   }
 }
@@ -164,7 +165,7 @@ header {
 
     .aviao {
       display: block;
-      width: 346px;
+      width: 18vw;
       position: absolute;
       left: -7.8vw;
       top: -15px;
@@ -172,7 +173,7 @@ header {
 
     .carimbo {
       display: block;
-      width: 225px;
+      width: 11.72vw;
       position: absolute;
       right: -4vw;
       top: -30px;
@@ -244,10 +245,7 @@ header {
 
   .image {
     display: block;
-    max-width: 554px;
-    width: 100%;
-    height: 469px;
-    object-fit: cover;
+    width: 554px;
   }
 }
 
@@ -374,6 +372,17 @@ header {
       max-width: 182px;
     }
   }
+
+  #banner {
+    .title {
+      .aviao {
+        top: 30px;
+      }
+      .carimbo {
+        top: 30px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -386,7 +395,158 @@ header {
       max-width: 152px;
     }
     .itens {
-      gap: 2vw;
+      gap: 2.6vw;
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+
+  #banner {
+    padding-top: 150px;
+
+    .underline {
+      img {
+        width: 220px;
+      }
+    }
+
+    .title {
+      .aviao {
+        left: -2.8vw;
+      }
+      .carimbo {
+        right: 2vw;
+      }
+    }
+  }
+
+  #quem-somos {
+    .image {
+      width: 500px;
+    }
+  }
+
+  #registro_marca {
+    .container_umbrella {
+      max-width: 1320px;
+
+      .p_bot {
+      }
+    }
+    .content {
+      .box-left {
+        bottom: 30px;
+      }
+      .box-middle {
+        padding-bottom: 38px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container_umbrella {
+    max-width: 900px;
+  }
+
+  .bt {
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .whattsapp {
+    width: 18px;
+  }
+
+  .titulo-2 {
+    font-size: 40px;
+  }
+
+  .paragrafo-1 {
+    font-size: 22px;
+  }
+
+  .paragrafo-2 {
+    font-size: 15px;
+  }
+
+  header {
+    .logo {
+    }
+    .itens {
+      gap: 1.8vw;
+
+      a {
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  #banner {
+    padding-top: 100px;
+
+    h1 {
+      font-size: 50px;
+    }
+
+    .underline {
+      img {
+        width: 180px;
+      }
+    }
+
+    .video {
+    }
+  }
+
+  #quem-somos {
+    .text {
+      p {
+        font-size: 11px;
+      }
+    }
+
+    .image {
+      width: 380px;
+    }
+  }
+
+  #registro_marca {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .container_umbrella {
+      max-width: 900px;
+
+      .content {
+        .box-left {
+          bottom: 120px;
+          left: -50px;
+          img {
+            width: 120px;
+          }
+        }
+        .box-middle {
+          padding-bottom: 110px;
+
+          p + * {
+            margin-top: 30px;
+          }
+        }
+
+        .box-right {
+          right: -40px;
+          img {
+            width: 150px;
+          }
+        }
+      }
+
+      .p_bot {
+        margin-top: -75px;
+      }
     }
   }
 }
