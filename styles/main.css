@@ -87,11 +87,6 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
-@media (max-width: 1400px) {
-  .container_umbrella {
-    max-width: 1200px;
-  }
-}
 header {
   padding: 15px 0;
 }
@@ -111,11 +106,6 @@ header .container_umbrella .itens {
 }
 header .container_umbrella .itens a {
   color: #000000;
-}
-@media (max-width: 1400px) {
-  header .container_umbrella .itens a {
-    font-size: 17px;
-  }
 }
 #banner {
   background-color: var(--primary-color);
@@ -157,16 +147,6 @@ header .container_umbrella .itens a {
   position: absolute;
   right: -4vw;
   top: -30px;
-}
-@media (max-width: 1600px) {
-  #banner .title .carimbo {
-    width: 187px;
-  }
-}
-@media (max-width: 1400px) {
-  #banner .title .carimbo {
-    width: 162px;
-  }
 }
 #banner .title + * {
   margin-top: 52px;
@@ -232,68 +212,69 @@ header .container_umbrella .itens a {
   width: 100%;
   padding-top: 74px;
   padding-bottom: 80px;
-  position: relative;
-}
-#registro_marca .bg_text {
-  position: absolute;
-  z-index: 0;
-  top: 268px;
-  left: 19.79vw;
-}
-#registro_marca .bg_text .bg {
-  width: 60.42vw;
+  text-align: center;
 }
 #registro_marca .container_umbrella {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  position: relative;
-  z-index: 1;
+  max-width: 1430px;
 }
-#registro_marca .container_umbrella h2 {
+#registro_marca .container_umbrella p {
+  max-width: 890px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+}
+#registro_marca h2 {
   color: var(--secondary-color);
   margin-bottom: 0;
 }
-#registro_marca .container_umbrella h2 + * {
+#registro_marca h2 + * {
   margin-top: 25px;
 }
-#registro_marca .container_umbrella p {
+#registro_marca .top p {
   max-width: 890px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-#registro_marca .container_umbrella p {
-  max-width: 660px;
-  width: 100%;
-  height: 126px;
-  text-align: center;
-  color: #ffffff;
+#registro_marca .content {
+  display: flex;
 }
-#registro_marca .container_umbrella a {
-  color: #fdfdfd;
+#registro_marca .content .box-left,
+#registro_marca .content .box-right {
+  position: relative;
+  z-index: 2;
+}
+#registro_marca .content .box-left {
+  display: flex;
+  align-items: flex-end;
+}
+#registro_marca .content .box-middle {
+  position: relative;
+  z-index: 1;
+  background-image: url(../images/registro-de-marca-bg.png);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  position: absolute;
-  bottom: -15px;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 100%;
+  min-height: 384px;
+  margin-left: -128px;
+  margin-right: -110px;
+  padding-bottom: 22px;
 }
-#registro_marca .container_umbrella .martelo {
-  position: absolute;
-  left: -4.95vw;
-  bottom: -35px;
+#registro_marca .content .box-middle p {
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 1.33;
 }
-#registro_marca .container_umbrella .megafone {
-  position: absolute;
-  right: -7.55vw;
-  top: -25px;
-}
-#registro_marca .container_umbrella p {
-  text-align: center;
-  width: 46.35vw;
-  margin-top: 33px;
+#registro_marca .content .box-middle p + * {
+  margin-top: 60px;
 }
 #triade {
   background-color: var(--primary-color);
@@ -330,9 +311,12 @@ header .container_umbrella .itens a {
 }
 @media only screen and (max-width: 1400px) {
   .container_umbrella {
-    max-width: 1300px;
+    max-width: 1200px;
   }
   header .logo {
     max-width: 152px;
+  }
+  header .itens {
+    gap: 2vw;
   }
 }

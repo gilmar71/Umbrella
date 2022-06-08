@@ -103,10 +103,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
-  @media (max-width: 1400px) {
-    max-width: 1200px;
-  }
 }
 
 //id's//
@@ -130,10 +126,6 @@ header {
 
       a {
         color: #000000;
-
-        @media (max-width: 1400px) {
-          font-size: 17px;
-        }
       }
     }
   }
@@ -184,14 +176,6 @@ header {
       position: absolute;
       right: -4vw;
       top: -30px;
-
-      @media (max-width: 1600px) {
-        width: 187px;
-      }
-
-      @media (max-width: 1400px) {
-        width: 162px;
-      }
     }
   }
 
@@ -272,75 +256,80 @@ header {
   width: 100%;
   padding-top: 74px;
   padding-bottom: 80px;
-  position: relative;
+  text-align: center;
 
-  .bg_text {
-    position: absolute;
-    z-index: 0;
-    top: 268px;
-    left: 19.79vw;
-    .bg {
-      width: 60.42vw;
+  .container_umbrella {
+    max-width: 1430px;
+
+    p {
+      max-width: 890px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 14px;
     }
   }
-  .container_umbrella {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-    z-index: 1;
 
-    h2 {
-      color: var(--secondary-color);
-      margin-bottom: 0;
-    }
+  h2 {
+    color: var(--secondary-color);
+    margin-bottom: 0;
+  }
 
-    h2 + * {
-      margin-top: 25px;
-    }
+  h2 + * {
+    margin-top: 25px;
+  }
 
+  .top {
     p {
       max-width: 890px;
       width: 100%;
       margin-left: auto;
       margin-right: auto;
     }
+  }
 
-    p {
-      max-width: 660px;
-      width: 100%;
-      height: 126px;
-      text-align: center;
-      color: #ffffff;
+  .content {
+    display: flex;
+
+    .box-left,
+    .box-right {
+      position: relative;
+      z-index: 2;
     }
 
-    a {
-      color: #fdfdfd;
+    .box-left {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .box-middle {
+      position: relative;
+      z-index: 1;
+      background-image: url(../images/registro-de-marca-bg.png);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
-      position: absolute;
-      bottom: -15px;
-    }
+      justify-content: flex-end;
+      flex-direction: column;
+      width: 100%;
+      min-height: 384px;
+      margin-left: -128px;
+      margin-right: -110px;
+      padding-bottom: 22px;
 
-    .martelo {
-      position: absolute;
-      left: -4.95vw;
-      bottom: -35px;
-    }
+      p {
+        max-width: 660px;
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        line-height: 1.33;
+      }
 
-    .megafone {
-      position: absolute;
-      right: -7.55vw;
-      top: -25px;
-    }
-
-    p {
-      text-align: center;
-      width: 46.35vw;
-      margin-top: 33px;
+      p + * {
+        margin-top: 60px;
+      }
     }
   }
 }
@@ -389,12 +378,15 @@ header {
 
 @media only screen and (max-width: 1400px) {
   .container_umbrella {
-    max-width: 1300px;
+    max-width: 1200px;
   }
 
   header {
     .logo {
       max-width: 152px;
+    }
+    .itens {
+      gap: 2vw;
     }
   }
 }
