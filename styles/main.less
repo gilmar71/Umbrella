@@ -113,6 +113,12 @@ body {
 #nav {
   align-items: center;
   display: flex;
+
+  .itens a:hover {
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: 4px;
+  }
 }
 
 header {
@@ -153,8 +159,8 @@ header {
     gap: 2.4vw;
 
     a {
-      font-size: 20px;
       color: #000000;
+      padding: 8px;
     }
   }
 }
@@ -422,10 +428,7 @@ header {
       max-width: 152px;
     }
     .itens {
-      gap: 2.6vw;
-      a {
-        font-size: 18px;
-      }
+      gap: 2vw;
     }
   }
 
@@ -472,6 +475,45 @@ header {
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .container_umbrella {
+    max-width: 1050px;
+  }
+
+  .titulo-1 {
+    font-size: 50px;
+  }
+
+  header {
+    .itens {
+      gap: 1.4vw;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+
+  #banner {
+    padding-top: 100px;
+
+    .underline {
+      img {
+        width: 220px;
+      }
+    }
+
+    .title {
+      .aviao {
+        left: -2.8vw;
+      }
+      .carimbo {
+        right: 2vw;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .container_umbrella {
     max-width: 900px;
@@ -500,15 +542,24 @@ header {
 
   #nav.active .itens {
     display: flex;
+    flex-direction: column;
   }
 
   header {
     .block_bar {
-      display: block;
+      display: none;
     }
 
     .itens {
       display: none;
+      position: absolute;
+      width: 200px;
+      top: 103px;
+      right: 10px;
+      background: rgba(197, 185, 185, 0.356);
+      z-index: 1000;
+      padding: 8px 0;
+
       a {
         font-size: 14px;
         font-weight: 700;

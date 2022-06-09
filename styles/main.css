@@ -94,6 +94,11 @@ body {
   align-items: center;
   display: flex;
 }
+#nav .itens a:hover {
+  background: var(--secondary-color);
+  color: #fff;
+  border-radius: 4px;
+}
 header {
   padding: 15px 0;
 }
@@ -127,8 +132,8 @@ header .itens {
   gap: 2.4vw;
 }
 header .itens a {
-  font-size: 20px;
   color: #000000;
+  padding: 8px;
 }
 #banner {
   background-color: var(--primary-color);
@@ -343,10 +348,7 @@ header .itens a {
     max-width: 152px;
   }
   header .itens {
-    gap: 2.6vw;
-  }
-  header .itens a {
-    font-size: 18px;
+    gap: 2vw;
   }
   #banner {
     padding-top: 150px;
@@ -373,6 +375,32 @@ header .itens a {
     padding-bottom: 38px;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .container_umbrella {
+    max-width: 1050px;
+  }
+  .titulo-1 {
+    font-size: 50px;
+  }
+  header .itens {
+    gap: 1.4vw;
+  }
+  header .itens a {
+    font-size: 16px;
+  }
+  #banner {
+    padding-top: 100px;
+  }
+  #banner .underline img {
+    width: 220px;
+  }
+  #banner .title .aviao {
+    left: -2.8vw;
+  }
+  #banner .title .carimbo {
+    right: 2vw;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .container_umbrella {
     max-width: 900px;
@@ -395,12 +423,20 @@ header .itens a {
   }
   #nav.active .itens {
     display: flex;
+    flex-direction: column;
   }
   header .block_bar {
-    display: block;
+    display: none;
   }
   header .itens {
     display: none;
+    position: absolute;
+    width: 200px;
+    top: 103px;
+    right: 10px;
+    background: rgba(197, 185, 185, 0.356);
+    z-index: 1000;
+    padding: 8px 0;
   }
   header .itens a {
     font-size: 14px;
