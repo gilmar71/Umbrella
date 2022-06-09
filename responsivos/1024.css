@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1024px) {
+  .container_umbrella {
+    max-width: 900px;
+  }
+  .bt {
+    height: 50px;
+    font-size: 14px;
+  }
+  .whattsapp {
+    width: 18px;
+  }
+  .titulo-2 {
+    font-size: 40px;
+  }
+  .paragrafo-1 {
+    font-size: 22px;
+  }
+  #btn-mobile {
+    display: block;
+  }
+  #nav.active .itens {
+    display: flex;
+    flex-direction: column;
+  }
+  header .block_bar {
+    display: none;
+  }
+  header .itens {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 103px;
+    right: 10px;
+    background: rgba(197, 185, 185, 0.356);
+    z-index: 1000;
+    padding: 8px 0;
+  }
+  header .itens a {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  #banner {
+    padding-top: 100px;
+  }
+  #banner h1 {
+    font-size: 50px;
+  }
+  #banner .underline img {
+    width: 180px;
+  }
+  #quem-somos .container_umbrella {
+    align-items: center;
+    justify-content: center;
+  }
+  #quem-somos .text {
+    text-align: center;
+  }
+  #quem-somos .image {
+    display: none;
+  }
+  #registro_marca {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #registro_marca .container_umbrella {
+    max-width: 900px;
+  }
+  #registro_marca .container_umbrella .content .box-left {
+    bottom: 120px;
+    left: -50px;
+  }
+  #registro_marca .container_umbrella .content .box-left img {
+    width: 120px;
+  }
+  #registro_marca .container_umbrella .content .box-middle {
+    padding-bottom: 110px;
+  }
+  #registro_marca .container_umbrella .content .box-middle p + * {
+    margin-top: 30px;
+  }
+  #registro_marca .container_umbrella .content .box-right {
+    right: -40px;
+  }
+  #registro_marca .container_umbrella .content .box-right img {
+    width: 150px;
+  }
+  #registro_marca .container_umbrella .p_bot {
+    margin-top: -75px;
+  }
+}

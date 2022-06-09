@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1600px) {
+  .container_umbrella {
+    max-width: 1300px;
+  }
+  header .logo {
+    max-width: 182px;
+  }
+  #banner .title .aviao {
+    top: 30px;
+  }
+  #banner .title .carimbo {
+    top: 30px;
+  }
+}

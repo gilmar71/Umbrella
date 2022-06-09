@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1400px) {
+  .container_umbrella {
+    max-width: 1200px;
+  }
+  .titulo-1 {
+    font-size: 70px;
+  }
+  header .logo {
+    max-width: 152px;
+  }
+  header .itens {
+    gap: 2vw;
+  }
+  #banner {
+    padding-top: 120px;
+  }
+  #banner .underline img {
+    width: 220px;
+  }
+  #banner .title .aviao {
+    left: -2.8vw;
+  }
+  #banner .title .carimbo {
+    right: 2vw;
+  }
+  #quem-somos .image {
+    width: 500px;
+  }
+  #registro_marca .container_umbrella {
+    max-width: 1320px;
+  }
+  #registro_marca .content .box-left {
+    bottom: 30px;
+  }
+  #registro_marca .content .box-middle {
+    padding-bottom: 38px;
+  }
+  #valores .square {
+    padding: 40px 30px;
+  }
+}

@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1200px) {
+  .container_umbrella {
+    max-width: 1050px;
+  }
+  .bt {
+    height: 55px;
+    font-size: 16px;
+  }
+  .whattsapp {
+    width: 20px;
+  }
+  .titulo-1 {
+    font-size: 55px;
+  }
+  .titulo-3 {
+    font-size: 28px;
+  }
+  header .itens {
+    gap: 1.4vw;
+  }
+  header .itens a {
+    font-size: 16px;
+  }
+  #banner {
+    padding-top: 90px;
+  }
+  #banner .underline img {
+    width: 220px;
+  }
+  #banner .title .aviao {
+    left: -2.8vw;
+  }
+  #banner .title .carimbo {
+    right: 2vw;
+  }
+  #quem-somos .image {
+    width: 300px;
+    position: relative;
+    bottom: -173px;
+  }
+  #registro_marca {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #registro_marca .container_umbrella {
+    max-width: 1050px;
+  }
+  #registro_marca .container_umbrella .content .box-left {
+    bottom: 80px;
+    left: -50px;
+  }
+  #registro_marca .container_umbrella .content .box-left img {
+    width: 150px;
+  }
+  #registro_marca .container_umbrella .content .box-middle {
+    padding-bottom: 75px;
+  }
+  #registro_marca .container_umbrella .content .box-middle p + * {
+    margin-top: 40px;
+  }
+  #registro_marca .container_umbrella .content .box-right {
+    right: -35px;
+    top: -15px;
+  }
+  #registro_marca .container_umbrella .content .box-right img {
+    width: 175px;
+  }
+  #registro_marca .container_umbrella .p_bot {
+    margin-top: -40px;
+  }
+  #valores .container_umbrella {
+    gap: 20px;
+  }
+  #valores .quadrados {
+    gap: 20px;
+  }
+  #valores .square {
+    padding: 10px;
+  }
+}

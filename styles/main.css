@@ -301,193 +301,39 @@ header .itens a {
 #registro_marca .content .box-middle p + * {
   margin-top: 60px;
 }
-#triade {
+#valores {
   background-color: var(--primary-color);
-  max-width: 1920px;
-  height: 591px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 70px;
 }
-#triade .container_umbrella {
+#valores .container_umbrella {
+  display: grid;
+  gap: 30px;
+}
+#valores .quadrados {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
-#triade .square {
+#valores .square {
   display: grid;
   max-width: 430px;
   width: 100%;
-  height: 356px;
   background-color: #fdfdfd;
   justify-items: center;
   align-items: center;
+  padding: 50px 40px;
 }
-#triade .square h3 {
-  margin: 0;
+#valores .square h3 {
   color: var(--secondary-color);
+  margin-top: 17px;
 }
-#triade .square p {
+#valores .square p {
+  margin-top: 10px;
   text-align: center;
+  margin-bottom: 0;
 }
-@media only screen and (max-width: 1600px) {
-  .container_umbrella {
-    max-width: 1300px;
-  }
-  header .logo {
-    max-width: 182px;
-  }
-  #banner .title .aviao {
-    top: 30px;
-  }
-  #banner .title .carimbo {
-    top: 30px;
-  }
-}
-@media only screen and (max-width: 1400px) {
-  .container_umbrella {
-    max-width: 1200px;
-  }
-  header .logo {
-    max-width: 152px;
-  }
-  header .itens {
-    gap: 2vw;
-  }
-  #banner {
-    padding-top: 150px;
-  }
-  #banner .underline img {
-    width: 220px;
-  }
-  #banner .title .aviao {
-    left: -2.8vw;
-  }
-  #banner .title .carimbo {
-    right: 2vw;
-  }
-  #quem-somos .image {
-    width: 500px;
-  }
-  #registro_marca .container_umbrella {
-    max-width: 1320px;
-  }
-  #registro_marca .content .box-left {
-    bottom: 30px;
-  }
-  #registro_marca .content .box-middle {
-    padding-bottom: 38px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .container_umbrella {
-    max-width: 1050px;
-  }
-  .titulo-1 {
-    font-size: 50px;
-  }
-  header .itens {
-    gap: 1.4vw;
-  }
-  header .itens a {
-    font-size: 16px;
-  }
-  #banner {
-    padding-top: 100px;
-  }
-  #banner .underline img {
-    width: 220px;
-  }
-  #banner .title .aviao {
-    left: -2.8vw;
-  }
-  #banner .title .carimbo {
-    right: 2vw;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .container_umbrella {
-    max-width: 900px;
-  }
-  .bt {
-    height: 50px;
-    font-size: 14px;
-  }
-  .whattsapp {
-    width: 18px;
-  }
-  .titulo-2 {
-    font-size: 40px;
-  }
-  .paragrafo-1 {
-    font-size: 22px;
-  }
-  #btn-mobile {
-    display: block;
-  }
-  #nav.active .itens {
-    display: flex;
-    flex-direction: column;
-  }
-  header .block_bar {
-    display: none;
-  }
-  header .itens {
-    display: none;
-    position: absolute;
-    width: 200px;
-    top: 103px;
-    right: 10px;
-    background: rgba(197, 185, 185, 0.356);
-    z-index: 1000;
-    padding: 8px 0;
-  }
-  header .itens a {
-    font-size: 14px;
-    font-weight: 700;
-  }
-  #banner {
-    padding-top: 100px;
-  }
-  #banner h1 {
-    font-size: 50px;
-  }
-  #banner .underline img {
-    width: 180px;
-  }
-  #quem-somos .container_umbrella {
-    align-items: center;
-    justify-content: center;
-  }
-  #quem-somos .text {
-    text-align: center;
-  }
-  #quem-somos .image {
-    display: none;
-  }
-  #registro_marca {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  #registro_marca .container_umbrella {
-    max-width: 900px;
-  }
-  #registro_marca .container_umbrella .content .box-left {
-    bottom: 120px;
-    left: -50px;
-  }
-  #registro_marca .container_umbrella .content .box-left img {
-    width: 120px;
-  }
-  #registro_marca .container_umbrella .content .box-middle {
-    padding-bottom: 110px;
-  }
-  #registro_marca .container_umbrella .content .box-middle p + * {
-    margin-top: 30px;
-  }
-  #registro_marca .container_umbrella .content .box-right {
-    right: -40px;
-  }
-  #registro_marca .container_umbrella .content .box-right img {
-    width: 150px;
-  }
-  #registro_marca .container_umbrella .p_bot {
-    margin-top: -75px;
-  }
+#valores .botao {
+  display: flex;
+  justify-content: center;
 }
