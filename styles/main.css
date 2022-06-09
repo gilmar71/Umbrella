@@ -87,6 +87,13 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
+#btn-mobile {
+  display: none;
+}
+#nav {
+  align-items: center;
+  display: flex;
+}
 header {
   padding: 15px 0;
 }
@@ -117,7 +124,6 @@ header img {
 }
 header .itens {
   display: flex;
-  align-items: center;
   gap: 2.4vw;
 }
 header .itens a {
@@ -383,6 +389,12 @@ header .itens a {
   }
   .paragrafo-1 {
     font-size: 22px;
+  }
+  #btn-mobile {
+    display: block;
+  }
+  #nav.active .itens {
+    display: flex;
   }
   header .block_bar {
     display: block;

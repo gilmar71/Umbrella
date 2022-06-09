@@ -106,6 +106,15 @@ body {
 }
 
 //id's//
+#btn-mobile {
+  display: none;
+}
+
+#nav {
+  align-items: center;
+  display: flex;
+}
+
 header {
   padding: 15px 0;
 
@@ -140,7 +149,7 @@ header {
 
   .itens {
     display: flex;
-    align-items: center;
+
     gap: 2.4vw;
 
     a {
@@ -485,6 +494,14 @@ header {
     font-size: 22px;
   }
 
+  #btn-mobile {
+    display: block;
+  }
+
+  #nav.active .itens {
+    display: flex;
+  }
+
   header {
     .block_bar {
       display: block;
@@ -492,7 +509,6 @@ header {
 
     .itens {
       display: none;
-
       a {
         font-size: 14px;
         font-weight: 700;
