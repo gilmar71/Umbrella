@@ -1,15 +1,24 @@
 @media only screen and (max-width: 1400px) {
   .container_umbrella {
-    max-width: 1200px;
+    max-width: 1080px;
+  }
+  .bt {
+    height: 55px;
   }
   .titulo-1 {
-    font-size: 70px;
+    font-size: 65px;
+  }
+  .titulo-3 {
+    font-size: 30px;
   }
   header .logo {
     max-width: 152px;
   }
   header .itens {
-    gap: 2vw;
+    gap: 1vw;
+  }
+  header .itens a {
+    font-size: 17px;
   }
   #banner {
     padding-top: 120px;
@@ -18,13 +27,19 @@
     width: 220px;
   }
   #banner .title .aviao {
-    left: -2.8vw;
+    left: -5vw;
+    top: 20px;
   }
   #banner .title .carimbo {
-    right: 2vw;
+    right: 0;
   }
   #quem-somos .image {
-    width: 500px;
+    width: 485px;
+    bottom: -8px;
+    position: relative;
+  }
+  #quem-somos p {
+    font-size: 15.5px;
   }
   #registro_marca .container_umbrella {
     max-width: 1320px;
@@ -32,10 +47,21 @@
   #registro_marca .content .box-left {
     bottom: 30px;
   }
+  #registro_marca .content .box-left .martelo {
+    width: 195px;
+  }
   #registro_marca .content .box-middle {
-    padding-bottom: 38px;
+    padding-bottom: 72px;
+    margin-left: -108px;
+    margin-right: -90px;
+  }
+  #registro_marca .content .box-right .megafone {
+    width: 230px;
   }
   #valores .square {
-    padding: 40px 30px;
+    padding: 40px 20px;
+  }
+  #valores .square p {
+    font-size: 15.5px;
   }
 }

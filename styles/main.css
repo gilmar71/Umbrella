@@ -166,15 +166,15 @@ header .itens a {
   display: block;
   width: 18vw;
   position: absolute;
-  left: -7.8vw;
-  top: -15px;
+  left: -5.5vw;
+  top: -5px;
 }
 #banner .title .carimbo {
   display: block;
   width: 11.72vw;
   position: absolute;
-  right: -4vw;
-  top: -30px;
+  right: -2.5vw;
+  top: 0;
 }
 #banner .title + * {
   margin-top: 52px;
@@ -207,6 +207,7 @@ header .itens a {
 }
 #quem-somos .text {
   padding-bottom: 30px;
+  max-width: 660px;
 }
 #quem-somos .text h2 {
   color: var(--secondary-color);

@@ -3,7 +3,7 @@
     max-width: 900px;
   }
   .bt {
-    height: 50px;
+    height: 45px;
     font-size: 14px;
   }
   .whattsapp {
@@ -48,15 +48,14 @@
   #banner .underline img {
     width: 180px;
   }
-  #quem-somos .container_umbrella {
-    align-items: center;
-    justify-content: center;
-  }
-  #quem-somos .text {
-    text-align: center;
+  #quem-somos p {
+    font-size: 15px;
+    line-height: 21px;
   }
   #quem-somos .image {
-    display: none;
+    width: 410px;
+    position: relative;
+    bottom: -64px;
   }
   #registro_marca {
     padding-top: 50px;
