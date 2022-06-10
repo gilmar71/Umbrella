@@ -41,14 +41,14 @@
   #quem-somos .image {
     width: 429px;
     position: relative;
-    bottom: -44px;
+    bottom: -9px;
   }
   #quem-somos p {
     font-size: 15px;
-    line-height: 22px;
+    line-height: 20px;
   }
   #quem-somos .text h2 + * {
-    margin-top: 16px;
+    margin-top: 0;
   }
   #registro_marca {
     padding-top: 50px;
