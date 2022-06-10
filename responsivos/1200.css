@@ -58,21 +58,24 @@
     max-width: 1050px;
   }
   #registro_marca .container_umbrella .content .box-left {
-    bottom: 80px;
-    left: -50px;
+    bottom: 105px;
+    left: -5px;
   }
   #registro_marca .container_umbrella .content .box-left img {
     width: 150px;
   }
   #registro_marca .container_umbrella .content .box-middle {
-    padding-bottom: 75px;
+    padding-bottom: 103px;
+  }
+  #registro_marca .container_umbrella .content .box-middle p {
+    font-size: 21.5px;
   }
   #registro_marca .container_umbrella .content .box-middle p + * {
     margin-top: 40px;
   }
   #registro_marca .container_umbrella .content .box-right {
-    right: -35px;
-    top: -15px;
+    right: 5px;
+    top: -20px;
   }
   #registro_marca .container_umbrella .content .box-right img {
     width: 175px;

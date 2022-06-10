@@ -45,15 +45,20 @@
     max-width: 1320px;
   }
   #registro_marca .content .box-left {
-    bottom: 30px;
+    bottom: 45px;
+    left: 18px;
   }
   #registro_marca .content .box-left .martelo {
     width: 195px;
   }
   #registro_marca .content .box-middle {
-    padding-bottom: 72px;
-    margin-left: -108px;
-    margin-right: -90px;
+    padding-bottom: 50px;
+    margin-left: -98px;
+    margin-right: -80px;
+  }
+  #registro_marca .content .box-right {
+    top: -25px;
+    right: 18px;
   }
   #registro_marca .content .box-right .megafone {
     width: 230px;
