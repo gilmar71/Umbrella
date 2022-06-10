@@ -337,3 +337,42 @@ header .itens a {
   display: flex;
   justify-content: center;
 }
+#como_funciona {
+  padding-top: 74px;
+  padding-bottom: 90px;
+}
+#como_funciona .container_umbrella {
+  display: flex;
+  justify-content: space-between;
+}
+#como_funciona .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#como_funciona .list .underline {
+  position: relative;
+}
+#como_funciona .list .underline img {
+  position: absolute;
+  bottom: -10px;
+  right: 12px;
+}
+#como_funciona .list h2 {
+  color: var(--secondary-color);
+  margin: 0;
+}
+#como_funciona .list h2 + * {
+  margin-top: 42px;
+}
+#como_funciona .list ul + * {
+  margin-top: 22px;
+}
+#como_funciona .list .number {
+  color: var(--primary-color);
+  width: 22px;
+}
+#como_funciona .item {
+  display: flex;
+  gap: 20px;
+}

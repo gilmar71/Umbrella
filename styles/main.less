@@ -407,3 +407,52 @@ header {
     justify-content: center;
   }
 }
+
+#como_funciona {
+  padding-top: 74px;
+  padding-bottom: 90px;
+
+  .container_umbrella {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .underline {
+      position: relative;
+
+      img {
+        position: absolute;
+        bottom: -10px;
+        right: 12px;
+      }
+    }
+
+    h2 {
+      color: var(--secondary-color);
+      margin: 0;
+    }
+
+    h2 + * {
+      margin-top: 42px;
+    }
+
+    ul + * {
+      margin-top: 22px;
+    }
+
+    .number {
+      color: var(--primary-color);
+      width: 22px;
+    }
+  }
+
+  .item {
+    display: flex;
+    gap: 20px;
+  }
+}
