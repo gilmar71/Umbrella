@@ -69,4 +69,17 @@
   #valores .square p {
     font-size: 15.5px;
   }
+  #como_funciona .image {
+    width: 437.75px;
+    height: 458.15px;
+  }
+  #como_funciona .list {
+    max-width: 580px;
+  }
+  #como_funciona .list h2 {
+    font-size: 37px;
+  }
+  #como_funciona .list h2 img {
+    width: 170px;
+  }
 }
