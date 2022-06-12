@@ -67,6 +67,7 @@ ul {
 }
 .bt--primary {
   background-color: var(--tertiary-color);
+  border: 0;
 }
 .bt--primary:hover {
   background-color: var(--tertiary-color--hover);
@@ -76,6 +77,10 @@ ul {
 }
 .bt--secondary:hover {
   background-color: var(--secondary-color--hover);
+}
+.bt--tertiary:hover {
+  background-color: gold;
+  border-radius: 0;
 }
 body {
   background-color: #fdfdfd;
@@ -376,4 +381,96 @@ header .itens a {
 #como_funciona .item {
   display: flex;
   gap: 20px;
+}
+#faq {
+  background-color: var(--quaternary-color);
+}
+#faq .perguntas {
+  background: #ffffff;
+}
+#contato {
+  background-color: var(--secondary-color);
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+#contato .container_umbrella {
+  display: flex;
+  justify-content: space-between;
+}
+#contato .container_umbrella .contatos {
+  color: #fff;
+}
+#contato .container_umbrella .underline {
+  position: relative;
+}
+#contato .container_umbrella .underline img {
+  position: absolute;
+  bottom: -5px;
+  right: 10px;
+}
+#contato .container_umbrella .formulario {
+  max-width: 700px;
+  width: 100%;
+}
+#contato .container_umbrella form {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+#contato .container_umbrella form input {
+  height: 60px;
+  padding: 15px;
+}
+#contato .container_umbrella form input + * {
+  margin-top: 15px;
+}
+#contato .container_umbrella form textarea {
+  padding: 15px;
+}
+#contato .container_umbrella form textarea + * {
+  margin-top: 20px;
+}
+#contato .container_umbrella .botoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  align-items: center;
+}
+#contato .container_umbrella .botoes img {
+  max-width: 350px;
+}
+#rodape {
+  background-color: var(--primary-color);
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#rodape .linha {
+  max-width: 850px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  position: relative;
+  bottom: 0;
+}
+#rodape .container_umbrella {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+#rodape .container_umbrella .navegacao {
+  display: flex;
+  gap: 20px;
+}
+#rodape .container_umbrella .navegacao a {
+  color: #fff;
+}
+footer {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
 }

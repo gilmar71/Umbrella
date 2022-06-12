@@ -79,6 +79,7 @@ ul {
 
 .bt--primary {
   background-color: var(--tertiary-color);
+  border: 0;
 }
 
 .bt--primary:hover {
@@ -91,6 +92,11 @@ ul {
 
 .bt--secondary:hover {
   background-color: var(--secondary-color--hover);
+}
+
+.bt--tertiary:hover {
+  background-color: gold;
+  border-radius: 0;
 }
 
 body {
@@ -456,4 +462,119 @@ header {
     display: flex;
     gap: 20px;
   }
+}
+
+#faq {
+  background-color: var(--quaternary-color);
+
+  .perguntas {
+    background: #ffffff;
+
+    .duvida {
+    }
+  }
+}
+
+#contato {
+  background-color: var(--secondary-color);
+  padding-top: 100px;
+  padding-bottom: 75px;
+  .container_umbrella {
+    display: flex;
+    justify-content: space-between;
+
+    .contatos {
+      color: #fff;
+    }
+
+    .underline {
+      position: relative;
+
+      img {
+        position: absolute;
+        bottom: -5px;
+        right: 10px;
+      }
+    }
+
+    .formulario {
+      max-width: 700px;
+      width: 100%;
+    }
+
+    form {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+
+      input {
+        height: 60px;
+        padding: 15px;
+      }
+
+      input + * {
+        margin-top: 15px;
+      }
+
+      textarea {
+        padding: 15px;
+      }
+
+      textarea + * {
+        margin-top: 20px;
+      }
+    }
+
+    .botoes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+      align-items: center;
+
+      img {
+        max-width: 350px;
+      }
+    }
+  }
+}
+
+#rodape {
+  background-color: var(--primary-color);
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  .linha {
+    max-width: 850px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    bottom: 0;
+  }
+
+  .container_umbrella {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+    .navegacao {
+      display: flex;
+      gap: 20px;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
 }
