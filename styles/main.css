@@ -125,20 +125,22 @@ header .container_umbrella {
   justify-content: space-between;
 }
 header .block_bar {
-  display: inline-block;
-  position: absolute;
-  top: 40px;
-  right: 50px;
   display: none;
-  z-index: 10;
+  gap: 7px;
+  flex-direction: column;
+  width: 40px;
 }
-header .block_bar .bar {
-  width: 35px;
-  height: 2px;
-  background-color: #000;
-  margin: 6px 0;
+header .block_bar div {
+  height: 3px;
+  background-color: var(--primary-color);
   transition: 0.3s;
   border-radius: 25px;
+}
+header .bg-mobile {
+  display: none;
+}
+header .close {
+  display: none;
 }
 header img {
   display: block;
@@ -401,35 +403,75 @@ header .itens a {
 #faq .container_umbrella {
   padding-top: 80px;
   padding-bottom: 100px;
-  display: flex;
+  max-width: 1600px;
 }
-#faq .container_umbrella .box-left,
-#faq .container_umbrella .box-right {
-  position: relative;
-  z-index: 2;
-}
-#faq .container_umbrella .box-left {
-  top: 178px;
-  left: -108px;
-}
-#faq .container_umbrella .box-right {
-  bottom: -440px;
-  right: -80px;
-}
-#faq .container_umbrella .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#faq .container_umbrella .content h2 {
+#faq h2 {
   color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 38px;
 }
-#faq .container_umbrella .content h2 .detalhe {
+#faq h2 .detalhe {
   position: relative;
 }
-#faq .container_umbrella .content h2 .detalhe img {
+#faq h2 .detalhe img {
   position: absolute;
   top: -15px;
+}
+#faq .content {
+  display: flex;
+  width: 100%;
+}
+#faq .content .box-left {
+  width: 215px;
+  padding-top: 85px;
+}
+#faq .content .faq {
+  width: 100%;
+  margin: 0 39px 0 54px;
+}
+#faq .content .box-right {
+  width: 187px;
+  display: flex;
+  align-items: center;
+}
+#faq .perguntas {
+  margin-bottom: 20px;
+}
+#faq .duvida {
+  background-color: #fff;
+  color: #3a3a3a;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  padding: 25px 30px 25px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#faq .content-icon svg:nth-child(1) {
+  display: block;
+}
+#faq .content-icon svg:nth-child(2) {
+  display: none;
+}
+#faq .content-icon.active svg:nth-child(1) {
+  display: none;
+}
+#faq .content-icon.active svg:nth-child(2) {
+  display: block;
+}
+#faq .active,
+#faq .duvida:hover {
+  background-color: #ccc;
+}
+#faq .resposta {
+  padding: 45px 40px 15px;
+  display: none;
+  overflow: hidden;
 }
 #redes_sociais {
   padding-top: 80px;
@@ -600,4 +642,98 @@ footer span {
 footer span img {
   width: 69px;
   height: 21px;
+}
+#acompanhe .redes-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+#acompanhe .text {
+  max-width: 430px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+#acompanhe .text h2 {
+  margin-bottom: 0;
+}
+#acompanhe .text img {
+  max-width: 300px;
+  width: 100%;
+}
+#acompanhe .image {
+  display: flex;
+  align-items: flex-start;
+}
+#acompanhe .image .box-left,
+#acompanhe .image .box-right {
+  z-index: 2;
+  position: relative;
+}
+#acompanhe .image .box-left {
+  width: 350px;
+}
+#acompanhe .image .box-left img {
+  width: 100%;
+}
+#acompanhe .image .box-right {
+  width: 284px;
+}
+#acompanhe .image .box-right img {
+  width: 100%;
+}
+#acompanhe .image .links {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding-top: 95px;
+  z-index: 1;
+  position: relative;
+}
+#acompanhe .image .links .bt {
+  height: 42px;
+  width: 290px;
+  padding: 0 30px;
+  font-size: 16px;
+}
+#acompanhe .image .links .bt img {
+  max-width: 25px;
+}
+#acompanhe .image .links .bt:nth-child(1) {
+  justify-content: flex-end;
+  margin-left: -70px;
+}
+#acompanhe .image .links .bt:nth-child(2) {
+  justify-content: flex-start;
+  margin-right: -99px;
+  position: relative;
+  right: -30px;
+}
+#clientes .owl-carousel {
+  padding: 0 55px;
+}
+#clientes .owl-carousel .owl-stage img {
+  object-fit: contain;
+  object-position: center center;
+  width: 100%;
+  height: 140px;
+}
+#clientes .owl-carousel .owl-stage img + img {
+  margin-top: 30px;
+}
+#clientes .owl-carousel .owl-nav {
+  margin: 0;
+}
+#clientes .owl-carousel .owl-nav .owl-prev,
+#clientes .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#clientes .owl-carousel .owl-nav .owl-prev {
+  left: 0;
+}
+#clientes .owl-carousel .owl-nav .owl-next {
+  right: 0;
 }

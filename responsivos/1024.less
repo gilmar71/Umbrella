@@ -36,65 +36,69 @@
     font-size: 12px;
   }
 
-  #btn-mobile {
-    display: block;
-    border: 0;
-    cursor: pointer;
-
-    .block_bar {
-      display: inline-block;
-      position: absolute;
-      top: 30px;
-      right: 50px;
-      z-index: 10;
-
-      .bar {
-        width: 35px;
-        height: 2px;
-        background-color: #000;
-        margin: 9px 0;
-        transition: 0.3s;
-        border-radius: 25px;
-      }
-    }
-  }
-
   header {
     .block_bar {
-      display: none;
-    }
-
-    #nav.active .itens {
-      visibility: visible;
-      height: 36%;
-      overflow-y: auto;
+      z-index: 10;
       display: flex;
-      flex-direction: column;
-      width: 40vw;
     }
 
     .itens {
-      position: absolute;
-      width: 0;
-      top: 103px;
-      right: 10px;
-      // background: rgba(97, 90, 90, 0.685);
-      background: #fff;
-      z-index: 1000;
-      height: 0px;
-      visibility: hidden;
-      transition: 0.5s;
-      overflow-y: hidden;
-      padding: 10px 0;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 290px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding-top: 100px;
+      z-index: 100;
+      background-color: #fff;
+      padding-left: 28px !important;
+      gap: 15px;
+      overflow-y: auto;
+      transform: translateX(100%);
+      -webkit-transition: 0.3s;
+      opacity: 0;
 
-      a {
-        display: flex;
-        font-size: 16px;
-        font-weight: 700;
-        padding: 10px 0;
-        margin: 0 10px;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+      li {
+        a {
+          padding: 0;
+        }
       }
+    }
+
+    .itens.active {
+      transform: translateX(0%);
+      transition: 0.3s;
+      opacity: 1;
+    }
+
+    .bg-mobile {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+      opacity: 0;
+      display: none;
+    }
+
+    .bg-mobile.active {
+      display: block;
+      opacity: 1;
+      z-index: 15;
+    }
+
+    .close {
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      height: 25px;
+      width: 25px;
+      fill: var(--primary-color);
     }
   }
 
@@ -128,6 +132,7 @@
     p {
       font-size: 15px;
       line-height: 18px;
+      text-align: center;
     }
 
     .image {

@@ -151,21 +151,25 @@ header {
   }
 
   .block_bar {
-    display: inline-block;
-    position: absolute;
-    top: 40px;
-    right: 50px;
     display: none;
-    z-index: 10;
+    gap: 7px;
+    flex-direction: column;
+    width: 40px;
 
-    .bar {
-      width: 35px;
-      height: 2px;
-      background-color: #000;
-      margin: 6px 0;
+    div {
+      height: 3px;
+      background-color: var(--primary-color);
       transition: 0.3s;
       border-radius: 25px;
     }
+  }
+
+  .bg-mobile {
+    display: none;
+  }
+
+  .close {
+    display: none;
   }
 
   img {
@@ -485,39 +489,94 @@ header {
   .container_umbrella {
     padding-top: 80px;
     padding-bottom: 100px;
-    display: flex;
-    .box-left,
-    .box-right {
+    max-width: 1600px;
+  }
+
+  h2 {
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 38px;
+
+    .detalhe {
       position: relative;
-      z-index: 2;
-    }
-    .box-left {
-      top: 178px;
-      left: -108px;
-    }
 
-    .box-right {
-      bottom: -440px;
-      right: -80px;
-    }
-
-    .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      h2 {
-        color: var(--secondary-color);
-
-        .detalhe {
-          position: relative;
-
-          img {
-            position: absolute;
-            top: -15px;
-          }
-        }
+      img {
+        position: absolute;
+        top: -15px;
       }
     }
+  }
+
+  .content {
+    display: flex;
+    width: 100%;
+
+    .box-left {
+      width: 215px;
+      padding-top: 85px;
+    }
+
+    .faq {
+      width: 100%;
+      margin: 0 39px 0 54px;
+    }
+
+    .box-right {
+      width: 187px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .perguntas {
+    margin-bottom: 20px;
+  }
+
+  .duvida {
+    background-color: #fff;
+    color: #3a3a3a;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    padding: 25px 30px 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .content-icon {
+    svg:nth-child(1) {
+      display: block;
+    }
+
+    svg:nth-child(2) {
+      display: none;
+    }
+  }
+
+  .content-icon.active {
+    svg:nth-child(1) {
+      display: none;
+    }
+
+    svg:nth-child(2) {
+      display: block;
+    }
+  }
+
+  .active,
+  .duvida:hover {
+    background-color: #ccc;
+  }
+
+  .resposta {
+    padding: 45px 40px 15px;
+    display: none;
+    overflow: hidden;
   }
 }
 
@@ -726,6 +785,127 @@ footer {
     img {
       width: 69px;
       height: 21px;
+    }
+  }
+}
+
+#acompanhe {
+  .redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+
+  .text {
+    max-width: 430px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      margin-bottom: 0;
+    }
+
+    img {
+      max-width: 300px;
+      width: 100%;
+    }
+  }
+
+  .image {
+    display: flex;
+    align-items: flex-start;
+
+    .box-left,
+    .box-right {
+      z-index: 2;
+      position: relative;
+    }
+
+    .box-left {
+      width: 350px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .box-right {
+      width: 284px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 45px;
+      padding-top: 95px;
+      z-index: 1;
+      position: relative;
+
+      .bt {
+        height: 42px;
+        width: 290px;
+        padding: 0 30px;
+        font-size: 16px;
+        img {
+          max-width: 25px;
+        }
+      }
+
+      .bt:nth-child(1) {
+        justify-content: flex-end;
+        margin-left: -70px;
+      }
+
+      .bt:nth-child(2) {
+        justify-content: flex-start;
+        margin-right: -99px;
+        position: relative;
+        right: -30px;
+      }
+    }
+  }
+}
+
+#clientes {
+  .owl-carousel {
+    padding: 0 55px;
+
+    .owl-stage {
+      img {
+        object-fit: contain;
+        object-position: center center;
+        width: 100%;
+        height: 140px;
+      }
+  
+      img + img {
+        margin-top: 30px;
+      }
+    }
+
+
+    .owl-nav {
+      margin: 0;
+
+      .owl-prev,
+      .owl-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .owl-prev {
+        left: 0;
+      }
+
+      .owl-next {
+        right: 0;
+      }
     }
   }
 }
