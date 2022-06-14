@@ -18,6 +18,12 @@
   .titulo-3 {
     font-size: 28px;
   }
+  .titulo-4 {
+    font-size: 17px;
+  }
+  .paragrafo-1 {
+    font-size: 21.5;
+  }
   header .itens {
     gap: 0.2vw;
   }
@@ -66,9 +72,6 @@
   }
   #registro_marca .container_umbrella .content .box-middle {
     padding-bottom: 103px;
-  }
-  #registro_marca .container_umbrella .content .box-middle p {
-    font-size: 21.5px;
   }
   #registro_marca .container_umbrella .content .box-middle p + * {
     margin-top: 40px;
@@ -127,5 +130,14 @@
   #como_funciona .list .item p {
     font-size: 14.5px;
     line-height: 20px;
+  }
+  #contato .container_umbrella {
+    gap: 35px;
+  }
+  #contato .container_umbrella .contatos {
+    max-width: 350px;
+  }
+  #contato .container_umbrella .formulario {
+    max-width: 550px;
   }
 }

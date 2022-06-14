@@ -82,4 +82,7 @@
   #como_funciona .list h2 img {
     width: 170px;
   }
+  #contato .container_umbrella .formulario {
+    max-width: 550px;
+  }
 }

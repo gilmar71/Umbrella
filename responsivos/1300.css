@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1300px) {
+  .paragrafo-1 {
+    font-size: 23.5px;
+  }
   #registro_marca .content .box-left {
     bottom: 45px;
     left: 18px;
@@ -10,9 +13,6 @@
     padding-bottom: 58px;
     margin-left: -93px;
     margin-right: -75px;
-  }
-  #registro_marca .content .box-middle p {
-    font-size: 23.5px;
   }
   #registro_marca .content .box-right {
     top: -25px;

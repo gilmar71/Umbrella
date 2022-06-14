@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1024px) {
   .container_umbrella {
-    max-width: 900px;
+    max-width: 600px;
   }
   .bt {
-    height: 45px;
-    font-size: 14px;
+    height: 40px;
+    font-size: 13px;
   }
   .whattsapp {
     width: 18px;
@@ -12,47 +12,88 @@
   .titulo-2 {
     font-size: 40px;
   }
+  .titulo-4 {
+    font-size: 20px;
+  }
   .paragrafo-1 {
-    font-size: 22px;
+    font-size: 19px;
+  }
+  .paragrafo-2 {
+    font-size: 15px;
+  }
+  .link-3 {
+    font-size: 12px;
   }
   #btn-mobile {
     display: block;
+    border: 0;
+    cursor: pointer;
   }
-  #nav.active .itens {
-    display: flex;
-    flex-direction: column;
+  #btn-mobile .block_bar {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: 10;
+  }
+  #btn-mobile .block_bar .bar {
+    width: 35px;
+    height: 2px;
+    background-color: #000;
+    margin: 9px 0;
+    transition: 0.3s;
+    border-radius: 25px;
   }
   header .block_bar {
     display: none;
   }
+  header #nav.active .itens {
+    visibility: visible;
+    height: 36%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+  }
   header .itens {
-    display: none;
     position: absolute;
-    width: 200px;
+    width: 0;
     top: 103px;
     right: 10px;
-    background: rgba(197, 185, 185, 0.356);
+    background: #fff;
     z-index: 1000;
-    padding: 8px 0;
+    height: 0px;
+    visibility: hidden;
+    transition: 0.5s;
+    overflow-y: hidden;
+    padding: 10px 0;
   }
   header .itens a {
-    font-size: 14px;
+    display: flex;
+    font-size: 16px;
     font-weight: 700;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
   }
   #banner {
     padding-top: 100px;
   }
-  #banner h1 {
-    font-size: 50px;
-  }
   #banner .underline img {
     width: 180px;
+  }
+  #banner .title .aviao {
+    display: none;
+  }
+  #banner .title .carimbo {
+    display: none;
   }
   #quem-somos p {
     font-size: 15px;
     line-height: 18px;
   }
   #quem-somos .image {
+    display: none;
     width: 410px;
     position: relative;
     bottom: -15px;
@@ -62,28 +103,80 @@
     padding-bottom: 50px;
   }
   #registro_marca .container_umbrella {
-    max-width: 900px;
+    max-width: 660px;
   }
   #registro_marca .container_umbrella .content .box-left {
-    bottom: 120px;
-    left: -50px;
-  }
-  #registro_marca .container_umbrella .content .box-left img {
-    width: 120px;
+    display: none;
   }
   #registro_marca .container_umbrella .content .box-middle {
-    padding-bottom: 110px;
+    padding-bottom: 165px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #registro_marca .container_umbrella .content .box-middle p {
+    max-width: 560px;
   }
   #registro_marca .container_umbrella .content .box-middle p + * {
     margin-top: 30px;
   }
   #registro_marca .container_umbrella .content .box-right {
-    right: -40px;
-  }
-  #registro_marca .container_umbrella .content .box-right img {
-    width: 150px;
+    display: none;
   }
   #registro_marca .container_umbrella .p_bot {
-    margin-top: -75px;
+    margin-top: -120px;
+  }
+  #valores .container_umbrella {
+    gap: 50px;
+  }
+  #valores .quadrados {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+  #valores .quadrados .square {
+    padding: 40px 20px;
+  }
+  #valores .bt {
+    width: 400px;
+  }
+  #como_funciona .container_umbrella {
+    justify-content: center;
+  }
+  #como_funciona .image {
+    display: none;
+  }
+  #como_funciona .botao {
+    display: flex;
+    justify-content: center;
+  }
+  #como_funciona .list h2 + * {
+    margin-top: 42px;
+  }
+  #como_funciona .list ul {
+    display: grid;
+    gap: 10px;
+  }
+  #contato {
+    padding-top: 80px;
+  }
+  #contato .container_umbrella {
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+  }
+  #contato .container_umbrella .contatos {
+    width: 100%;
+  }
+  #contato .container_umbrella .formulario {
+    width: 100%;
+  }
+  #contato .bt {
+    height: 55px;
+  }
+  #rodape .container_umbrella .navegacao {
+    gap: 13px;
+  }
+  #rodape .container_umbrella .navegacao a {
+    font-weight: 500;
   }
 }

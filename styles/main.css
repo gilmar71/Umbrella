@@ -5,6 +5,7 @@
   --tertiary-color: #f25757;
   --tertiary-color--hover: #f33c3c;
   --quaternary-color: #e6e1ec;
+  --quintuary-color: #542f7a;
 }
 html {
   scroll-behavior: smooth;
@@ -62,7 +63,19 @@ ul {
   gap: 10px;
   color: #ffffff;
 }
+.bt_large {
+  height: 50px;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 40px;
+  gap: 10px;
+  color: #ffffff;
+}
 .bt:hover {
+  color: #fff;
+}
+.bt_large:hover {
   color: #fff;
 }
 .bt--primary {
@@ -388,8 +401,70 @@ header .itens a {
 #faq .perguntas {
   background: #ffffff;
 }
+#redes_sociais .container_umbrella {
+  display: flex;
+  gap: 30px;
+  margin-bottom: -200px;
+  padding-top: 80px;
+}
+#redes_sociais .container_umbrella .image {
+  border: 10px solid #ffffff;
+  max-width: 430px;
+  width: 100%;
+}
+#acompanhe {
+  background-color: var(--primary-color);
+  padding-top: 220px;
+  padding-bottom: 80px;
+}
+#acompanhe .container_umbrella {
+  display: flex;
+  align-items: center;
+}
+#acompanhe .container_umbrella .texto {
+  display: flex;
+  width: 390px;
+}
+#acompanhe .container_umbrella .texto h2 {
+  color: #fdfdfd;
+  text-align: left;
+  line-height: normal;
+}
+#acompanhe .container_umbrella .texto h2 .underline {
+  position: relative;
+}
+#acompanhe .container_umbrella .texto h2 .underline img {
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+}
+#acompanhe .container_umbrella .laptop {
+  width: 400px;
+  height: 285px;
+  position: relative;
+  left: -10px;
+  z-index: 1;
+}
+#acompanhe .container_umbrella .laptop a {
+  position: absolute;
+  top: 125px;
+  right: -305px;
+  z-index: -1;
+}
+#acompanhe .container_umbrella .phone {
+  width: 202px;
+  height: 312px;
+  position: relative;
+  left: 160px;
+  z-index: 1;
+}
+#acompanhe .container_umbrella .phone a {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
 #contato {
-  background-color: var(--secondary-color);
+  background-color: var(--quintuary-color);
   padding-top: 100px;
   padding-bottom: 75px;
 }
@@ -399,14 +474,32 @@ header .itens a {
 }
 #contato .container_umbrella .contatos {
   color: #fff;
+  max-width: 430px;
+  width: 100%;
+}
+#contato .container_umbrella .contatos h2 + * {
+  margin-top: 40px;
+}
+#contato .container_umbrella .contato-lista {
+  display: grid;
+}
+#contato .container_umbrella .contato-lista li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 15px;
+}
+#contato .container_umbrella .contato-lista li img {
+  width: 20px;
+  height: 21px;
 }
 #contato .container_umbrella .underline {
   position: relative;
 }
 #contato .container_umbrella .underline img {
   position: absolute;
-  bottom: -5px;
-  right: 10px;
+  bottom: -10px;
+  right: -20px;
 }
 #contato .container_umbrella .formulario {
   max-width: 700px;
@@ -437,7 +530,7 @@ header .itens a {
   align-items: center;
 }
 #contato .container_umbrella .botoes img {
-  max-width: 350px;
+  width: 100%;
 }
 #rodape {
   background-color: var(--primary-color);
@@ -446,10 +539,10 @@ header .itens a {
   padding-bottom: 10px;
 }
 #rodape .linha {
-  max-width: 850px;
+  max-width: 890px;
   width: 100%;
-  height: 2px;
-  background-color: #000;
+  height: 1px;
+  border: 1px solid #3a3a3a;
   position: relative;
   bottom: 0;
 }
@@ -458,14 +551,24 @@ header .itens a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 35px;
+  margin-top: -30px;
+}
+#rodape .container_umbrella .logo + * {
+  margin-top: 60px;
+}
+#rodape .container_umbrella nav + * {
+  margin-top: 45px;
 }
 #rodape .container_umbrella .navegacao {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 #rodape .container_umbrella .navegacao a {
   color: #fff;
+}
+#rodape .container_umbrella .seta {
+  position: relative;
+  top: -30px;
 }
 footer {
   background-color: var(--primary-color);
@@ -473,4 +576,16 @@ footer {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
+  margin-top: -1px;
+}
+footer span {
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #3a3a3a;
+}
+footer span img {
+  width: 69px;
+  height: 21px;
 }

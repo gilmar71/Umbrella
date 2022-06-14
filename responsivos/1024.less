@@ -1,32 +1,62 @@
 @media only screen and (max-width: 1024px) {
   .container_umbrella {
-    max-width: 900px;
+    max-width: 600px;
   }
 
   .bt {
-    height: 45px;
-    font-size: 14px;
+    height: 40px;
+    font-size: 13px;
   }
 
   .whattsapp {
     width: 18px;
   }
 
+  .titulo-1 {
+    // font-size: 45px;
+  }
+
   .titulo-2 {
     font-size: 40px;
   }
 
+  .titulo-4 {
+    font-size: 20px;
+  }
+
   .paragrafo-1 {
-    font-size: 22px;
+    font-size: 19px;
+  }
+
+  .paragrafo-2 {
+    font-size: 15px;
+  }
+
+  .link-3 {
+    font-size: 12px;
   }
 
   #btn-mobile {
     display: block;
-  }
+    border: 0;
+    cursor: pointer;
 
-  #nav.active .itens {
-    display: flex;
-    flex-direction: column;
+    .block_bar {
+      display: inline-block;
+      position: absolute;
+      top: 30px;
+      right: 50px;
+      z-index: 10;
+
+      .bar {
+        width: 35px;
+        height: 2px;
+        background-color: #000;
+        margin: 9px 0;
+        transition: 0.3s;
+        border-radius: 25px;
+      }
+    }
   }
 
   header {
@@ -34,19 +64,36 @@
       display: none;
     }
 
+    #nav.active .itens {
+      visibility: visible;
+      height: 36%;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      width: 40vw;
+    }
+
     .itens {
-      display: none;
       position: absolute;
-      width: 200px;
+      width: 0;
       top: 103px;
       right: 10px;
-      background: rgba(197, 185, 185, 0.356);
+      // background: rgba(97, 90, 90, 0.685);
+      background: #fff;
       z-index: 1000;
-      padding: 8px 0;
+      height: 0px;
+      visibility: hidden;
+      transition: 0.5s;
+      overflow-y: hidden;
+      padding: 10px 0;
 
       a {
-        font-size: 14px;
+        display: flex;
+        font-size: 16px;
         font-weight: 700;
+        padding: 10px 0;
+        margin: 0 10px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
       }
     }
   }
@@ -54,13 +101,17 @@
   #banner {
     padding-top: 100px;
 
-    h1 {
-      font-size: 50px;
-    }
-
     .underline {
       img {
         width: 180px;
+      }
+    }
+    .title {
+      .aviao {
+        display: none;
+      }
+      .carimbo {
+        display: none;
       }
     }
 
@@ -75,6 +126,7 @@
     }
 
     .image {
+      display: none;
       width: 410px;
       position: relative;
       bottom: -15px;
@@ -86,18 +138,19 @@
     padding-bottom: 50px;
 
     .container_umbrella {
-      max-width: 900px;
-
+      max-width: 660px;
       .content {
         .box-left {
-          bottom: 120px;
-          left: -50px;
-          img {
-            width: 120px;
-          }
+          display: none;
         }
         .box-middle {
-          padding-bottom: 110px;
+          padding-bottom: 165px;
+          margin-left: auto;
+          margin-right: auto;
+
+          p {
+            max-width: 560px;
+          }
 
           p + * {
             margin-top: 30px;
@@ -105,15 +158,86 @@
         }
 
         .box-right {
-          right: -40px;
-          img {
-            width: 150px;
-          }
+          display: none;
         }
       }
-
       .p_bot {
-        margin-top: -75px;
+        margin-top: -120px;
+      }
+    }
+  }
+
+  #valores {
+    .container_umbrella {
+      gap: 50px;
+    }
+    .quadrados {
+      flex-direction: column;
+      gap: 50px;
+      align-items: center;
+
+      .square {
+        padding: 40px 20px;
+      }
+    }
+    .bt {
+      width: 400px;
+    }
+  }
+
+  #como_funciona {
+    .container_umbrella {
+      justify-content: center;
+    }
+
+    .image {
+      display: none;
+    }
+
+    .botao {
+      display: flex;
+      justify-content: center;
+    }
+
+    .list {
+      h2 + * {
+        margin-top: 42px;
+      }
+
+      ul {
+        display: grid;
+        gap: 10px;
+      }
+    }
+  }
+
+  #contato {
+    padding-top: 80px;
+    .container_umbrella {
+      flex-direction: column;
+      gap: 70px;
+      align-items: center;
+
+      .contatos {
+        width: 100%;
+      }
+      .formulario {
+        width: 100%;
+      }
+    }
+    .bt {
+      height: 55px;
+    }
+  }
+
+  #rodape {
+    .container_umbrella {
+      .navegacao {
+        gap: 13px;
+
+        a {
+          font-weight: 500;
+        }
       }
     }
   }
