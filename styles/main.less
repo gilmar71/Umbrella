@@ -482,10 +482,41 @@ header {
 #faq {
   background-color: var(--quaternary-color);
 
-  .perguntas {
-    background: #ffffff;
+  .container_umbrella {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    .box-left,
+    .box-right {
+      position: relative;
+      z-index: 2;
+    }
+    .box-left {
+      top: 178px;
+      left: -108px;
+    }
 
-    .duvida {
+    .box-right {
+      bottom: -440px;
+      right: -80px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        color: var(--secondary-color);
+
+        .detalhe {
+          position: relative;
+
+          img {
+            position: absolute;
+            top: -15px;
+          }
+        }
+      }
     }
   }
 }
@@ -504,60 +535,11 @@ header {
 }
 
 #acompanhe {
-  display: none;
   background-color: var(--primary-color);
   padding-top: 220px;
   padding-bottom: 80px;
-  width: 100%;
 
   .container_umbrella {
-    display: flex;
-    align-items: center;
-
-    .left {
-      max-width: 380px;
-      width: 100%;
-    }
-
-    .middle {
-      max-width: 485px;
-      width: 100%;
-      position: relative;
-
-      a {
-        position: absolute;
-        top: 125px;
-        right: -225px;
-      }
-    }
-
-    .right {
-      max-width: 485px;
-      width: 100%;
-      position: relative;
-
-      a {
-        position: absolute;
-        bottom: 185px;
-        right: 400px;
-        z-index: -1;
-      }
-    }
-
-    h2 {
-      color: #fdfdfd;
-      text-align: left;
-      line-height: normal;
-
-      .underline {
-        position: relative;
-        img {
-          position: absolute;
-          bottom: -10px;
-          left: -5px;
-        }
-      }
-    }
   }
 }
 

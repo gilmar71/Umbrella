@@ -3,6 +3,7 @@ $(document).ready(function () {
     items: 6,
     loop: true,
     margin: 30,
+    mouseDrag: true,
   });
 });
 
@@ -37,19 +38,3 @@ $(document).ready(function () {
     loop: true,
   });
 });
-
-// $(".owl-sociais").owlCarousel({
-//   loop: true,
-//   margin: 30,
-//   responsiveClass: true,
-//   responsive: {
-//     0: {
-//       items: 1,
-//       nav: true,
-//     },
-//     600: {
-//       items: 2,
-//       nav: true,
-//     },
-//   },
-// });
