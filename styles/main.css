@@ -401,11 +401,11 @@ header .itens a {
 #faq .perguntas {
   background: #ffffff;
 }
-#redes_sociais .container_umbrella {
-  display: flex;
-  gap: 30px;
-  margin-bottom: -200px;
+#redes_sociais {
   padding-top: 80px;
+}
+#redes_sociais .container_umbrella {
+  margin-bottom: -200px;
 }
 #redes_sociais .container_umbrella .image {
   border: 10px solid #ffffff;
@@ -413,55 +413,81 @@ header .itens a {
   width: 100%;
 }
 #acompanhe {
+  display: none;
   background-color: var(--primary-color);
   padding-top: 220px;
   padding-bottom: 80px;
+  width: 100%;
 }
 #acompanhe .container_umbrella {
   display: flex;
   align-items: center;
 }
-#acompanhe .container_umbrella .texto {
-  display: flex;
-  width: 390px;
+#acompanhe .container_umbrella .left {
+  max-width: 380px;
+  width: 100%;
 }
-#acompanhe .container_umbrella .texto h2 {
+#acompanhe .container_umbrella .middle {
+  max-width: 485px;
+  width: 100%;
+  position: relative;
+}
+#acompanhe .container_umbrella .middle a {
+  position: absolute;
+  top: 125px;
+  right: -225px;
+}
+#acompanhe .container_umbrella .right {
+  max-width: 485px;
+  width: 100%;
+  position: relative;
+}
+#acompanhe .container_umbrella .right a {
+  position: absolute;
+  bottom: 185px;
+  right: 400px;
+  z-index: -1;
+}
+#acompanhe .container_umbrella h2 {
   color: #fdfdfd;
   text-align: left;
   line-height: normal;
 }
-#acompanhe .container_umbrella .texto h2 .underline {
+#acompanhe .container_umbrella h2 .underline {
   position: relative;
 }
-#acompanhe .container_umbrella .texto h2 .underline img {
+#acompanhe .container_umbrella h2 .underline img {
   position: absolute;
   bottom: -10px;
   left: -5px;
 }
-#acompanhe .container_umbrella .laptop {
-  width: 400px;
-  height: 285px;
+#clientes {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+#clientes .container_umbrella {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#clientes .container_umbrella h2 {
+  color: var(--secondary-color);
+}
+#clientes .container_umbrella h2 + * {
+  margin-top: 50px;
+}
+#clientes .container_umbrella .detalhe {
   position: relative;
-  left: -10px;
-  z-index: 1;
 }
-#acompanhe .container_umbrella .laptop a {
+#clientes .container_umbrella .detalhe img {
   position: absolute;
-  top: 125px;
-  right: -305px;
-  z-index: -1;
+  top: -15px;
 }
-#acompanhe .container_umbrella .phone {
-  width: 202px;
-  height: 312px;
-  position: relative;
-  left: 160px;
-  z-index: 1;
+#clientes .container_umbrella .owl-clientes-1 {
+  margin-bottom: 30px;
 }
-#acompanhe .container_umbrella .phone a {
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
+#clientes .container_umbrella .owl-clientes-2 + * {
+  margin-top: 40px;
 }
 #contato {
   background-color: var(--quintuary-color);

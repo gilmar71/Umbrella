@@ -491,11 +491,9 @@ header {
 }
 
 #redes_sociais {
+  padding-top: 80px;
   .container_umbrella {
-    display: flex;
-    gap: 30px;
     margin-bottom: -200px;
-    padding-top: 80px;
 
     .image {
       border: 10px solid #ffffff;
@@ -506,60 +504,93 @@ header {
 }
 
 #acompanhe {
+  display: none;
   background-color: var(--primary-color);
   padding-top: 220px;
   padding-bottom: 80px;
+  width: 100%;
 
   .container_umbrella {
     display: flex;
     align-items: center;
 
-    .texto {
-      display: flex;
-      width: 390px;
-      h2 {
-        color: #fdfdfd;
-        text-align: left;
-        line-height: normal;
-
-        .underline {
-          position: relative;
-          img {
-            position: absolute;
-            bottom: -10px;
-            left: -5px;
-          }
-        }
-      }
+    .left {
+      max-width: 380px;
+      width: 100%;
     }
 
-    .laptop {
-      width: 400px;
-      height: 285px;
+    .middle {
+      max-width: 485px;
+      width: 100%;
       position: relative;
-      left: -10px;
-      z-index: 1;
 
       a {
         position: absolute;
         top: 125px;
-        right: -305px;
+        right: -225px;
+      }
+    }
+
+    .right {
+      max-width: 485px;
+      width: 100%;
+      position: relative;
+
+      a {
+        position: absolute;
+        bottom: 185px;
+        right: 400px;
         z-index: -1;
       }
     }
 
-    .phone {
-      width: 202px;
-      height: 312px;
-      position: relative;
-      left: 160px;
-      z-index: 1;
+    h2 {
+      color: #fdfdfd;
+      text-align: left;
+      line-height: normal;
 
-      a {
-        position: absolute;
-        bottom: 0;
-        z-index: -1;
+      .underline {
+        position: relative;
+        img {
+          position: absolute;
+          bottom: -10px;
+          left: -5px;
+        }
       }
+    }
+  }
+}
+
+#clientes {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  .container_umbrella {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      color: var(--secondary-color);
+    }
+
+    h2 + * {
+      margin-top: 50px;
+    }
+
+    .detalhe {
+      position: relative;
+      img {
+        position: absolute;
+        top: -15px;
+      }
+    }
+
+    .owl-clientes-1 {
+      margin-bottom: 30px;
+    }
+
+    .owl-clientes-2 + * {
+      margin-top: 40px;
     }
   }
 }

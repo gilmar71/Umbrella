@@ -88,6 +88,11 @@
   #banner .title .carimbo {
     display: none;
   }
+  #quem-somos .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #quem-somos p {
     font-size: 15px;
     line-height: 18px;
