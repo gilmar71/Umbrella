@@ -5,6 +5,9 @@
   .titulo-1 {
     font-size: 78px;
   }
+  .titulo-2 {
+    font-size: 46px;
+  }
   header .logo {
     max-width: 182px;
   }
@@ -24,5 +27,17 @@
   }
   #faq .container_umbrella {
     max-width: 1475px;
+  }
+  #acompanhe .text {
+    max-width: 420px;
+  }
+  #acompanhe .box-left {
+    max-width: 333px;
+  }
+  #acompanhe .box-right {
+    max-width: 270px;
+  }
+  #acompanhe .image .links {
+    padding-top: 70px;
   }
 }

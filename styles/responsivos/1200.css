@@ -131,6 +131,41 @@
     font-size: 14.5px;
     line-height: 20px;
   }
+  #acompanhe .text {
+    max-width: 362px;
+  }
+  #acompanhe .text img {
+    width: 260px;
+  }
+  #acompanhe .image {
+    gap: 60px;
+    padding-right: 25px;
+  }
+  #acompanhe .image .box-left {
+    max-width: 252px;
+  }
+  #acompanhe .image .box-left .laptop + * {
+    margin-top: 18px;
+  }
+  #acompanhe .image .box-left a {
+    display: inline-flex;
+  }
+  #acompanhe .image .box-right {
+    max-width: 203px;
+  }
+  #acompanhe .image .box-right a {
+    display: inline-flex;
+  }
+  #acompanhe .image .links {
+    display: none;
+  }
+  #acompanhe .bt {
+    height: 40px;
+    font-size: 15px;
+  }
+  #acompanhe .bt img {
+    width: 20px;
+  }
   #contato .container_umbrella {
     gap: 35px;
   }

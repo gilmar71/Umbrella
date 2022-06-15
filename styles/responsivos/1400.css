@@ -88,4 +88,36 @@
   #faq .container_umbrella {
     max-width: 1250px;
   }
+  #acompanhe .text {
+    max-width: 362px;
+  }
+  #acompanhe .image {
+    gap: 110px;
+    padding-right: 55px;
+  }
+  #acompanhe .image .box-left {
+    max-width: 262px;
+  }
+  #acompanhe .image .box-left .laptop + * {
+    margin-top: 19px;
+  }
+  #acompanhe .image .box-left a {
+    display: inline-flex;
+  }
+  #acompanhe .image .box-right {
+    max-width: 213px;
+  }
+  #acompanhe .image .box-right a {
+    display: inline-flex;
+  }
+  #acompanhe .image .links {
+    display: none;
+  }
+  #acompanhe .bt {
+    height: 45px;
+    font-size: 15.5px;
+  }
+  #acompanhe .bt img {
+    width: 25px;
+  }
 }

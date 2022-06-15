@@ -522,14 +522,20 @@ header .itens a {
 #acompanhe .image .box-left {
   width: 350px;
 }
-#acompanhe .image .box-left img {
+#acompanhe .image .box-left .laptop {
   width: 100%;
+}
+#acompanhe .image .box-left a {
+  display: none;
 }
 #acompanhe .image .box-right {
   width: 284px;
 }
-#acompanhe .image .box-right img {
+#acompanhe .image .box-right .phone {
   width: 100%;
+}
+#acompanhe .image .box-right a {
+  display: none;
 }
 #acompanhe .image .links {
   display: flex;
