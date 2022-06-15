@@ -28,6 +28,9 @@
   #faq .container_umbrella {
     max-width: 1475px;
   }
+  #faq .content .faqs {
+    margin: 0 39px 0 54px;
+  }
   #acompanhe .text {
     max-width: 420px;
   }
