@@ -175,6 +175,12 @@
   #contato .container_umbrella .formulario {
     max-width: 550px;
   }
+  #contato .container_umbrella .formulario input {
+    height: 55px;
+  }
+  #contato .container_umbrella .formulario textarea {
+    height: 160px;
+  }
   #faq .container_umbrella {
     max-width: 1090px;
   }
