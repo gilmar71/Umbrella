@@ -398,11 +398,11 @@ header .itens a {
   gap: 20px;
 }
 #faq {
+  padding-top: 80px;
+  padding-bottom: 100px;
   background-color: var(--quaternary-color);
 }
 #faq .container_umbrella {
-  padding-top: 80px;
-  padding-bottom: 100px;
   max-width: 1600px;
 }
 #faq h2 {

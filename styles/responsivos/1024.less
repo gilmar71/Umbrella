@@ -21,7 +21,7 @@
   }
 
   .titulo-4 {
-    font-size: 20px;
+    font-size: 16.5px;
   }
 
   .paragrafo-1 {
@@ -178,12 +178,14 @@
   }
 
   #valores {
+    padding-top: 50px;
+
     .container_umbrella {
-      gap: 50px;
+      gap: 30px;
     }
     .quadrados {
       flex-direction: column;
-      gap: 50px;
+      gap: 15px;
       align-items: center;
 
       .square {
@@ -196,6 +198,9 @@
   }
 
   #como_funciona {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
     .container_umbrella {
       justify-content: center;
     }
@@ -221,18 +226,41 @@
     }
   }
 
+  #faq {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
   #contato {
     padding-top: 80px;
     .container_umbrella {
       flex-direction: column;
-      gap: 70px;
+      gap: 25px;
       align-items: center;
+
+      .contato-lista {
+        li {
+          margin-top: 10px;
+        }
+      }
 
       .contatos {
         width: 100%;
+
+        h2 + * {
+          margin-top: 15px;
+        }
       }
       .formulario {
         width: 100%;
+
+        input {
+          height: 50px;
+        }
+
+        textarea {
+          height: 150px;
+        }
       }
     }
     .bt {
@@ -297,7 +325,6 @@
     }
 
     .bt {
-      height: 45px;
       font-size: 14.5px;
 
       img {
@@ -306,8 +333,39 @@
     }
   }
 
+  #clientes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h2 + * {
+      margin-top: 10px;
+    }
+  }
+
+  #contato {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+
   #rodape {
+    padding-top: 10px;
     .container_umbrella {
+      .seta {
+        top: -10px;
+      }
+
+      .logo {
+        max-width: 200px;
+      }
+
+      .logo + * {
+        margin-top: 35px;
+      }
+
+      nav + * {
+        margin-top: 30px;
+      }
+
       .navegacao {
         gap: 13px;
 

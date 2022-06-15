@@ -13,7 +13,7 @@
     font-size: 38px;
   }
   .titulo-4 {
-    font-size: 20px;
+    font-size: 16.5px;
   }
   .paragrafo-1 {
     font-size: 19px;
@@ -134,12 +134,15 @@
   #registro_marca .container_umbrella .p_bot {
     margin-top: -120px;
   }
+  #valores {
+    padding-top: 50px;
+  }
   #valores .container_umbrella {
-    gap: 50px;
+    gap: 30px;
   }
   #valores .quadrados {
     flex-direction: column;
-    gap: 50px;
+    gap: 15px;
     align-items: center;
   }
   #valores .quadrados .square {
@@ -147,6 +150,10 @@
   }
   #valores .bt {
     width: 400px;
+  }
+  #como_funciona {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   #como_funciona .container_umbrella {
     justify-content: center;
@@ -165,19 +172,35 @@
     display: grid;
     gap: 10px;
   }
+  #faq {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
   #contato {
     padding-top: 80px;
   }
   #contato .container_umbrella {
     flex-direction: column;
-    gap: 70px;
+    gap: 25px;
     align-items: center;
+  }
+  #contato .container_umbrella .contato-lista li {
+    margin-top: 10px;
   }
   #contato .container_umbrella .contatos {
     width: 100%;
   }
+  #contato .container_umbrella .contatos h2 + * {
+    margin-top: 15px;
+  }
   #contato .container_umbrella .formulario {
     width: 100%;
+  }
+  #contato .container_umbrella .formulario input {
+    height: 50px;
+  }
+  #contato .container_umbrella .formulario textarea {
+    height: 150px;
   }
   #contato .bt {
     height: 55px;
@@ -228,11 +251,36 @@
     display: none;
   }
   #acompanhe .bt {
-    height: 45px;
     font-size: 14.5px;
   }
   #acompanhe .bt img {
     width: 20px;
+  }
+  #clientes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #clientes h2 + * {
+    margin-top: 10px;
+  }
+  #contato {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  #rodape {
+    padding-top: 10px;
+  }
+  #rodape .container_umbrella .seta {
+    top: -10px;
+  }
+  #rodape .container_umbrella .logo {
+    max-width: 200px;
+  }
+  #rodape .container_umbrella .logo + * {
+    margin-top: 35px;
+  }
+  #rodape .container_umbrella nav + * {
+    margin-top: 30px;
   }
   #rodape .container_umbrella .navegacao {
     gap: 13px;
