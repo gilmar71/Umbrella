@@ -1,367 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Umbrella</title>
 
-    <link href="./styles/reset.css" rel="stylesheet" />
-    <link href="./styles/fonts.css" rel="stylesheet" />
-    <link href="./styles/main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="responsivos/1600.css" />
-    <link rel="stylesheet" href="responsivos/1400.css" />
-    <link rel="stylesheet" href="responsivos/1300.css" />
-    <link rel="stylesheet" href="responsivos/1200.css" />
-    <link rel="stylesheet" href="responsivos/1024.css" />
-    <link rel="stylesheet" href="responsivos/768.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Umbrella</title>
 
-    <link
-      rel="stylesheet"
-      href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
+  <link href="./styles/reset.css" rel="stylesheet" />
+  <link href="./styles/fonts.css" rel="stylesheet" />
+  <link href="./styles/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/responsivos/1600.css" />
+  <link rel="stylesheet" href="styles/responsivos/1400.css" />
+  <link rel="stylesheet" href="styles/responsivos/1300.css" />
+  <link rel="stylesheet" href="styles/responsivos/1200.css" />
+  <link rel="stylesheet" href="styles/responsivos/1024.css" />
+  <link rel="stylesheet" href="styles/responsivos/768.css" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
-    <link
-      href="./scripts/owl-carousel/dist/assets/owl.carousel.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="./scripts/owl-carousel/dist/assets/owl.theme.default.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/nhc8xdv.css" />
+  <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link href="./scripts/owl-carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="./scripts/owl-carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.typekit.net/nhc8xdv.css" />
 
-  <body>
-    <header>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="container_umbrella">
+      <img class="logo" src="images/logo.png" alt="logomarca" />
+
+      <nav id="nav">
+        <div class="block_bar">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="bg-mobile"></div>
+
+        <ul class="itens">
+          <li class="close">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+            </svg>
+          </li>
+
+          <li>
+            <a class="link-2 -montserrat medium" href="#contato"> Contato</a>
+          </li>
+          <li>
+            <a class="link-2 -montserrat medium" href="">
+              Perguntas frequentes</a>
+          </li>
+          <li>
+            <a class="link-2 -montserrat medium" href="">Como funciona</a>
+          </li>
+          <li>
+            <a class="link-2 -montserrat medium" href="">Clientes</a>
+          </li>
+          <li>
+            <a class="link-2 -montserrat medium" href="">Nossos serviçoso</a>
+          </li>
+          <li>
+            <a class="link-2 -montserrat medium" href="">Quem somos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="banner">
       <div class="container_umbrella">
-        <img class="logo" src="images/logo.png" alt="logomarca" />
+        <div class="title">
+          <img class="aviao" src="images/plane_banner.png" alt="" />
+          <h1 class="titulo-1 -buntype">
+            Nosso propósito é <br />
+            <span>proteger</span> o seu
+            <span class="underline">
+              sonho
+              <img src="images/underline_banner.png" alt="" />
+            </span>
+          </h1>
 
-        <nav id="nav">
-          <div class="block_bar">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-
-          <div class="bg-mobile"></div>
-
-          <ul class="itens">
-            <li class="close">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path
-                  d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
-                />
-              </svg>
-            </li>
-
-            <li>
-              <a class="link-2 -montserrat medium" href="#contato"> Contato</a>
-            </li>
-            <li>
-              <a class="link-2 -montserrat medium" href="">
-                Perguntas frequentes</a
-              >
-            </li>
-            <li>
-              <a class="link-2 -montserrat medium" href="">Como funciona</a>
-            </li>
-            <li>
-              <a class="link-2 -montserrat medium" href="">Clientes</a>
-            </li>
-            <li>
-              <a class="link-2 -montserrat medium" href="">Nossos serviçoso</a>
-            </li>
-            <li>
-              <a class="link-2 -montserrat medium" href="">Quem somos</a>
-            </li>
-          </ul>
-        </nav>
+          <img class="carimbo" src="images/carimbo.png" alt="" />
+        </div>
+        <iframe class="video" src="https://www.youtube.com/embed/DnODupiIAiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-    </header>
 
-    <main>
-      <section id="banner">
-        <div class="container_umbrella">
-          <div class="title">
-            <img class="aviao" src="images/plane_banner.png" alt="" />
-            <h1 class="titulo-1 -buntype">
-              Nosso propósito é <br />
-              <span>proteger</span> o seu
-              <span class="underline">
-                sonho
-                <img src="images/underline_banner.png" alt="" />
-              </span>
-            </h1>
+      <img class="img_bottom_banner" src="images/bottom-banner.png" alt="" />
+    </section>
 
-            <img class="carimbo" src="images/carimbo.png" alt="" />
-          </div>
-          <iframe
-            class="video"
-            src="https://www.youtube.com/embed/DnODupiIAiE"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+    <section id="quem-somos">
+      <div class="container_umbrella">
+        <div class="text">
+          <h2 class="titulo-2 -buntype bold">
+            Quem somos
+            <img class="detalhe" src="images/detalhe-quem-somos.png" />
+          </h2>
+          <p class="-montserrat paragrafo-2">
+            Somos uma empresa especializada na proteção de ativos de
+            propriedade intelectual, dentre os nossos serviços, destacamos o
+            registro de marcas, patentes, softwares. <br />
+            <br />
+
+            O nosso propósito é proteger o negócio de nossos clientes. <br />
+            <br />
+
+            Atuamos para proteger o Direito de Propriedade Industrial e
+            Intelectual e auxiliamos pessoas físicas e jurídicas no Processo
+            de Registro junto ao INPI e demais entidades legais.
+          </p>
+
+          <a class="bt bt--primary uppercase link-2-montserrat bold" href=""><img class="whattsapp" src="./images/whatsapp-botões.png" alt="" />Fale com a gente!</a>
         </div>
 
-        <img class="img_bottom_banner" src="images/bottom-banner.png" alt="" />
-      </section>
+        <img class="image" src="images/home_1.png" alt="" />
+      </div>
+    </section>
 
-      <section id="quem-somos">
-        <div class="container_umbrella">
-          <div class="text">
-            <h2 class="titulo-2 -buntype bold">
-              Quem somos
-              <img class="detalhe" src="images/detalhe-quem-somos.png" />
-            </h2>
-            <p class="-montserrat paragrafo-2">
-              Somos uma empresa especializada na proteção de ativos de
-              propriedade intelectual, dentre os nossos serviços, destacamos o
-              registro de marcas, patentes, softwares. <br />
-              <br />
-
-              O nosso propósito é proteger o negócio de nossos clientes. <br />
-              <br />
-
-              Atuamos para proteger o Direito de Propriedade Industrial e
-              Intelectual e auxiliamos pessoas físicas e jurídicas no Processo
-              de Registro junto ao INPI e demais entidades legais.
-            </p>
-
-            <a class="bt bt--primary uppercase link-2-montserrat bold" href=""
-              ><img
-                class="whattsapp"
-                src="./images/whatsapp-botões.png"
-                alt=""
-              />Fale com a gente!</a
-            >
-          </div>
-
-          <img class="image" src="images/home_1.png" alt="" />
-        </div>
-      </section>
-
-      <section id="registro_marca">
-        <div class="container_umbrella">
-          <div class="top">
-            <h2 class="titulo-2 -buntype bold">Registro de marca</h2>
-            <p class="paragrafo-2 -montserrat medium">
-              Marca é a alma de uma empresa, é o que conecta o cliente ao
-              produto ou serviço, ela deve representar em sua identidade os
-              valores do negócio. No Brasil, a concessão legal ocorre através de
-              processo junto ao INPI (Instituto Nacional da Propriedade
-              Industrial).
-            </p>
-          </div>
-
-          <div class="content">
-            <div class="box-left">
-              <img class="martelo" src="./images/martelo.png" alt="" />
-            </div>
-
-            <div class="box-middle">
-              <p class="paragrafo-1 -buntype bold">
-                Sem o registro, sua empresa não é dona da marca, não importa a
-                quantidade de dinheiro e esforços envolvidos na criação e no
-                marketing. Somente o registro no INPI garante que a marca seja
-                propriedade de sua empresa.
-              </p>
-
-              <a class="bt bt--primary uppercase link-2-montserrat bold" href=""
-                ><img
-                  class="whattsapp"
-                  src="./images/whatsapp-botões.png"
-                  alt=""
-                />proteja sua marca agora!</a
-              >
-            </div>
-
-            <div class="box-right">
-              <img class="megafone" src="./images/megafone.png" alt="" />
-            </div>
-          </div>
-
-          <p class="paragrafo-2 -montserrat medium p_bot">
-            Além disso, trabalhamos com registros de patente, softwares,
-            desenhos industriais, indicações geográficas, topografias de
-            circuitos integrados, contratos de tecnologia e franquia.
+    <section id="registro_marca">
+      <div class="container_umbrella">
+        <div class="top">
+          <h2 class="titulo-2 -buntype bold">Registro de marca</h2>
+          <p class="paragrafo-2 -montserrat medium">
+            Marca é a alma de uma empresa, é o que conecta o cliente ao
+            produto ou serviço, ela deve representar em sua identidade os
+            valores do negócio. No Brasil, a concessão legal ocorre através de
+            processo junto ao INPI (Instituto Nacional da Propriedade
+            Industrial).
           </p>
         </div>
-      </section>
 
-      <section id="valores">
-        <div class="container_umbrella">
-          <div class="quadrados">
-            <div class="square">
-              <img src="images/escudo.png" alt="" />
-              <h3 class="titulo-3 -buntype bold">Nossos valores</h3>
-              <p class="paragrafo-2 -montserrat medium">
-                Ética e transparência, empreendedorismo e inovação, confiança e
-                dedicação, acessibilidade e simplicidade, justiça e segurança,
-                qualidade e responsabilidade dos nossos serviços.
-              </p>
-            </div>
-
-            <div class="square">
-              <img src="images/maos.png" alt="" />
-              <h3 class="titulo-3 -buntype bold">Nosso atendimento</h3>
-              <p class="paragrafo-2-montserrat medium">
-                Acreditamos no atendimento personalizado, ágil e descomplicado.
-                Nos conectamos aos seus objetivos através da consultoria que
-                acompanha cada um dos nossos serviços.
-              </p>
-            </div>
-
-            <div class="square">
-              <img src="images/joia.png" alt="" />
-              <h3 class="titulo-3 -buntype bold">Acessibilidade</h3>
-              <p class="paragrafo-2 -montserrat medium">
-                Acreditamos que todos podem ter acesso à segurança do registro
-                de marca e, por isso, cobramos um valor justo e transparente.
-                Cuidamos para que você não precise lidar com trâmites
-                administrativos.
-              </p>
-            </div>
+        <div class="content">
+          <div class="box-left">
+            <img class="martelo" src="./images/martelo.png" alt="" />
           </div>
-          <div class="botao">
-            <a class="bt bt--primary uppercase link-2-montserrat bold" href="">
-              <img
-                class="whattsapp"
-                src="./images/whatsapp-botões.png"
-                alt=""
-              />
-              Fale com a gente!
-            </a>
+
+          <div class="box-middle">
+            <p class="paragrafo-1 -buntype bold">
+              Sem o registro, sua empresa não é dona da marca, não importa a
+              quantidade de dinheiro e esforços envolvidos na criação e no
+              marketing. Somente o registro no INPI garante que a marca seja
+              propriedade de sua empresa.
+            </p>
+
+            <a class="bt bt--primary uppercase link-2-montserrat bold" href=""><img class="whattsapp" src="./images/whatsapp-botões.png" alt="" />proteja sua marca agora!</a>
+          </div>
+
+          <div class="box-right">
+            <img class="megafone" src="./images/megafone.png" alt="" />
           </div>
         </div>
-      </section>
 
-      <section id="como_funciona">
-        <div class="container_umbrella">
-          <img class="image" src="images/registro-de-marca.png" alt="" />
+        <p class="paragrafo-2 -montserrat medium p_bot">
+          Além disso, trabalhamos com registros de patente, softwares,
+          desenhos industriais, indicações geográficas, topografias de
+          circuitos integrados, contratos de tecnologia e franquia.
+        </p>
+      </div>
+    </section>
 
-          <div class="list">
-            <h2 class="titulo-2 -buntype bold">
-              Como
-              <span class="underline"
-                >funciona
-                <img src="images/underline_verde.png" alt="" />
-              </span>
-              o registro de marca?
-            </h2>
-            <ul>
-              <li class="item">
-                <span class="titulo-3 -montserrat bold number">1</span>
-                <p class="paragrafo-2 -montserrat medium">
-                  <strong class="uppercase"
-                    >Verificação da viabilidade da Marca no sistema INPI</strong
-                  >
-                  <br />
-                  Essa etapa é por nossa conta, você não precisará se preocupar
-                  com isso.
-                </p>
-              </li>
+    <section id="valores">
+      <div class="container_umbrella">
+        <div class="quadrados">
+          <div class="square">
+            <img src="images/escudo.png" alt="" />
+            <h3 class="titulo-3 -buntype bold">Nossos valores</h3>
+            <p class="paragrafo-2 -montserrat medium">
+              Ética e transparência, empreendedorismo e inovação, confiança e
+              dedicação, acessibilidade e simplicidade, justiça e segurança,
+              qualidade e responsabilidade dos nossos serviços.
+            </p>
+          </div>
 
-              <li class="item">
-                <span class="titulo-3 -montserrat bold number">2</span>
-                <p class="paragrafo-2 -montserrat medium">
-                  <strong class="uppercase"
-                    >Depósito do pedido e pagamento da taxa à Gru</strong
-                  >
-                  <br />
-                  A emissão das guias está inclusa em nossos serviços.
-                </p>
-              </li>
+          <div class="square">
+            <img src="images/maos.png" alt="" />
+            <h3 class="titulo-3 -buntype bold">Nosso atendimento</h3>
+            <p class="paragrafo-2-montserrat medium">
+              Acreditamos no atendimento personalizado, ágil e descomplicado.
+              Nos conectamos aos seus objetivos através da consultoria que
+              acompanha cada um dos nossos serviços.
+            </p>
+          </div>
 
-              <li class="item">
-                <span class="titulo-3 -montserrat bold number">3</span>
-                <p class="paragrafo-2 -montserrat medium">
-                  <strong class="uppercase"
-                    >o pedido é publicado e examinado para deferimento</strong
-                  >
-                  <br />
-                  Estima-se que isso ocorre após oito meses de processo.
-                </p>
-              </li>
-
-              <li class="item">
-                <span class="titulo-3 -montserrat bold number">4</span>
-                <p class="paragrafo-2 -montserrat medium">
-                  <strong class="uppercase"
-                    >pagamento do primeiro decênio da marca</strong
-                  >
-                  <br />
-                  Em até 60 dias após deferido o pedido.
-                </p>
-              </li>
-
-              <li class="item">
-                <span class="titulo-3 -montserrat bold number">5</span>
-                <p class="paragrafo-2 -montserrat medium">
-                  <strong class="uppercase"
-                    >pronto! Seu certificado é expedido</strong
-                  >
-                  <br />
-                  Nós também cuidaremos dessa parte e encaminharemos o
-                  certificado para você.
-                </p>
-              </li>
-            </ul>
-
-            <div class="botao">
-              <a class="bt bt--primary uppercase link-2-montserrat bold" href=""
-                ><img
-                  class="whattsapp"
-                  src="./images/whatsapp-botões.png"
-                  alt=""
-                />entre em contato e saiba mais</a
-              >
-            </div>
+          <div class="square">
+            <img src="images/joia.png" alt="" />
+            <h3 class="titulo-3 -buntype bold">Acessibilidade</h3>
+            <p class="paragrafo-2 -montserrat medium">
+              Acreditamos que todos podem ter acesso à segurança do registro
+              de marca e, por isso, cobramos um valor justo e transparente.
+              Cuidamos para que você não precise lidar com trâmites
+              administrativos.
+            </p>
           </div>
         </div>
-      </section>
+        <div class="botao">
+          <a class="bt bt--primary uppercase link-2-montserrat bold" href="">
+            <img class="whattsapp" src="./images/whatsapp-botões.png" alt="" />
+            Fale com a gente!
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <section id="faq">
-        <div class="container_umbrella">
+    <section id="como_funciona">
+      <div class="container_umbrella">
+        <img class="image" src="images/registro-de-marca.png" alt="" />
+
+        <div class="list">
           <h2 class="titulo-2 -buntype bold">
-            Perguntas
-            <span class="detalhe">
-              frequentes
-              <img src="images/detalhe-quem-somos.png" alt="" />
+            Como
+            <span class="underline">funciona
+              <img src="images/underline_verde.png" alt="" />
             </span>
+            o registro de marca?
           </h2>
+          <ul>
+            <li class="item">
+              <span class="titulo-3 -montserrat bold number">1</span>
+              <p class="paragrafo-2 -montserrat medium">
+                <strong class="uppercase">Verificação da viabilidade da Marca no sistema INPI</strong>
+                <br />
+                Essa etapa é por nossa conta, você não precisará se preocupar
+                com isso.
+              </p>
+            </li>
 
-          <div class="content">
-            <div class="box-left">
-              <img src="images/lampada.png" alt="" />
-            </div>
+            <li class="item">
+              <span class="titulo-3 -montserrat bold number">2</span>
+              <p class="paragrafo-2 -montserrat medium">
+                <strong class="uppercase">Depósito do pedido e pagamento da taxa à Gru</strong>
+                <br />
+                A emissão das guias está inclusa em nossos serviços.
+              </p>
+            </li>
+
+            <li class="item">
+              <span class="titulo-3 -montserrat bold number">3</span>
+              <p class="paragrafo-2 -montserrat medium">
+                <strong class="uppercase">o pedido é publicado e examinado para deferimento</strong>
+                <br />
+                Estima-se que isso ocorre após oito meses de processo.
+              </p>
+            </li>
+
+            <li class="item">
+              <span class="titulo-3 -montserrat bold number">4</span>
+              <p class="paragrafo-2 -montserrat medium">
+                <strong class="uppercase">pagamento do primeiro decênio da marca</strong>
+                <br />
+                Em até 60 dias após deferido o pedido.
+              </p>
+            </li>
+
+            <li class="item">
+              <span class="titulo-3 -montserrat bold number">5</span>
+              <p class="paragrafo-2 -montserrat medium">
+                <strong class="uppercase">pronto! Seu certificado é expedido</strong>
+                <br />
+                Nós também cuidaremos dessa parte e encaminharemos o
+                certificado para você.
+              </p>
+            </li>
+          </ul>
+
+          <div class="botao">
+            <a class="bt bt--primary uppercase link-2-montserrat bold" href=""><img class="whattsapp" src="./images/whatsapp-botões.png" alt="" />entre em contato e saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container_umbrella">
+        <h2 class="titulo-2 -buntype bold">
+          Perguntas
+          <span class="detalhe">
+            frequentes
+            <img src="images/detalhe-quem-somos.png" alt="" />
+          </span>
+        </h2>
+
+        <div class="content">
+          <div class="box-left">
+            <img src="images/lampada.png" alt="" />
+          </div>
+
+          <div class="faqs">
 
             <div class="faq">
               <div class="perguntas">
@@ -369,46 +300,28 @@
                   <span>1. O que é marca? </span>
 
                   <div class="content-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 32 32"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                       <g>
                         <g>
-                          <path
-                            fill="#4fbab5"
-                            d="M17.23 17.23v5.732a1.227 1.227 0 1 1-2.1.87 1.227 1.227 0 0 1-.36-.87V17.23H9.037c-.338 0-.646-.139-.869-.362A1.227 1.227 0 0 1 7.808 16c0-.677.554-1.23 1.23-1.23h5.731V9.037c0-.676.554-1.23 1.231-1.23s1.23.554 1.23 1.23v5.731h5.732c.676 0 1.23.554 1.23 1.231s-.554 1.23-1.23 1.23zM16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16z"
-                          />
+                          <path fill="#4fbab5" d="M17.23 17.23v5.732a1.227 1.227 0 1 1-2.1.87 1.227 1.227 0 0 1-.36-.87V17.23H9.037c-.338 0-.646-.139-.869-.362A1.227 1.227 0 0 1 7.808 16c0-.677.554-1.23 1.23-1.23h5.731V9.037c0-.676.554-1.23 1.231-1.23s1.23.554 1.23 1.23v5.731h5.732c.676 0 1.23.554 1.23 1.231s-.554 1.23-1.23 1.23zM16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16z" />
                         </g>
                       </g>
                     </svg>
 
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 32 32"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                       <g>
                         <g>
                           <g>
-                            <path
-                              fill="#4fbab5"
-                              d="M23.532 14.875H8.468c-.732 0-1.331.422-1.331 1.125 0 .703.624 1.125 1.331 1.125h15.064c.732 0 1.331-.506 1.331-1.125s-.599-1.125-1.331-1.125z"
-                            />
+                            <path fill="#4fbab5" d="M23.532 14.875H8.468c-.732 0-1.331.422-1.331 1.125 0 .703.624 1.125 1.331 1.125h15.064c.732 0 1.331-.506 1.331-1.125s-.599-1.125-1.331-1.125z" />
                           </g>
                           <g>
-                            <path
-                              fill="#4fbab5"
-                              d="M16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16zm0 2.154c3.7 0 7.177 1.438 9.792 4.054A13.755 13.755 0 0 1 29.846 16c0 3.7-1.438 7.177-4.054 9.792A13.755 13.755 0 0 1 16 29.846c-3.7 0-7.177-1.438-9.792-4.054A13.755 13.755 0 0 1 2.154 16c0-3.7 1.438-7.177 4.054-9.792A13.755 13.755 0 0 1 16 2.154"
-                            />
+                            <path fill="#4fbab5" d="M16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16zm0 2.154c3.7 0 7.177 1.438 9.792 4.054A13.755 13.755 0 0 1 29.846 16c0 3.7-1.438 7.177-4.054 9.792A13.755 13.755 0 0 1 16 29.846c-3.7 0-7.177-1.438-9.792-4.054A13.755 13.755 0 0 1 2.154 16c0-3.7 1.438-7.177 4.054-9.792A13.755 13.755 0 0 1 16 2.154" />
                           </g>
                         </g>
                       </g>
                     </svg>
                   </div>
+
                 </button>
                 <div class="resposta">
                   <p>
@@ -422,292 +335,391 @@
               </div>
             </div>
 
+            <div class="faq">
+              <div class="perguntas">
+                <button class="duvida paragrafo-1-bold-buntype">
+                  <span>2. Por que registrar sua marca?</span>
+
+                  <div class="content-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <g>
+                        <g>
+                          <path fill="#4fbab5" d="M17.23 17.23v5.732a1.227 1.227 0 1 1-2.1.87 1.227 1.227 0 0 1-.36-.87V17.23H9.037c-.338 0-.646-.139-.869-.362A1.227 1.227 0 0 1 7.808 16c0-.677.554-1.23 1.23-1.23h5.731V9.037c0-.676.554-1.23 1.231-1.23s1.23.554 1.23 1.23v5.731h5.732c.676 0 1.23.554 1.23 1.231s-.554 1.23-1.23 1.23zM16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16z" />
+                        </g>
+                      </g>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <g>
+                        <g>
+                          <g>
+                            <path fill="#4fbab5" d="M23.532 14.875H8.468c-.732 0-1.331.422-1.331 1.125 0 .703.624 1.125 1.331 1.125h15.064c.732 0 1.331-.506 1.331-1.125s-.599-1.125-1.331-1.125z" />
+                          </g>
+                          <g>
+                            <path fill="#4fbab5" d="M16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16zm0 2.154c3.7 0 7.177 1.438 9.792 4.054A13.755 13.755 0 0 1 29.846 16c0 3.7-1.438 7.177-4.054 9.792A13.755 13.755 0 0 1 16 29.846c-3.7 0-7.177-1.438-9.792-4.054A13.755 13.755 0 0 1 2.154 16c0-3.7 1.438-7.177 4.054-9.792A13.755 13.755 0 0 1 16 2.154" />
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </button>
+                <div class="resposta">
+                  <p>
+                    A forma mais eficiente e comum para proteger sua marca é registrá-la, pois elas são como direitos territoriais. É importante lembrar que é necessário que ela seja registrada em cada país para que a proteção desejada se conclua, caso contrário, ela não pode ser livremente usada em outros países, apenas no país no qual você a registrou. Além disso, a proteção de sua marca é limitada a produtos ou serviços específicos, sendo possível utilização da marca por diferentes empresas desde que os produtos/serviços sejam diferentes. A maior importância de registrar a marca de uma empresa se deve ao fato de que, sem o registro, sua empresa não é dona da marca, não importa a quantidade de dinheiro envolvido na criação e no marketing. Somente o registro garante que a marca seja propriedade de sua empresa. O titular da marca pode ser pessoa jurídica, pessoa física e há a possibilidade de ter cotitularidade. Sua marca, após concedida, possui o registro até 10 anos, ou seja, após esse período será necessário renová-la.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq">
+              <div class="perguntas">
+                <button class="duvida paragrafo-1-bold-buntype">
+                  <span>3. Como funciona o serviço de Registro de Marcas da Umbrella?</span>
+
+                  <div class="content-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <g>
+                        <g>
+                          <path fill="#4fbab5" d="M17.23 17.23v5.732a1.227 1.227 0 1 1-2.1.87 1.227 1.227 0 0 1-.36-.87V17.23H9.037c-.338 0-.646-.139-.869-.362A1.227 1.227 0 0 1 7.808 16c0-.677.554-1.23 1.23-1.23h5.731V9.037c0-.676.554-1.23 1.231-1.23s1.23.554 1.23 1.23v5.731h5.732c.676 0 1.23.554 1.23 1.231s-.554 1.23-1.23 1.23zM16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16z" />
+                        </g>
+                      </g>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <g>
+                        <g>
+                          <g>
+                            <path fill="#4fbab5" d="M23.532 14.875H8.468c-.732 0-1.331.422-1.331 1.125 0 .703.624 1.125 1.331 1.125h15.064c.732 0 1.331-.506 1.331-1.125s-.599-1.125-1.331-1.125z" />
+                          </g>
+                          <g>
+                            <path fill="#4fbab5" d="M16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16zm0 2.154c3.7 0 7.177 1.438 9.792 4.054A13.755 13.755 0 0 1 29.846 16c0 3.7-1.438 7.177-4.054 9.792A13.755 13.755 0 0 1 16 29.846c-3.7 0-7.177-1.438-9.792-4.054A13.755 13.755 0 0 1 2.154 16c0-3.7 1.438-7.177 4.054-9.792A13.755 13.755 0 0 1 16 2.154" />
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </button>
+                <div class="resposta">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia provident eius ad natus qui quae hic debitis cumque ea, dicta deleniti placeat quod quia repudiandae aperiam? Distinctio, vel excepturi.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq">
+              <div class="perguntas">
+                <button class="duvida paragrafo-1-bold-buntype">
+                  <span>4. Existe garantia de êxito no registro de marca?</span>
+
+                  <div class="content-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <g>
+                        <g>
+                          <path fill="#4fbab5" d="M17.23 17.23v5.732a1.227 1.227 0 1 1-2.1.87 1.227 1.227 0 0 1-.36-.87V17.23H9.037c-.338 0-.646-.139-.869-.362A1.227 1.227 0 0 1 7.808 16c0-.677.554-1.23 1.23-1.23h5.731V9.037c0-.676.554-1.23 1.231-1.23s1.23.554 1.23 1.23v5.731h5.732c.676 0 1.23.554 1.23 1.231s-.554 1.23-1.23 1.23zM16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16z" />
+                        </g>
+                      </g>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <g>
+                        <g>
+                          <g>
+                            <path fill="#4fbab5" d="M23.532 14.875H8.468c-.732 0-1.331.422-1.331 1.125 0 .703.624 1.125 1.331 1.125h15.064c.732 0 1.331-.506 1.331-1.125s-.599-1.125-1.331-1.125z" />
+                          </g>
+                          <g>
+                            <path fill="#4fbab5" d="M16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16zm0 2.154c3.7 0 7.177 1.438 9.792 4.054A13.755 13.755 0 0 1 29.846 16c0 3.7-1.438 7.177-4.054 9.792A13.755 13.755 0 0 1 16 29.846c-3.7 0-7.177-1.438-9.792-4.054A13.755 13.755 0 0 1 2.154 16c0-3.7 1.438-7.177 4.054-9.792A13.755 13.755 0 0 1 16 2.154" />
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </button>
+                <div class="resposta">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quisquam qui, autem veniam, et provident tempora eaque, rem saepe voluptate dicta quae cupiditate? Tempore ab suscipit laboriosam cum modi itaque.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq">
+              <div class="perguntas">
+                <button class="duvida paragrafo-1-bold-buntype">
+                  <span>5. Quanto custa registrar minha marca?</span>
+
+                  <div class="content-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <g>
+                        <g>
+                          <path fill="#4fbab5" d="M17.23 17.23v5.732a1.227 1.227 0 1 1-2.1.87 1.227 1.227 0 0 1-.36-.87V17.23H9.037c-.338 0-.646-.139-.869-.362A1.227 1.227 0 0 1 7.808 16c0-.677.554-1.23 1.23-1.23h5.731V9.037c0-.676.554-1.23 1.231-1.23s1.23.554 1.23 1.23v5.731h5.732c.676 0 1.23.554 1.23 1.231s-.554 1.23-1.23 1.23zM16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16z" />
+                        </g>
+                      </g>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <g>
+                        <g>
+                          <g>
+                            <path fill="#4fbab5" d="M23.532 14.875H8.468c-.732 0-1.331.422-1.331 1.125 0 .703.624 1.125 1.331 1.125h15.064c.732 0 1.331-.506 1.331-1.125s-.599-1.125-1.331-1.125z" />
+                          </g>
+                          <g>
+                            <path fill="#4fbab5" d="M16 0C7.162 0 0 7.162 0 16c0 8.838 7.162 16 16 16 8.838 0 16-7.162 16-16 0-8.838-7.162-16-16-16zm0 2.154c3.7 0 7.177 1.438 9.792 4.054A13.755 13.755 0 0 1 29.846 16c0 3.7-1.438 7.177-4.054 9.792A13.755 13.755 0 0 1 16 29.846c-3.7 0-7.177-1.438-9.792-4.054A13.755 13.755 0 0 1 2.154 16c0-3.7 1.438-7.177 4.054-9.792A13.755 13.755 0 0 1 16 2.154" />
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </button>
+                <div class="resposta">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minima hic neque fugiat rem maxime nulla distinctio aperiam ut quibusdam quos, nemo quam dolore nisi molestiae id beatae incidunt. Quod.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="box-right">
+            <img src="images/umbrella_icon.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="redes_sociais">
+      <div class="container_umbrella">
+
+        <div class="social">
+          <img class="image" src="images/sociais-1.png" alt="" />
+        </div>
+        <div class="social">
+          <img class="image" src="images/sociais-2.png" alt="" />
+        </div>
+        <div class="social">
+          <img class="image" src="images/sociais-3.png" alt="" />
+        </div>
+
+      </div>
+    </section>
+
+    <section id="acompanhe">
+      <div class="container_umbrella">
+        <div class="redes-sociais">
+          <div class="text">
+            <h2 class="titulo-2 -buntype bold">
+              Acompanhe nosso conteúdo pelas redes sociais
+            </h2>
+            <img src="./images/bottom-titulo-redes-sociais.png" alt="" />
+          </div>
+
+          <div class="image">
+            <div class="box-left">
+              <img src="./images/laptop.png" />
+            </div>
+
+            <div class="links">
+              <a class="bt bt--secondary uppercase link-3-montserrat bold" href="">
+                <img class="whattsapp" src="./images/facebook.png" />
+                /umbrellamarcas
+              </a>
+
+              <a class="bt bt--secondary uppercase link-3-montserrat bold" href="">
+                <img class="whattsapp" src="./images/instagram.png" />
+                @umbrellamep
+              </a>
+            </div>
+
             <div class="box-right">
-              <img src="images/umbrella_icon.png" alt="" />
+              <img src="./images/phone.png" />
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="redes_sociais">
-        <div class="container_umbrella">
-          <div class="owl-carousel owl-theme owl-sociais">
-            <div class="social">
-              <img class="image" src="images/sociais-1.png" alt="" />
-            </div>
-            <div class="social">
-              <img class="image" src="images/sociais-2.png" alt="" />
-            </div>
-            <div class="social">
-              <img class="image" src="images/sociais-3.png" alt="" />
-            </div>
+    <section id="clientes">
+      <div class="container_umbrella">
+        <h2 class="titulo-2 -buntype bold">
+          Alguns de nossos
+          <span class="detalhe">
+            clientes
+            <img src="images/detalhe-quem-somos.png" alt="" />
+          </span>
+        </h2>
+
+        <div class="owl-carousel owl-theme owl-clientes">
+          <div class="item">
+            <img src="images/clientes.png" alt="" />
+
+            <img src="images/clientes-2.png" alt="" />
+          </div>
+
+          <div class="item">
+            <img src="images/clientes-3.png" alt="" />
+
+            <img src="images/clientes-4.png" alt="" />
+          </div>
+
+          <div class="item">
+            <img src="images/clientes-5.png" alt="" />
+
+            <img src="images/clientes-6.png" alt="" />
+          </div>
+
+          <div class="item">
+            <img src="images/clientes-7.png" alt="" />
+
+            <img src="images/clientes-8.png" alt="" />
+          </div>
+
+          <div class="item">
+            <img src="images/clientes-9.png" alt="" />
+
+            <img src="images/clientes-10.png" alt="" />
+          </div>
+
+          <div class="item">
+            <img src="images/clientes-11.png" alt="" />
+
+            <img src="images/clientes-12.png" alt="" />
+          </div>
+
+          <div class="item">
+            <img src="images/clientes-11.png" alt="" />
+
+            <img src="images/clientes-12.png" alt="" />
           </div>
         </div>
-      </section>
 
-      <section id="acompanhe">
-        <div class="container_umbrella">
-          <div class="redes-sociais">
-            <div class="text">
-              <h2 class="titulo-2 -buntype bold">
-                Acompanhe nosso conteúdo pelas redes sociais
-              </h2>
-              <img src="./images/bottom-titulo-redes-sociais.png" alt="" />
-            </div>
+        <a class="bt bt--primary uppercase link-2-montserrat bold" href=""><img class="whattsapp" src="./images/whatsapp-botões.png" alt="" />proteja sua marca também!</a>
+      </div>
+    </section>
 
-            <div class="image">
-              <div class="box-left">
-                <img src="./images/laptop.png" />
-              </div>
-
-              <div class="links">
-                <a
-                  class="bt bt--secondary uppercase link-2-montserrat bold"
-                  href=""
-                >
-                  <img class="whattsapp" src="./images/facebook.png" />
-                  /umbrellamarcas
-                </a>
-
-                <a
-                  class="bt bt--secondary uppercase link-2-montserrat bold"
-                  href=""
-                >
-                  <img class="whattsapp" src="./images/instagram.png" />
-                  @umbrellamep
-                </a>
-              </div>
-
-              <div class="box-right">
-                <img src="./images/phone.png" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="clientes">
-        <div class="container_umbrella">
-          <h2 class="titulo-2 -buntype bold">
-            Alguns de nossos
-            <span class="detalhe">
-              clientes
-              <img src="images/detalhe-quem-somos.png" alt="" />
+    <section id="contato">
+      <div class="container_umbrella">
+        <div class="contatos">
+          <h2 class="titulo-2 -buntype">
+            Entre em
+            <span class="underline">contato
+              <img src="images/underline_verde.png" alt="" />
             </span>
           </h2>
 
-          <div class="owl-carousel owl-theme owl-clientes">
-            <div class="item">
-              <img src="images/clientes.png" alt="" />
+          <ul class="contato-lista">
+            <li class="titulo-4 -montserrat medium">
+              <img src="images/contato-whatsapp.png" alt="" />
+              (43) 9 9978-6664
+            </li>
 
-              <img src="images/clientes.png" alt="" />
-            </div>
+            <li class="titulo-4 -montserrat medium">
+              <img src="images/contato-horario.png" alt="" />
+              Segunda a sexta-feira (exceto feriados)
+            </li>
 
-            <div class="item">
-              <img src="images/clientes.png" alt="" />
+            <li class="titulo-4 -montserrat medium">
+              <img src="images/contato-local.png" alt="" />
+              Av. Ayrton Senna da Silva, 300, sala 210 Londrina-PR, 86050-460
+            </li>
 
-              <img src="images/clientes.png" alt="" />
-            </div>
+            <li class="titulo-4 -montserrat medium">
+              <img src="images/contato-mail.png" alt="" />
+              contato@umbrellamarcas.com.br
+            </li>
 
-            <div class="item">
-              <img src="images/clientes.png" alt="" />
-            </div>
+            <li class="titulo-4 -montserrat medium">
+              <img src="images/contato-instagram.png" alt="" />
+              @umbrellamep
+            </li>
 
-            <div class="item">
-              <img src="images/clientes.png" alt="" />
-            </div>
+            <li class="titulo-4 -montserrat medium">
+              <img src="images/contato-facebook.png" alt="" />
+              /umbrellamarcas
+            </li>
 
-            <div class="item">
-              <img src="images/clientes.png" alt="" />
-            </div>
-
-            <div class="item">
-              <img src="images/clientes.png" alt="" />
-            </div>
-
-            <div class="item">
-              <img src="images/clientes.png" alt="" />
-            </div>
-          </div>
-
-          <a class="bt bt--primary uppercase link-2-montserrat bold" href=""
-            ><img
-              class="whattsapp"
-              src="./images/whatsapp-botões.png"
-              alt=""
-            />proteja sua marca também!</a
-          >
+            <li class="titulo-4 -montserrat medium">
+              <img src="images/contato-linkedin.png" alt="" />
+              /umbrella-marcas-e-patentes
+            </li>
+          </ul>
         </div>
-      </section>
+        <div class="formulario">
+          <form action="">
+            <label class="paragrafo-2 -montserrat bold" for="name">Nome completo*</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome completo aqui" required />
 
-      <section id="contato">
-        <div class="container_umbrella">
-          <div class="contatos">
-            <h2 class="titulo-2 -buntype">
-              Entre em
-              <span class="underline"
-                >contato
-                <img src="images/underline_verde.png" alt="" />
-              </span>
-            </h2>
+            <label class="paragrafo-2 -montserrat bold" for="email">Telefone*</label>
 
-            <ul class="contato-lista">
-              <li class="titulo-4 -montserrat medium">
-                <img src="images/contato-whatsapp.png" alt="" />
-                (43) 9 9978-6664
-              </li>
+            <input id="telefone" class="phone-mask" type="text" name="telefone" placeholder="(DDD) 99999-9999" required />
 
-              <li class="titulo-4 -montserrat medium">
-                <img src="images/contato-horario.png" alt="" />
-                Segunda a sexta-feira (exceto feriados)
-              </li>
+            <label class="paragrafo-2 -montserrat bold" for="telefone">E-mail*</label>
 
-              <li class="titulo-4 -montserrat medium">
-                <img src="images/contato-local.png" alt="" />
-                Av. Ayrton Senna da Silva, 300, sala 210 Londrina-PR, 86050-460
-              </li>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui" required />
 
-              <li class="titulo-4 -montserrat medium">
-                <img src="images/contato-mail.png" alt="" />
-                contato@umbrellamarcas.com.br
-              </li>
+            <label class="paragrafo-2 -montserrat bold" for="mensagem">Mensagem</label>
+            <textarea name="" id="" cols="30" rows="6" placeholder="O que deseja nos dizer"></textarea>
 
-              <li class="titulo-4 -montserrat medium">
-                <img src="images/contato-instagram.png" alt="" />
-                @umbrellamep
-              </li>
+            <div class="botoes">
+              <!-- <span> -->
+              <img src="images/recaptcha.png" alt="" />
+              <!-- </span> -->
 
-              <li class="titulo-4 -montserrat medium">
-                <img src="images/contato-facebook.png" alt="" />
-                /umbrellamarcas
-              </li>
-
-              <li class="titulo-4 -montserrat medium">
-                <img src="images/contato-linkedin.png" alt="" />
-                /umbrella-marcas-e-patentes
-              </li>
-            </ul>
-          </div>
-          <div class="formulario">
-            <form action="">
-              <label class="paragrafo-2 -montserrat bold" for="name"
-                >Nome completo*</label
-              >
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Digite seu nome completo aqui"
-                required
-              />
-
-              <label class="paragrafo-2 -montserrat bold" for="email"
-                >Telefone*</label
-              >
-
-              <input
-                id="telefone"
-                class="phone-mask"
-                type="text"
-                name="telefone"
-                placeholder="(DDD) 99999-9999"
-                required
-              />
-
-              <label class="paragrafo-2 -montserrat bold" for="telefone"
-                >E-mail*</label
-              >
-
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Digite seu e-mail aqui"
-                required
-              />
-
-              <label class="paragrafo-2 -montserrat bold" for="mensagem"
-                >Mensagem</label
-              >
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="6"
-                placeholder="O que deseja nos dizer"
-              ></textarea>
-
-              <div class="botoes">
-                <!-- <span> -->
-                <img src="images/recaptcha.png" alt="" />
-                <!-- </span> -->
-
-                <button
-                  class="paragrafo-2 -montserrat bold link-2 uppercase bt bt--primary bt--tertiary"
-                  type="submit"
-                >
-                  Enviar
-                </button>
-              </div>
-            </form>
-          </div>
+              <button class="paragrafo-2 -montserrat bold link-2 uppercase bt bt--primary bt--tertiary" type="submit">
+                Enviar
+              </button>
+            </div>
+          </form>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="rodape">
-        <div class="container_umbrella">
-          <img class="seta" src="images/seta-footer.png" alt="" />
-          <img class="logo" src="images/logo.png" alt="" />
+    <section id="rodape">
+      <div class="container_umbrella">
+        <img class="seta" src="images/seta-footer.png" alt="" />
+        <img class="logo" src="images/logo.png" alt="" />
 
-          <nav>
-            <ul class="navegacao">
-              <li>
-                <a class="-montserrat link-3 bold" href="">Quem somos</a>
-              </li>
-              <li>
-                <a class="-montserrat link-3 bold" href="">Nossos serviços</a>
-              </li>
-              <li>
-                <a class="-montserrat link-3 bold" href="">Como funciona</a>
-              </li>
-              <li>
-                <a class="-montserrat link-3 bold" href=""
-                  >Perguntas frequentes</a
-                >
-              </li>
-              <li>
-                <a class="-montserrat link-3 bold" href="">Clientes</a>
-              </li>
-              <li>
-                <a class="-montserrat link-3 bold" href="">Contato</a>
-              </li>
-            </ul>
-          </nav>
-          <span class="linha"></span>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <span class="bold"
-        >Desenvolvido por <img src="images/codie-logo.png" alt=""
-      /></span>
-    </footer>
+        <nav>
+          <ul class="navegacao">
+            <li>
+              <a class="-montserrat link-3 bold" href="">Quem somos</a>
+            </li>
+            <li>
+              <a class="-montserrat link-3 bold" href="">Nossos serviços</a>
+            </li>
+            <li>
+              <a class="-montserrat link-3 bold" href="">Como funciona</a>
+            </li>
+            <li>
+              <a class="-montserrat link-3 bold" href="">Perguntas frequentes</a>
+            </li>
+            <li>
+              <a class="-montserrat link-3 bold" href="">Clientes</a>
+            </li>
+            <li>
+              <a class="-montserrat link-3 bold" href="">Contato</a>
+            </li>
+          </ul>
+        </nav>
+        <span class="linha"></span>
+      </div>
+    </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
+  </main>
 
-    <script src="./scripts/owl.carousel/dist/owl.carousel.min.js"></script>
+  <footer>
+    <span class="bold">Desenvolvido por <img src="images/codie-logo.png" alt="" /></span>
+  </footer>
 
-    <script src="./scripts/jquery.mask.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <script src="./scripts/main.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <script src="./scripts/owl.carousel/dist/owl.carousel.min.js"></script>
+
+  <script src="./scripts/jquery.mask.min.js"></script>
+
+  <script src="./scripts/main.js"></script>
+</body>
+
 </html>

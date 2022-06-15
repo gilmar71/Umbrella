@@ -85,4 +85,7 @@
   #contato .container_umbrella .formulario {
     max-width: 550px;
   }
+  #faq .container_umbrella {
+    max-width: 1250px;
+  }
 }

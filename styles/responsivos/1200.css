@@ -140,4 +140,13 @@
   #contato .container_umbrella .formulario {
     max-width: 550px;
   }
+  #faq .container_umbrella {
+    max-width: 1090px;
+  }
+  #faq .box-left {
+    display: none;
+  }
+  #faq .box-right {
+    display: none;
+  }
 }
