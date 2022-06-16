@@ -99,8 +99,6 @@ if (menuMobile && blockBar && bgMobile && closeMenu) {
 //FAQ
 const buttonsFaq = document.querySelectorAll("#faq .duvida");
 
-console.log(buttonsFaq);
-
 if (buttonsFaq) {
   var acc = document.getElementsByClassName("duvida");
   var i;

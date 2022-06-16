@@ -8,6 +8,9 @@
   .titulo-1 {
     font-size: 65px;
   }
+  .titulo-2 {
+    font-size: 44px;
+  }
   .titulo-3 {
     font-size: 30px;
   }
@@ -38,6 +41,10 @@
   }
   #quem_somos p {
     font-size: 15.5px;
+  }
+  #registro_marca {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   #registro_marca .container_umbrella {
     max-width: 1320px;
@@ -74,6 +81,9 @@
   #como_funciona .list {
     max-width: 580px;
   }
+  #como_funciona .list .underline img {
+    right: 10px;
+  }
   #como_funciona .list h2 {
     font-size: 37px;
   }
@@ -83,11 +93,23 @@
   #contato .container_umbrella .formulario {
     max-width: 550px;
   }
+  #faq .paragrafo-1 {
+    font-size: 23px;
+  }
   #faq .container_umbrella {
     max-width: 1250px;
   }
+  #faq .content .box-left img {
+    width: 148px;
+  }
+  #faq .content .box-right img {
+    width: 157px;
+  }
   #acompanhe .text {
     max-width: 362px;
+  }
+  #acompanhe .text img {
+    max-width: 270px;
   }
   #acompanhe .image {
     gap: 110px;
@@ -97,16 +119,18 @@
     max-width: 262px;
   }
   #acompanhe .image .box-left .laptop + * {
-    margin-top: 19px;
+    margin-top: 22px;
   }
   #acompanhe .image .box-left a {
     display: inline-flex;
+    margin-left: -20px;
   }
   #acompanhe .image .box-right {
     max-width: 213px;
   }
   #acompanhe .image .box-right a {
     display: inline-flex;
+    margin-left: -20px;
   }
   #acompanhe .image .links {
     display: none;
@@ -117,5 +141,8 @@
   }
   #acompanhe .bt img {
     width: 25px;
+  }
+  #clientes {
+    padding-top: 70px;
   }
 }

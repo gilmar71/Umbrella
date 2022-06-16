@@ -19,13 +19,16 @@
     font-size: 16.5px;
   }
   .paragrafo-1 {
-    font-size: 19px;
+    font-size: 18px;
   }
   .paragrafo-2 {
-    font-size: 15px;
+    font-size: 14.5px;
   }
   .link-3 {
     font-size: 12px;
+  }
+  header .container_umbrella {
+    max-width: 1000px;
   }
   header .logo {
     max-width: 132px;
@@ -141,7 +144,7 @@
     display: none;
   }
   #registro_marca .container_umbrella .p_bot {
-    margin-top: -120px;
+    margin-top: -135px;
   }
   #valores {
     padding-top: 50px;
@@ -178,15 +181,21 @@
     justify-content: center;
   }
   #como_funciona .list h2 + * {
-    margin-top: 42px;
+    margin-top: 35px;
   }
   #como_funciona .list ul {
     display: grid;
-    gap: 10px;
+    gap: 5px;
   }
   #faq {
     padding-top: 50px;
     padding-bottom: 30px;
+  }
+  #faq .paragrafo-1 {
+    font-size: 19px;
+  }
+  #faq .duvida {
+    padding: 20px 30px 20px 35px;
   }
   #contato {
     padding-top: 80px;
@@ -238,7 +247,8 @@
     text-align: center;
   }
   #acompanhe .text img {
-    margin-left: 165px;
+    margin-left: 175px;
+    max-width: 230px;
   }
   #acompanhe .image {
     display: flex;
@@ -248,7 +258,7 @@
     max-width: 262px;
   }
   #acompanhe .image .box-left .laptop + * {
-    margin-top: 20px;
+    margin-top: 22px;
   }
   #acompanhe .image .box-left a {
     display: inline-flex;
@@ -258,6 +268,7 @@
   }
   #acompanhe .image .box-right a {
     display: inline-flex;
+    margin-left: -5px;
   }
   #acompanhe .image .links {
     display: none;
