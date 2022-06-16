@@ -8,6 +8,11 @@
   src: url("../fonts/Montserrat-Medium.ttf") format("opentype");
   font-weight: 500;
 }
+@font-face {
+  font-family: "Arboria";
+  src: url("../fonts/Arboria-Medium.otf") format("opentype");
+  font-weight: 500;
+}
 h1,
 h2,
 h3,
@@ -31,6 +36,9 @@ td {
 }
 [class*="-montserrat"] {
   font-family: "montserrat";
+}
+[class*="-arboria"] {
+  font-family: "Arboria";
 }
 .uppercase {
   text-transform: uppercase;

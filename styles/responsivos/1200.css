@@ -195,7 +195,10 @@
     height: 50px;
   }
   #contato .container_umbrella .formulario textarea {
-    height: 150px;
+    height: 140px;
+  }
+  #contato .container_umbrella .underline img {
+    width: 180px;
   }
   #faq {
     padding-top: 50px;
@@ -212,5 +215,14 @@
   }
   #faq .box-right {
     display: none;
+  }
+  #rodape .seta {
+    width: 55px;
+  }
+  #rodape .logo {
+    max-width: 200px;
+  }
+  #rodape .container_umbrella .navegacao {
+    gap: 35px;
   }
 }

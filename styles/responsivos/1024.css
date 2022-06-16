@@ -25,7 +25,7 @@
     font-size: 14.5px;
   }
   .link-3 {
-    font-size: 12px;
+    font-size: 14.5px;
   }
   header .container_umbrella {
     max-width: 1000px;
@@ -223,6 +223,9 @@
   #contato .container_umbrella .formulario textarea {
     height: 150px;
   }
+  #contato .container_umbrella .underline img {
+    width: 170px;
+  }
   #contato .bt {
     height: 55px;
   }
@@ -291,24 +294,24 @@
     padding-bottom: 60px;
   }
   #rodape {
-    padding-top: 10px;
+    padding-top: 20px;
   }
   #rodape .container_umbrella .seta {
     top: -10px;
+    width: 45px;
   }
   #rodape .container_umbrella .logo {
-    max-width: 200px;
+    max-width: 170px;
   }
   #rodape .container_umbrella .logo + * {
-    margin-top: 35px;
+    margin-top: 25px;
   }
   #rodape .container_umbrella nav + * {
-    margin-top: 30px;
+    margin-top: 25px;
   }
   #rodape .container_umbrella .navegacao {
-    gap: 13px;
-  }
-  #rodape .container_umbrella .navegacao a {
-    font-weight: 500;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
   }
 }

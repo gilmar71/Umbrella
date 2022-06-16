@@ -93,6 +93,9 @@
   #contato .container_umbrella .formulario {
     max-width: 550px;
   }
+  #contato .container_umbrella .underline img {
+    width: 200px;
+  }
   #faq .paragrafo-1 {
     font-size: 23px;
   }
