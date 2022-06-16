@@ -24,6 +24,9 @@
   .paragrafo-1 {
     font-size: 21.5;
   }
+  .paragrafo-2 {
+    font-size: 15.5px;
+  }
   header .itens {
     gap: 0.2vw;
   }
@@ -44,16 +47,15 @@
     right: 1vw;
     top: 20px;
   }
-  #quem-somos .image {
-    width: 429px;
-    position: relative;
-    bottom: -9px;
+  #quem_somos .image {
+    max-width: 429px;
+    padding-top: 6px;
   }
-  #quem-somos p {
+  #quem_somos p {
     font-size: 15px;
-    line-height: 20px;
+    line-height: 21px;
   }
-  #quem-somos .text h2 + * {
+  #quem_somos .text h2 + * {
     margin-top: 0;
   }
   #registro_marca {
@@ -94,7 +96,7 @@
     gap: 20px;
   }
   #valores .quadrados {
-    gap: 20px;
+    gap: 15px;
   }
   #valores .square {
     padding: 25px 10px;
@@ -103,8 +105,8 @@
     margin-top: 12px;
   }
   #valores .square p {
-    font-size: 15px;
     line-height: 21px;
+    max-width: 220px;
   }
   #valores .square img {
     width: 48px;
@@ -173,13 +175,13 @@
     max-width: 350px;
   }
   #contato .container_umbrella .formulario {
-    max-width: 550px;
+    max-width: 480px;
   }
   #contato .container_umbrella .formulario input {
-    height: 55px;
+    height: 50px;
   }
   #contato .container_umbrella .formulario textarea {
-    height: 160px;
+    height: 150px;
   }
   #faq .container_umbrella {
     max-width: 1090px;

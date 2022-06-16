@@ -12,7 +12,7 @@
     font-size: 30px;
   }
   header .logo {
-    max-width: 152px;
+    max-width: 142px;
   }
   header .itens {
     gap: 1vw;
@@ -33,12 +33,10 @@
   #banner .title .carimbo {
     right: 0;
   }
-  #quem-somos .image {
-    width: 485px;
-    bottom: -8px;
-    position: relative;
+  #quem_somos .image {
+    max-width: 485px;
   }
-  #quem-somos p {
+  #quem_somos p {
     font-size: 15.5px;
   }
   #registro_marca .container_umbrella {

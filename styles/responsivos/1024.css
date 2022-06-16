@@ -9,6 +9,9 @@
   .whattsapp {
     width: 18px;
   }
+  .titulo-1 {
+    font-size: 50px;
+  }
   .titulo-2 {
     font-size: 38px;
   }
@@ -23,6 +26,9 @@
   }
   .link-3 {
     font-size: 12px;
+  }
+  header .logo {
+    max-width: 132px;
   }
   header .block_bar {
     z-index: 10;
@@ -80,7 +86,7 @@
     fill: var(--primary-color);
   }
   #banner {
-    padding-top: 100px;
+    padding-top: 65px;
   }
   #banner .underline img {
     width: 180px;
@@ -91,17 +97,20 @@
   #banner .title .carimbo {
     display: none;
   }
-  #quem-somos .text {
+  #quem_somos {
+    padding-bottom: 50px;
+  }
+  #quem_somos .text {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #quem-somos p {
-    font-size: 15px;
-    line-height: 18px;
+  #quem_somos p {
+    font-size: 15.5px;
+    line-height: 20px;
     text-align: center;
   }
-  #quem-somos .image {
+  #quem_somos .image {
     display: none;
     width: 410px;
     position: relative;
@@ -147,6 +156,9 @@
   }
   #valores .quadrados .square {
     padding: 40px 20px;
+  }
+  #valores .quadrados .square p {
+    max-width: 370px;
   }
   #valores .bt {
     width: 400px;

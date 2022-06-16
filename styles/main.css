@@ -216,42 +216,41 @@ header .itens a {
   left: 0;
   width: 100%;
 }
-#quem-somos {
+#quem_somos {
   padding-top: 190px;
 }
-#quem-somos .container_umbrella {
+#quem_somos .container_umbrella {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 25px;
 }
-#quem-somos .text {
-  padding-bottom: 30px;
+#quem_somos .text {
   max-width: 660px;
 }
-#quem-somos .text h2 {
+#quem_somos .text h2 {
   color: var(--secondary-color);
   position: relative;
   display: inline-block;
 }
-#quem-somos .text h2 img {
+#quem_somos .text h2 img {
   position: absolute;
   width: 34px;
-  right: -16px;
-  top: -6px;
+  top: -15px;
 }
-#quem-somos .text h2 + * {
+#quem_somos .text h2 + * {
   margin-top: 24px;
 }
-#quem-somos .text p {
+#quem_somos .text p {
   margin-bottom: 0;
 }
-#quem-somos .text p + * {
+#quem_somos .text p + * {
   margin-top: 26px;
 }
-#quem-somos .image {
+#quem_somos .image {
   display: block;
-  width: 554px;
+  max-width: 554px;
+  width: 100%;
 }
 #registro_marca {
   background-color: var(--quaternary-color);

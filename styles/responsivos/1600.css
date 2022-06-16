@@ -22,6 +22,9 @@
     top: 30px;
     right: -1.5vw;
   }
+  #quem_somos .text h2 + * {
+    margin-top: 22px;
+  }
   #como_funciona .image {
     width: 470px;
   }
