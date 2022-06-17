@@ -10,7 +10,7 @@
     width: 18px;
   }
   .titulo-1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   .titulo-2 {
     font-size: 38px;
@@ -89,7 +89,7 @@
     fill: var(--primary-color);
   }
   #banner {
-    padding-top: 65px;
+    padding-top: 35px;
   }
   #banner .underline img {
     width: 180px;
@@ -99,6 +99,9 @@
   }
   #banner .title .carimbo {
     display: none;
+  }
+  #banner .title + * {
+    margin-top: 30px;
   }
   #quem_somos {
     padding-bottom: 50px;

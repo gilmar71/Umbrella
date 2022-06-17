@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  #registro_marca .container_umbrella p {
+    margin-top: 10px;
+  }
+  #registro_marca .container_umbrella .content .box-middle {
+    background-image: unset;
+  }
+  #registro_marca .container_umbrella .content .box-middle p {
+    background-color: var(--primary-color);
+    padding: 20px;
+    max-width: 380px;
+  }
+  #registro_marca .container_umbrella .content .box-middle p + * {
+    margin-top: 20px;
+  }
+}

@@ -14,8 +14,18 @@
   .paragrafo-2 {
     font-size: 14px;
   }
+  header .logo {
+    max-width: 122px;
+  }
   #banner {
-    padding-top: 45px;
+    padding-top: 25px;
+  }
+  #banner .title .underline img {
+    width: 140px;
+    bottom: -5px;
+  }
+  #banner .title + * {
+    margin-top: 25px;
   }
   #quem_somos {
     padding-bottom: 40px;
@@ -24,8 +34,8 @@
     font-size: 14.5px;
   }
   #registro_marca {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 28px;
+    padding-bottom: 32px;
   }
   #registro_marca .container_umbrella .content .box-middle p {
     max-width: 500px;

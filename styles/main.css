@@ -155,7 +155,7 @@ header .itens a {
 #banner {
   background-color: var(--primary-color);
   width: 100%;
-  padding-top: 196px;
+  padding-top: 190px;
   position: relative;
 }
 #banner .title {
