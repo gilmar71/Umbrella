@@ -480,6 +480,7 @@ header .itens a {
 #redes_sociais .container_umbrella {
   margin-bottom: -200px;
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 #redes_sociais .container_umbrella .image {
@@ -501,8 +502,6 @@ header .itens a {
 #acompanhe .text {
   max-width: 430px;
   color: #fff;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 50px;
 }
 #acompanhe .text h2 {
@@ -511,6 +510,8 @@ header .itens a {
 #acompanhe .text img {
   max-width: 300px;
   width: 100%;
+  position: relative;
+  top: -8px;
 }
 #acompanhe .image {
   display: flex;
@@ -635,13 +636,14 @@ header .itens a {
   margin-top: 40px;
 }
 #contato .container_umbrella .contato-lista {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 #contato .container_umbrella .contato-lista li {
   display: flex;
   gap: 15px;
   align-items: center;
-  margin-top: 15px;
 }
 #contato .container_umbrella .contato-lista li img {
   width: 20px;

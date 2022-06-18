@@ -46,6 +46,15 @@
   #faq .content .faqs {
     margin: 0 39px 0 54px;
   }
+  #redes_sociais .container_umbrella {
+    gap: 20px;
+  }
+  #redes_sociais .container_umbrella .image {
+    max-width: 380px;
+  }
+  #acompanhe {
+    padding-top: 200px;
+  }
   #acompanhe .text {
     max-width: 420px;
   }
@@ -63,5 +72,15 @@
   }
   #clientes {
     padding-top: 80px;
+  }
+  #contato .container_umbrella {
+    justify-content: center;
+    gap: 60px;
+  }
+  #contato .container_umbrella .formulario input {
+    height: 55px;
+  }
+  #contato .container_umbrella .formulario textarea {
+    height: 170px;
   }
 }

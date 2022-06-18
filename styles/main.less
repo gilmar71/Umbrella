@@ -588,6 +588,7 @@ header {
   .container_umbrella {
     margin-bottom: -200px;
     display: flex;
+    justify-content: center;
     gap: 30px;
 
     .image {
@@ -613,8 +614,6 @@ header {
   .text {
     max-width: 430px;
     color: #fff;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 50px;
     h2 {
       margin-bottom: 0;
@@ -623,6 +622,8 @@ header {
     img {
       max-width: 300px;
       width: 100%;
+      position: relative;
+      top: -8px;
     }
   }
 
@@ -775,13 +776,14 @@ header {
     }
 
     .contato-lista {
-      display: grid;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
 
       li {
         display: flex;
         gap: 15px;
         align-items: center;
-        margin-top: 15px;
 
         img {
           width: 20px;

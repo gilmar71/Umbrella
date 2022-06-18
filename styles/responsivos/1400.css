@@ -9,7 +9,7 @@
     font-size: 70px;
   }
   .titulo-2 {
-    font-size: 44px;
+    font-size: 42px;
   }
   .titulo-3 {
     font-size: 30px;
@@ -109,17 +109,18 @@
   #como_funciona .item {
     gap: 15px;
   }
-  #contato .container_umbrella .formulario {
-    max-width: 550px;
-  }
-  #contato .container_umbrella .underline img {
-    width: 200px;
+  #faq {
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
   #faq .paragrafo-1 {
     font-size: 23px;
   }
   #faq .container_umbrella {
     max-width: 1250px;
+  }
+  #faq h2 {
+    margin-bottom: 30px;
   }
   #faq h2 .detalhe img {
     width: 30px;
@@ -131,11 +132,29 @@
   #faq .content .box-right img {
     width: 157px;
   }
+  #faq .perguntas {
+    margin-bottom: 18px;
+  }
+  #redes_sociais {
+    padding-top: 60px;
+  }
+  #redes_sociais .container_umbrella {
+    margin-bottom: -160px;
+    gap: 16px;
+  }
+  #redes_sociais .container_umbrella .image {
+    max-width: 310px;
+  }
+  #acompanhe {
+    padding-top: 160px;
+  }
   #acompanhe .text {
+    margin-left: 40px;
     max-width: 362px;
   }
   #acompanhe .text img {
-    max-width: 270px;
+    max-width: 250px;
+    top: -10px;
   }
   #acompanhe .image {
     gap: 110px;
@@ -145,7 +164,7 @@
     max-width: 262px;
   }
   #acompanhe .image .box-left .laptop + * {
-    margin-top: 22px;
+    margin-top: 21px;
   }
   #acompanhe .image .box-left a {
     display: inline-flex;
@@ -163,12 +182,30 @@
   }
   #acompanhe .bt {
     height: 45px;
-    font-size: 15.5px;
+    font-size: 15px;
   }
   #acompanhe .bt img {
-    width: 25px;
+    width: 23px;
   }
   #clientes {
     padding-top: 70px;
+  }
+  #contato .container_umbrella {
+    gap: 50px;
+  }
+  #contato .container_umbrella .contato-lista {
+    gap: 12px;
+  }
+  #contato .container_umbrella .formulario {
+    max-width: 550px;
+  }
+  #contato .container_umbrella .formulario input {
+    height: 50px;
+  }
+  #contato .container_umbrella .formulario textarea {
+    height: 160px;
+  }
+  #contato .container_umbrella .underline img {
+    width: 200px;
   }
 }

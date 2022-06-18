@@ -1,21 +1,24 @@
 @media only screen and (max-width: 500px) {
   .container_umbrella {
-    max-width: 430px;
+    max-width: 290px;
   }
   .titulo-1 {
     font-size: 30px;
   }
   .titulo-2 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .titulo-3 {
     font-size: 24px;
   }
+  .titulo-4 {
+    font-size: 12px;
+  }
   .paragrafo-1 {
-    font-size: 16px;
+    font-size: 15px;
   }
   .paragrafo-2 {
-    font-size: 12.5px;
+    font-size: 12px;
   }
   .bt {
     height: 35px;
@@ -41,6 +44,9 @@
     padding-top: 175px;
     padding-bottom: 25px;
   }
+  #quem_somos .paragrafo-2 {
+    font-size: 12px;
+  }
   #quem_somos .text h2 img {
     width: 22px;
     top: -7px;
@@ -49,7 +55,6 @@
     margin-top: 15px;
   }
   #quem_somos p {
-    font-size: 13px;
     line-height: 16px;
   }
   #registro_marca {
@@ -79,10 +84,13 @@
     max-width: 280px;
   }
   #como_funciona .titulo-2 {
-    font-size: 27px;
+    font-size: 25px;
   }
   #como_funciona .paragrafo-2 {
     font-size: 12px;
+  }
+  #como_funciona .list .item {
+    gap: 5px;
   }
   #como_funciona .list h2 {
     max-width: 290px;
@@ -92,5 +100,43 @@
   }
   #como_funciona .list ul + * {
     margin-top: -5px;
+  }
+  #faq {
+    padding-top: 30px;
+  }
+  #faq .paragrafo-1 {
+    font-size: 15px;
+  }
+  #faq h2 .detalhe img {
+    width: 20px;
+  }
+  #faq .duvida {
+    padding: 8px 15px 8px 20px;
+  }
+  #faq .content-icon svg {
+    width: 22px;
+  }
+  #redes_sociais .container_umbrella .image {
+    max-width: 210px;
+  }
+  #acompanhe .redes-sociais .text {
+    max-width: 225px;
+  }
+  #acompanhe .redes-sociais .text img {
+    max-width: 150px;
+  }
+  #acompanhe .redes-sociais .box-right {
+    max-width: 100px;
+  }
+  #acompanhe .redes-sociais .box-left {
+    max-width: 142px;
+  }
+  #acompanhe .bt {
+    font-size: 11.5px;
+    padding: 0 15px;
+    height: 30px;
+  }
+  #acompanhe .bt img {
+    width: 13px;
   }
 }

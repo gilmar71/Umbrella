@@ -2,4 +2,10 @@
   .paragrafo-1 {
     font-size: 14px;
   }
+  #acompanhe .redes-sociais .text {
+    max-width: 220px;
+  }
+  #acompanhe .bt {
+    font-size: 12px;
+  }
 }

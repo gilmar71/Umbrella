@@ -219,17 +219,90 @@
     padding-bottom: 30px;
   }
   #faq .paragrafo-1 {
-    font-size: 19px;
+    font-size: 18px;
+  }
+  #faq h2 {
+    margin-bottom: 20px;
   }
   #faq h2 .detalhe img {
     width: 26px;
     top: -8px;
   }
   #faq .duvida {
-    padding: 20px 30px 20px 35px;
+    padding: 18px 28px 18px 33px;
+  }
+  #faq .content-icon svg {
+    width: 30px;
+  }
+  #faq .perguntas {
+    margin-bottom: 15px;
+  }
+  #redes_sociais {
+    background-color: var(--primary-color);
+    padding-top: 50px;
+  }
+  #redes_sociais .container_umbrella {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  #redes_sociais .container_umbrella .image {
+    max-width: 330px;
+  }
+  #acompanhe {
+    padding-top: 155px;
+  }
+  #acompanhe .redes-sociais {
+    padding-top: unset;
+    flex-direction: column;
+  }
+  #acompanhe .text {
+    max-width: 348px;
+    text-align: center;
+    margin-bottom: unset;
+    margin-left: unset;
+  }
+  #acompanhe .text img {
+    top: -14px;
+    max-width: 230px;
+  }
+  #acompanhe .image {
+    display: flex;
+    justify-content: unset;
+    gap: 50px;
+    padding-right: 30px;
+  }
+  #acompanhe .image .box-left {
+    max-width: 222px;
+  }
+  #acompanhe .image .box-left .laptop + * {
+    margin-top: 11px;
+  }
+  #acompanhe .image .box-right {
+    max-width: 173px;
+  }
+  #acompanhe .image .box-right a {
+    margin-left: -5px;
+  }
+  #acompanhe .image .links {
+    display: none;
+  }
+  #acompanhe .bt {
+    font-size: 14.5px;
+  }
+  #acompanhe .bt img {
+    width: 20px;
+  }
+  #clientes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #clientes h2 + * {
+    margin-top: 10px;
   }
   #contato {
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 60px;
   }
   #contato .container_umbrella {
     flex-direction: column;
@@ -259,70 +332,6 @@
   }
   #contato .bt {
     height: 55px;
-  }
-  #redes_sociais {
-    background-color: var(--primary-color);
-    padding-top: 50px;
-  }
-  #redes_sociais .container_umbrella {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-  #redes_sociais .container_umbrella .image {
-    max-width: 350px;
-  }
-  #acompanhe .redes-sociais {
-    display: grid;
-    padding-top: 0;
-  }
-  #acompanhe .text {
-    max-width: 580px;
-    text-align: center;
-  }
-  #acompanhe .text img {
-    margin-left: 175px;
-    max-width: 230px;
-  }
-  #acompanhe .image {
-    display: flex;
-    justify-content: space-between;
-  }
-  #acompanhe .image .box-left {
-    max-width: 262px;
-  }
-  #acompanhe .image .box-left .laptop + * {
-    margin-top: 22px;
-  }
-  #acompanhe .image .box-left a {
-    display: inline-flex;
-  }
-  #acompanhe .image .box-right {
-    max-width: 213px;
-  }
-  #acompanhe .image .box-right a {
-    display: inline-flex;
-    margin-left: -5px;
-  }
-  #acompanhe .image .links {
-    display: none;
-  }
-  #acompanhe .bt {
-    font-size: 14.5px;
-  }
-  #acompanhe .bt img {
-    width: 20px;
-  }
-  #clientes {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  #clientes h2 + * {
-    margin-top: 10px;
-  }
-  #contato {
-    padding-top: 50px;
-    padding-bottom: 60px;
   }
   #rodape {
     padding-top: 20px;

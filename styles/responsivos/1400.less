@@ -12,7 +12,7 @@
   }
 
   .titulo-2 {
-    font-size: 44px;
+    font-size: 42px;
   }
 
   .titulo-3 {
@@ -160,21 +160,9 @@
     }
   }
 
-  #contato {
-    .container_umbrella {
-      .formulario {
-        max-width: 550px;
-      }
-
-      .underline {
-        img {
-          width: 200px;
-        }
-      }
-    }
-  }
-
   #faq {
+    padding-top: 70px;
+    padding-bottom: 70px;
     .paragrafo-1 {
       font-size: 23px;
     }
@@ -184,6 +172,7 @@
     }
 
     h2 {
+      margin-bottom: 30px;
       .detalhe {
         img {
           width: 30px;
@@ -205,14 +194,34 @@
         }
       }
     }
+
+    .perguntas {
+      margin-bottom: 18px;
+    }
+  }
+
+  #redes_sociais {
+    padding-top: 60px;
+    .container_umbrella {
+      margin-bottom: -160px;
+      gap: 16px;
+
+      .image {
+        max-width: 310px;
+      }
+    }
   }
 
   #acompanhe {
+    padding-top: 160px;
+
     .text {
+      margin-left: 40px;
       max-width: 362px;
 
       img {
-        max-width: 270px;
+        max-width: 250px;
+        top: -10px;
       }
     }
 
@@ -223,7 +232,7 @@
         max-width: 262px;
 
         .laptop + * {
-          margin-top: 22px;
+          margin-top: 21px;
         }
 
         a {
@@ -248,15 +257,41 @@
 
     .bt {
       height: 45px;
-      font-size: 15.5px;
+      font-size: 15px;
 
       img {
-        width: 25px;
+        width: 23px;
       }
     }
   }
 
   #clientes {
     padding-top: 70px;
+  }
+
+  #contato {
+    .container_umbrella {
+      gap: 50px;
+
+      .contato-lista {
+        gap: 12px;
+      }
+      .formulario {
+        max-width: 550px;
+
+        input {
+          height: 50px;
+        }
+        textarea {
+          height: 160px;
+        }
+      }
+
+      .underline {
+        img {
+          width: 200px;
+        }
+      }
+    }
   }
 }

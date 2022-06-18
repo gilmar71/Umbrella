@@ -100,31 +100,47 @@
     align-items: flex-start;
   }
   #como_funciona .list .item {
-    gap: 5px;
+    gap: 8px;
   }
   #faq {
     padding-top: 40px;
     padding-bottom: 20px;
   }
   #faq .paragrafo-1 {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  #faq h2 {
+    margin-bottom: 15px;
   }
   #faq h2 .detalhe img {
-    width: 24px;
+    width: 22px;
   }
   #faq .duvida {
     padding: 15px 20px 15px 30px;
+  }
+  #faq .content-icon svg {
+    width: 26px;
+  }
+  #faq .perguntas {
+    margin-bottom: 12px;
   }
   #redes_sociais {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+  #redes_sociais .container_umbrella {
+    gap: 8px;
+  }
+  #redes_sociais .container_umbrella .image {
+    max-width: 290px;
+    border: 8px solid #fff;
+  }
   #acompanhe {
-    padding-top: 180px;
+    padding-top: 110px;
     padding-bottom: 40px;
   }
   #acompanhe .bt {
-    font-size: 13px;
+    font-size: 12.5px;
   }
   #acompanhe .bt img {
     width: 17px;
@@ -133,25 +149,29 @@
     justify-content: center;
   }
   #acompanhe .redes-sociais .text {
-    max-width: 520px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 275px;
   }
   #acompanhe .redes-sociais .text img {
-    margin-left: 190px;
-    max-width: 220px;
+    max-width: 190px;
+  }
+  #acompanhe .redes-sociais .image {
+    flex-direction: column;
+    padding-right: unset;
+    gap: 18px;
+    align-items: center;
   }
   #acompanhe .redes-sociais .box-right {
-    max-width: 183px;
+    max-width: 163px;
+    margin-left: 30px;
   }
   #acompanhe .redes-sociais .box-right a {
-    margin-left: -19px;
+    margin-left: -45px;
   }
   #acompanhe .redes-sociais .box-left {
-    max-width: 232px;
+    max-width: 212px;
   }
   #acompanhe .redes-sociais .box-left .laptop + * {
-    margin-top: 14px;
+    margin-top: unset;
   }
   #clientes {
     padding-top: 40px;
