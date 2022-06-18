@@ -8,15 +8,19 @@
   }
 
   .titulo-2 {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   .titulo-3 {
-    font-size: 27px;
+    font-size: 26px;
+  }
+
+  .paragrafo-1 {
+    font-size: 17px;
   }
 
   .paragrafo-2 {
-    font-size: 14px;
+    font-size: 13.5px;
   }
 
   header {
@@ -43,7 +47,19 @@
   }
 
   #quem_somos {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+
+    .text {
+      h2 {
+        img {
+          width: 24px;
+        }
+      }
+
+      p + * {
+        margin-top: 20px;
+      }
+    }
     p {
       font-size: 14.5px;
     }
@@ -51,7 +67,7 @@
 
   #registro_marca {
     padding-top: 28px;
-    padding-bottom: 32px;
+    padding-bottom: 20px;
 
     .container_umbrella {
       .content {
@@ -65,31 +81,69 @@
   }
 
   #valores {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .quadrados {
+      gap: 10px;
+      .square {
+        padding: 25px 15px;
+        max-width: 325px;
 
-    .square {
-      max-width: 380px;
+        img {
+          width: 40px;
+        }
 
-      img {
-        width: 45px;
+        p {
+          font-size: 13.5px;
+        }
       }
-
-      p {
-        font-size: 14px;
-      }
+    }
+    .bt {
+      width: 325px;
     }
   }
 
   #como_funciona {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    .titulo-2 {
+      font-size: 32px;
+    }
+
+    .paragrafo-2 {
+      font-size: 13.5px;
+    }
 
     .list {
-      .item {
-        p {
-          font-size: 14px;
+      align-items: center;
+
+      h2 {
+        text-align: center;
+        max-width: 290px;
+
+        .underline {
+          img {
+            bottom: -2px;
+          }
         }
+      }
+
+      h2 + * {
+        margin-top: 12px;
+      }
+
+      ul {
+        display: unset;
+        gap: unset;
+      }
+
+      .number {
+        align-items: flex-start;
+      }
+
+      .item {
+        gap: 5px;
       }
     }
   }
@@ -100,6 +154,14 @@
 
     .paragrafo-1 {
       font-size: 18px;
+    }
+
+    h2 {
+      .detalhe {
+        img {
+          width: 24px;
+        }
+      }
     }
 
     .duvida {

@@ -25,6 +25,12 @@
   #quem_somos .text h2 + * {
     margin-top: 22px;
   }
+  #valores .quadrados {
+    gap: 25px;
+  }
+  #valores .quadrados + * {
+    margin-top: 25px;
+  }
   #como_funciona .image {
     width: 470px;
   }

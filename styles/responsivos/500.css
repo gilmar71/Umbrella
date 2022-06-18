@@ -8,12 +8,21 @@
   .titulo-2 {
     font-size: 27px;
   }
+  .titulo-3 {
+    font-size: 24px;
+  }
+  .paragrafo-1 {
+    font-size: 16px;
+  }
   .paragrafo-2 {
-    font-size: 13px;
+    font-size: 12.5px;
   }
   .bt {
     height: 35px;
     font-size: 12px;
+  }
+  .whattsapp {
+    width: 16px;
   }
   header .logo {
     max-width: 112px;
@@ -30,19 +39,58 @@
   }
   #quem_somos {
     padding-top: 175px;
+    padding-bottom: 25px;
   }
   #quem_somos .text h2 img {
     width: 22px;
-    top: -10px;
+    top: -7px;
+  }
+  #quem_somos .text p + * {
+    margin-top: 15px;
   }
   #quem_somos p {
     font-size: 13px;
     line-height: 16px;
   }
+  #registro_marca {
+    padding-top: 18px;
+    padding-bottom: 20px;
+  }
+  #registro_marca .container_umbrella {
+    max-width: 430px;
+  }
   #registro_marca .container_umbrella p {
-    margin-top: 5px;
+    margin-top: 8px;
   }
   #registro_marca .container_umbrella .content .box-middle p + * {
-    margin-top: 15px;
+    margin-top: 10px;
+  }
+  #valores .quadrados .square {
+    padding: 20px 10px;
+    max-width: 290px;
+  }
+  #valores .quadrados .square img {
+    width: 32px;
+  }
+  #valores .quadrados .square p {
+    font-size: 12.5px;
+  }
+  #valores .bt {
+    max-width: 280px;
+  }
+  #como_funciona .titulo-2 {
+    font-size: 27px;
+  }
+  #como_funciona .paragrafo-2 {
+    font-size: 12px;
+  }
+  #como_funciona .list h2 {
+    max-width: 290px;
+  }
+  #como_funciona .list h2 .underline img {
+    width: 110px;
+  }
+  #como_funciona .list ul + * {
+    margin-top: -5px;
   }
 }

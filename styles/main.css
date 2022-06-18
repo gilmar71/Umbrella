@@ -313,7 +313,8 @@ header .itens a {
 #registro_marca .content .box-middle p {
   max-width: 660px;
   width: 100%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   line-height: 1.33;
 }
@@ -326,13 +327,12 @@ header .itens a {
   padding-top: 80px;
   padding-bottom: 70px;
 }
-#valores .container_umbrella {
-  display: grid;
-  gap: 30px;
-}
 #valores .quadrados {
   display: flex;
   gap: 30px;
+}
+#valores .quadrados + * {
+  margin-top: 30px;
 }
 #valores .square {
   display: grid;
@@ -347,8 +347,10 @@ header .itens a {
   color: var(--secondary-color);
   margin-top: 17px;
 }
-#valores .square p {
+#valores .square h3 + * {
   margin-top: 10px;
+}
+#valores .square p {
   text-align: center;
   margin-bottom: 0;
 }
@@ -389,7 +391,9 @@ header .itens a {
 }
 #como_funciona .list .number {
   color: var(--primary-color);
-  width: 22px;
+  display: flex;
+  justify-content: center;
+  margin-top: -7px;
 }
 #como_funciona .item {
   display: flex;

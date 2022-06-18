@@ -53,6 +53,14 @@
   }
 
   #quem_somos {
+    .text {
+      h2 {
+        img {
+          width: 30px;
+          top: -12px;
+        }
+      }
+    }
     .image {
       max-width: 485px;
     }
@@ -96,6 +104,14 @@
   }
 
   #valores {
+    .quadrados {
+      gap: 20px;
+    }
+
+    .quadrados + * {
+      margin-top: 20px;
+    }
+
     .square {
       padding: 40px 20px;
 
@@ -106,6 +122,14 @@
   }
 
   #como_funciona {
+    .titulo-2 {
+      font-size: 37px;
+    }
+
+    .paragrafo-2 {
+      font-size: 15.5px;
+    }
+
     .image {
       width: 437.75px;
       height: 458.15px;
@@ -121,12 +145,18 @@
       }
 
       h2 {
-        font-size: 37px;
-
         img {
           width: 170px;
         }
       }
+
+      ul + * {
+        margin-top: 15px;
+      }
+    }
+
+    .item {
+      gap: 15px;
     }
   }
 
@@ -151,6 +181,15 @@
 
     .container_umbrella {
       max-width: 1250px;
+    }
+
+    h2 {
+      .detalhe {
+        img {
+          width: 30px;
+          top: -12px;
+        }
+      }
     }
 
     .content {

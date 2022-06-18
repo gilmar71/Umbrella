@@ -6,13 +6,16 @@
     font-size: 40px;
   }
   .titulo-2 {
-    font-size: 36px;
+    font-size: 32px;
   }
   .titulo-3 {
-    font-size: 27px;
+    font-size: 26px;
+  }
+  .paragrafo-1 {
+    font-size: 17px;
   }
   .paragrafo-2 {
-    font-size: 14px;
+    font-size: 13.5px;
   }
   header .logo {
     max-width: 122px;
@@ -28,37 +31,76 @@
     margin-top: 25px;
   }
   #quem_somos {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+  }
+  #quem_somos .text h2 img {
+    width: 24px;
+  }
+  #quem_somos .text p + * {
+    margin-top: 20px;
   }
   #quem_somos p {
     font-size: 14.5px;
   }
   #registro_marca {
     padding-top: 28px;
-    padding-bottom: 32px;
+    padding-bottom: 20px;
   }
   #registro_marca .container_umbrella .content .box-middle p {
     max-width: 500px;
   }
   #valores {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
-  #valores .square {
-    max-width: 380px;
+  #valores .quadrados {
+    gap: 10px;
   }
-  #valores .square img {
-    width: 45px;
+  #valores .quadrados .square {
+    padding: 25px 15px;
+    max-width: 325px;
   }
-  #valores .square p {
-    font-size: 14px;
+  #valores .quadrados .square img {
+    width: 40px;
+  }
+  #valores .quadrados .square p {
+    font-size: 13.5px;
+  }
+  #valores .bt {
+    width: 325px;
   }
   #como_funciona {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
-  #como_funciona .list .item p {
-    font-size: 14px;
+  #como_funciona .titulo-2 {
+    font-size: 32px;
+  }
+  #como_funciona .paragrafo-2 {
+    font-size: 13.5px;
+  }
+  #como_funciona .list {
+    align-items: center;
+  }
+  #como_funciona .list h2 {
+    text-align: center;
+    max-width: 290px;
+  }
+  #como_funciona .list h2 .underline img {
+    bottom: -2px;
+  }
+  #como_funciona .list h2 + * {
+    margin-top: 12px;
+  }
+  #como_funciona .list ul {
+    display: unset;
+    gap: unset;
+  }
+  #como_funciona .list .number {
+    align-items: flex-start;
+  }
+  #como_funciona .list .item {
+    gap: 5px;
   }
   #faq {
     padding-top: 40px;
@@ -66,6 +108,9 @@
   }
   #faq .paragrafo-1 {
     font-size: 18px;
+  }
+  #faq h2 .detalhe img {
+    width: 24px;
   }
   #faq .duvida {
     padding: 15px 20px 15px 30px;

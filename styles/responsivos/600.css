@@ -1,9 +1,34 @@
 @media only screen and (max-width: 600px) {
+  .container_umbrella {
+    max-width: 500px;
+  }
+  .titulo-2 {
+    font-size: 30px;
+  }
+  .paragrafo-1 {
+    font-size: 16.5px;
+  }
+  #quem_somos .text p + * {
+    margin-top: 18px;
+  }
+  #quem_somos p {
+    font-size: 14px;
+  }
+  #registro_marca .container_umbrella {
+    max-width: 530px;
+  }
   #registro_marca .container_umbrella p {
     margin-top: 10px;
   }
+  #registro_marca .container_umbrella .content {
+    margin-top: 0;
+    display: unset;
+  }
   #registro_marca .container_umbrella .content .box-middle {
     background-image: unset;
+    display: unset;
+    position: unset;
+    padding-bottom: unset;
   }
   #registro_marca .container_umbrella .content .box-middle p {
     background-color: var(--primary-color);
@@ -11,6 +36,12 @@
     max-width: 380px;
   }
   #registro_marca .container_umbrella .content .box-middle p + * {
-    margin-top: 20px;
+    margin-top: 15px;
+  }
+  #registro_marca .container_umbrella .p_bot {
+    margin-top: 10px;
+  }
+  #como_funciona .titulo-2 {
+    font-size: 30px;
   }
 }

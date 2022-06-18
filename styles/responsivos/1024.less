@@ -20,6 +20,10 @@
     font-size: 38px;
   }
 
+  .titulo-3 {
+    font-size: 26.5px;
+  }
+
   .titulo-4 {
     font-size: 16.5px;
   }
@@ -141,6 +145,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      h2 {
+        img {
+          width: 26px;
+          top: -8px;
+        }
+      }
     }
     p {
       font-size: 15.5px;
@@ -157,8 +168,8 @@
   }
 
   #registro_marca {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 25px;
 
     .container_umbrella {
       max-width: 660px;
@@ -191,7 +202,8 @@
   }
 
   #valores {
-    padding-top: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 
     .container_umbrella {
       gap: 30px;
@@ -202,21 +214,36 @@
       align-items: center;
 
       .square {
+        max-width: 355px;
         padding: 40px 20px;
 
+        h3 {
+          margin-top: 8px;
+        }
+
         p {
-          max-width: 370px;
+          max-width: 300px;
+          font-size: 14px;
         }
       }
     }
+
+    .quadrados + * {
+      margin-top: 15px;
+    }
+
     .bt {
-      width: 400px;
+      width: 360px;
     }
   }
 
   #como_funciona {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 28px;
+    padding-bottom: 35px;
+
+    .paragrafo-2 {
+      font-size: 13.5px;
+    }
 
     .container_umbrella {
       justify-content: center;
@@ -232,13 +259,27 @@
     }
 
     .list {
+      .item {
+        gap: 10px;
+      }
+
+      h2 {
+        .underline {
+          img {
+            bottom: -5px;
+          }
+        }
+      }
+
       h2 + * {
-        margin-top: 35px;
+        margin-top: 20px;
       }
 
       ul {
-        display: grid;
-        gap: 5px;
+      }
+
+      ul + * {
+        margin-top: 0;
       }
     }
   }
@@ -249,6 +290,15 @@
 
     .paragrafo-1 {
       font-size: 19px;
+    }
+
+    h2 {
+      .detalhe {
+        img {
+          width: 26px;
+          top: -8px;
+        }
+      }
     }
 
     .duvida {

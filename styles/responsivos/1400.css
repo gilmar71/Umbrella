@@ -36,6 +36,10 @@
   #banner .title .carimbo {
     right: 0;
   }
+  #quem_somos .text h2 img {
+    width: 30px;
+    top: -12px;
+  }
   #quem_somos .image {
     max-width: 485px;
   }
@@ -68,10 +72,22 @@
   #registro_marca .content .box-right .megafone {
     width: 230px;
   }
+  #valores .quadrados {
+    gap: 20px;
+  }
+  #valores .quadrados + * {
+    margin-top: 20px;
+  }
   #valores .square {
     padding: 40px 20px;
   }
   #valores .square p {
+    font-size: 15.5px;
+  }
+  #como_funciona .titulo-2 {
+    font-size: 37px;
+  }
+  #como_funciona .paragrafo-2 {
     font-size: 15.5px;
   }
   #como_funciona .image {
@@ -84,11 +100,14 @@
   #como_funciona .list .underline img {
     right: 10px;
   }
-  #como_funciona .list h2 {
-    font-size: 37px;
-  }
   #como_funciona .list h2 img {
     width: 170px;
+  }
+  #como_funciona .list ul + * {
+    margin-top: 15px;
+  }
+  #como_funciona .item {
+    gap: 15px;
   }
   #contato .container_umbrella .formulario {
     max-width: 550px;
@@ -101,6 +120,10 @@
   }
   #faq .container_umbrella {
     max-width: 1250px;
+  }
+  #faq h2 .detalhe img {
+    width: 30px;
+    top: -12px;
   }
   #faq .content .box-left img {
     width: 148px;

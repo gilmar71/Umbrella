@@ -16,7 +16,7 @@
     font-size: 40px;
   }
   .titulo-3 {
-    font-size: 28px;
+    font-size: 27px;
   }
   .titulo-4 {
     font-size: 17px;
@@ -46,6 +46,10 @@
   #banner .title .carimbo {
     right: 1vw;
     top: 20px;
+  }
+  #quem_somos .text h2 img {
+    width: 28px;
+    top: -10px;
   }
   #quem_somos .image {
     max-width: 429px;
@@ -102,17 +106,26 @@
     padding: 25px 10px;
   }
   #valores .square h3 {
-    margin-top: 12px;
+    margin-top: 8px;
   }
   #valores .square p {
+    font-size: 14px;
     line-height: 21px;
+    max-width: 220px;
+    margin-top: 0;
   }
   #valores .square img {
-    width: 48px;
+    width: 43px;
   }
   #como_funciona {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  #como_funciona .titulo-2 {
+    font-size: 31px;
+  }
+  #como_funciona .paragrafo-2 {
+    font-size: 14.5px;
   }
   #como_funciona .container_umbrella {
     gap: 27px;
@@ -125,10 +138,7 @@
     max-width: 500px;
   }
   #como_funciona .list ul + * {
-    margin-top: 15px;
-  }
-  #como_funciona .list h2 {
-    font-size: 31px;
+    margin-top: 10px;
   }
   #como_funciona .list h2 .underline img {
     width: 136px;
@@ -138,9 +148,14 @@
   #como_funciona .list h2 + * {
     margin-top: 25px;
   }
+  #como_funciona .list .item {
+    gap: 12px;
+  }
   #como_funciona .list .item p {
-    font-size: 14.5px;
     line-height: 20px;
+  }
+  #como_funciona .list .number {
+    margin-top: -5px;
   }
   #redes_sociais {
     padding-top: 60px;
@@ -209,6 +224,10 @@
   }
   #faq .container_umbrella {
     max-width: 1090px;
+  }
+  #faq h2 .detalhe img {
+    width: 28px;
+    top: -10px;
   }
   #faq .box-left {
     display: none;

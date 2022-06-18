@@ -375,7 +375,8 @@ header {
       p {
         max-width: 660px;
         width: 100%;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         color: #fff;
         line-height: 1.33;
       }
@@ -394,13 +395,15 @@ header {
   padding-bottom: 70px;
 
   .container_umbrella {
-    display: grid;
-    gap: 30px;
   }
 
   .quadrados {
     display: flex;
     gap: 30px;
+  }
+
+  .quadrados + * {
+    margin-top: 30px;
   }
 
   .square {
@@ -417,8 +420,11 @@ header {
       margin-top: 17px;
     }
 
-    p {
+    h3 + * {
       margin-top: 10px;
+    }
+
+    p {
       text-align: center;
       margin-bottom: 0;
     }
@@ -469,7 +475,9 @@ header {
 
     .number {
       color: var(--primary-color);
-      width: 22px;
+      display: flex;
+      justify-content: center;
+      margin-top: -7px;
     }
   }
 
