@@ -1,15 +1,118 @@
 @media only screen and (max-width: 320px) {
+  .titulo-1 {
+    font-size: 26px;
+  }
   .titulo-2 {
-    font-size: 22px;
+    font-size: 24px;
+  }
+  .titulo-3 {
+    font-size: 20px;
   }
   .paragrafo-1 {
     font-size: 14px;
   }
   .whattsapp {
-    width: 12px;
+    width: 11px;
+  }
+  .bt {
+    height: 20px;
+  }
+  #banner {
+    padding-top: 10px;
+  }
+  #banner .title + * {
+    margin-top: 5px;
+  }
+  #banner .video {
+    margin-bottom: -80px;
+  }
+  #quem_somos {
+    padding-top: 95px;
+    padding-bottom: 10px;
+  }
+  #quem_somos .text h2 {
+    margin-bottom: 2px;
+  }
+  #quem_somos .text h2 img {
+    width: 18px;
+  }
+  #quem_somos .text p + * {
+    margin-top: 8px;
+  }
+  #registro_marca {
+    padding-top: 5px;
+    padding-bottom: 8px;
+  }
+  #registro_marca .container_umbrella p {
+    margin-top: 5px;
+  }
+  #valores {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #valores .quadrados .square {
+    max-width: 280px;
+    padding: 15px 10px;
+  }
+  #valores .quadrados .square h3 {
+    margin-bottom: 0;
+  }
+  #valores .quadrados .square img {
+    width: 30px;
+  }
+  #valores .quadrados .square p {
+    font-size: 12px;
+  }
+  #valores .quadrados + * {
+    margin-top: 8px;
+  }
+  #valores .bt {
+    max-width: 220px;
+  }
+  #como_funciona {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #como_funciona .titulo-2 {
+    font-size: 24px;
+  }
+  #como_funciona .list .item p {
+    line-height: 17px;
+    margin-bottom: 10px;
+  }
+  #como_funciona .list .number {
+    margin-top: -3px;
+  }
+  #como_funciona .list h2 .underline img {
+    width: 102px;
+  }
+  #como_funciona .list h2 + * {
+    margin-top: 5px;
+  }
+  #faq {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  #faq .paragrafo-1 {
+    font-size: 12px;
+  }
+  #faq .resposta {
+    padding: 10px 15px 10px;
+  }
+  #faq .resposta p {
+    margin-bottom: 0;
+  }
+  #faq .content-icon svg {
+    width: 16px;
+  }
+  #redes_sociais {
+    padding-top: 15px;
   }
   #redes_sociais .container_umbrella .image {
     max-width: 190px;
+  }
+  #acompanhe {
+    padding-bottom: 15px;
   }
   #acompanhe .redes-sociais .text {
     max-width: 200px;
@@ -17,11 +120,8 @@
   #acompanhe .redes-sociais .text img {
     max-width: 130px;
   }
-  #faq .paragrafo-1 {
-    font-size: 11.5px;
-  }
-  #faq .content-icon svg {
-    width: 16px;
+  #clientes {
+    padding-top: 10px;
   }
   #contato .container_umbrella .formulario {
     max-width: 340px;

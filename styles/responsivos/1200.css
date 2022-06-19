@@ -164,11 +164,11 @@
   #faq .paragrafo-1 {
     font-size: 20px;
   }
+  #faq .content .faqs {
+    margin: unset;
+  }
   #faq .duvida {
     padding: 23px 28px 23px 38px;
-  }
-  #faq .container_umbrella {
-    max-width: 1090px;
   }
   #faq h2 {
     margin-bottom: 25px;

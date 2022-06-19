@@ -56,4 +56,7 @@
   #faq .content-icon svg {
     width: 20px;
   }
+  #faq .resposta {
+    padding: 20px 15px 10px;
+  }
 }
