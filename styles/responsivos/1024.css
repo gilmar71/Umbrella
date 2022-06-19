@@ -334,6 +334,9 @@
   #contato .container_umbrella .contato-lista li img {
     width: 18px;
   }
+  #contato .container_umbrella .contatos h2 {
+    text-align: center;
+  }
   #contato .container_umbrella .contatos h2 + * {
     margin-top: 10px;
   }

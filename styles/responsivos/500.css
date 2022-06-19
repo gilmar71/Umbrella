@@ -9,7 +9,7 @@
     font-size: 24px;
   }
   .titulo-4 {
-    font-size: 11.5px;
+    font-size: 12px;
   }
   .paragrafo-1 {
     font-size: 15px;
@@ -18,10 +18,10 @@
     font-size: 12px;
   }
   .link-3 {
-    font-size: 11.5px;
+    font-size: 12px;
   }
   .bt {
-    height: 25px;
+    height: 28px;
     font-size: 10px;
     padding: 0 15px;
     gap: 5px;
@@ -42,8 +42,11 @@
   #banner .title + * {
     margin-top: 10px;
   }
+  #banner .video {
+    margin-bottom: -135px;
+  }
   #quem_somos {
-    padding-top: 175px;
+    padding-top: 155px;
     padding-bottom: 25px;
   }
   #quem_somos .paragrafo-2 {
@@ -124,8 +127,11 @@
   #faq .content-icon svg {
     width: 18px;
   }
-  #redes_sociais .container_umbrella .image {
-    max-width: 210px;
+  #redes_sociais {
+    padding-top: 20px;
+  }
+  #acompanhe {
+    padding-bottom: 20px;
   }
   #acompanhe .redes-sociais .text {
     max-width: 225px;
@@ -137,21 +143,25 @@
     max-width: 100px;
   }
   #acompanhe .redes-sociais .box-right a {
-    margin-left: -32px;
+    margin-left: -52px;
   }
   #acompanhe .redes-sociais .box-left {
     max-width: 142px;
   }
   #acompanhe .redes-sociais .box-left a {
-    margin-left: -8px;
+    margin-left: -27px;
   }
   #acompanhe .bt {
     font-size: 10px;
-    padding: 0 15px;
-    height: 25px;
+    padding: 0 35px;
+    height: 28px;
   }
   #acompanhe .bt img {
     width: 13px;
+  }
+  #clientes {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   #clientes h2 {
     text-align: center;
