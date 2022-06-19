@@ -8,6 +8,9 @@
   .titulo-2 {
     font-size: 46px;
   }
+  .titulo-4 {
+    font-size: 19px;
+  }
   header .logo {
     max-width: 182px;
   }
@@ -76,6 +79,9 @@
   #contato .container_umbrella {
     justify-content: center;
     gap: 60px;
+  }
+  #contato .container_umbrella .formulario {
+    max-width: 650px;
   }
   #contato .container_umbrella .formulario input {
     height: 55px;

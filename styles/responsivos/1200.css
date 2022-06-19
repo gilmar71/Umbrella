@@ -230,34 +230,56 @@
   #acompanhe .bt img {
     width: 19px;
   }
+  #clientes h2 .detalhe img {
+    width: 28px;
+    top: -10px;
+  }
   #contato .container_umbrella {
     gap: 35px;
   }
   #contato .container_umbrella .contato-lista {
     gap: 10px;
   }
+  #contato .container_umbrella .contato-lista li {
+    gap: 10px;
+  }
   #contato .container_umbrella .contatos {
     max-width: 350px;
   }
+  #contato .container_umbrella .contatos h2 + * {
+    margin-top: 20px;
+  }
   #contato .container_umbrella .formulario {
-    max-width: 480px;
+    max-width: 450px;
   }
   #contato .container_umbrella .formulario input {
     height: 45px;
+  }
+  #contato .container_umbrella .formulario input + * {
+    margin-top: 10px;
   }
   #contato .container_umbrella .formulario textarea {
     height: 150px;
   }
   #contato .container_umbrella .underline img {
-    width: 180px;
+    width: 165px;
+  }
+  #contato .container_umbrella .botoes {
+    gap: 15px;
   }
   #rodape .seta {
     width: 55px;
   }
-  #rodape .logo {
+  #rodape .container_umbrella .logo {
     max-width: 200px;
+  }
+  #rodape .container_umbrella .logo + * {
+    margin-top: 40px;
   }
   #rodape .container_umbrella .navegacao {
     gap: 35px;
+  }
+  #rodape .container_umbrella nav + * {
+    margin-top: 25px;
   }
 }

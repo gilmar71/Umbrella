@@ -647,7 +647,6 @@ header .itens a {
 }
 #contato .container_umbrella .contato-lista li img {
   width: 20px;
-  height: 21px;
 }
 #contato .container_umbrella .underline {
   position: relative;
@@ -709,6 +708,10 @@ header .itens a {
   align-items: center;
   margin-top: -30px;
 }
+#rodape .container_umbrella .logo {
+  width: 100%;
+  max-width: 230px;
+}
 #rodape .container_umbrella .logo + * {
   margin-top: 60px;
 }
@@ -728,20 +731,20 @@ header .itens a {
 }
 footer {
   background-color: var(--primary-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-bottom: 10px;
   margin-top: -1px;
 }
-footer span {
-  font-size: 16px;
+footer .container_umbrella {
   display: flex;
-  gap: 10px;
+  gap: 8px;
+  justify-content: center;
   align-items: center;
+}
+footer .container_umbrella span {
+  font-size: 16px;
   color: #3a3a3a;
 }
-footer span img {
-  width: 69px;
-  height: 21px;
+footer .container_umbrella .codie-link img {
+  width: 100%;
+  max-width: 69px;
 }

@@ -12,20 +12,25 @@
     font-size: 24px;
   }
   .titulo-4 {
-    font-size: 12px;
+    font-size: 11.5px;
   }
   .paragrafo-1 {
     font-size: 15px;
   }
   .paragrafo-2 {
-    font-size: 12px;
+    font-size: 11.5px;
+  }
+  .link-3 {
+    font-size: 11.5px;
   }
   .bt {
-    height: 35px;
-    font-size: 12px;
+    height: 25px;
+    font-size: 9px;
+    padding: 0 15px;
+    gap: 5px;
   }
   .whattsapp {
-    width: 16px;
+    width: 13px;
   }
   header .logo {
     max-width: 112px;
@@ -105,16 +110,22 @@
     padding-top: 30px;
   }
   #faq .paragrafo-1 {
-    font-size: 15px;
+    font-size: 12.5px;
   }
   #faq h2 .detalhe img {
     width: 20px;
   }
   #faq .duvida {
-    padding: 8px 15px 8px 20px;
+    padding: 8px 15px 8px 15px;
+  }
+  #faq .duvida span {
+    line-height: 14px;
+  }
+  #faq .perguntas {
+    margin-bottom: 8px;
   }
   #faq .content-icon svg {
-    width: 22px;
+    width: 18px;
   }
   #redes_sociais .container_umbrella .image {
     max-width: 210px;
@@ -128,15 +139,86 @@
   #acompanhe .redes-sociais .box-right {
     max-width: 100px;
   }
+  #acompanhe .redes-sociais .box-right a {
+    margin-left: -32px;
+  }
   #acompanhe .redes-sociais .box-left {
     max-width: 142px;
   }
+  #acompanhe .redes-sociais .box-left a {
+    margin-left: -8px;
+  }
   #acompanhe .bt {
-    font-size: 11.5px;
+    font-size: 10px;
     padding: 0 15px;
-    height: 30px;
+    height: 25px;
   }
   #acompanhe .bt img {
     width: 13px;
+  }
+  #clientes h2 {
+    text-align: center;
+  }
+  #clientes h2 .detalhe img {
+    display: none;
+  }
+  #contato {
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  #contato .container_umbrella {
+    gap: 8px;
+  }
+  #contato .container_umbrella .contato-lista {
+    gap: unset;
+  }
+  #contato .container_umbrella .contato-lista li {
+    gap: 5px;
+  }
+  #contato .container_umbrella .contato-lista li img {
+    width: 10px;
+  }
+  #contato .container_umbrella .contatos {
+    max-width: 230px;
+  }
+  #contato .container_umbrella .formulario {
+    max-width: 340px;
+  }
+  #contato .container_umbrella .formulario input {
+    height: 25px;
+    font-size: 10px;
+  }
+  #contato .container_umbrella .formulario textarea {
+    height: 65px;
+    font-size: 10px;
+  }
+  #contato .container_umbrella .underline img {
+    width: 100px;
+  }
+  #rodape .container_umbrella .seta {
+    width: 25px;
+  }
+  #rodape .container_umbrella .logo {
+    max-width: 120px;
+  }
+  #rodape .container_umbrella .logo + * {
+    margin-top: 10px;
+  }
+  #rodape .container_umbrella nav + * {
+    margin-top: 10px;
+  }
+  #rodape .container_umbrella .navegacao {
+    gap: unset;
+  }
+  footer {
+    margin-top: -6px;
+  }
+  footer .container_umbrella span {
+    padding-top: 3px;
+    font-size: 12px;
+    gap: 2px;
+  }
+  footer .container_umbrella .codie-link img {
+    max-width: 55px;
   }
 }

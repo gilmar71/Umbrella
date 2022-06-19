@@ -787,7 +787,6 @@ header {
 
         img {
           width: 20px;
-          height: 21px;
         }
       }
     }
@@ -865,6 +864,11 @@ header {
     align-items: center;
     margin-top: -30px;
 
+    .logo {
+      width: 100%;
+      max-width: 230px;
+    }
+
     .logo + * {
       margin-top: 60px;
     }
@@ -891,22 +895,24 @@ header {
 
 footer {
   background-color: var(--primary-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-bottom: 10px;
   margin-top: -1px;
 
-  span {
-    font-size: 16px;
+  .container_umbrella {
     display: flex;
-    gap: 10px;
+    gap: 8px;
+    justify-content: center;
     align-items: center;
-    color: #3a3a3a;
 
-    img {
-      width: 69px;
-      height: 21px;
+    span {
+      font-size: 16px;
+      color: #3a3a3a;
+    }
+    .codie-link {
+      img {
+        width: 100%;
+        max-width: 69px;
+      }
     }
   }
 }

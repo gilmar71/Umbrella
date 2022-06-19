@@ -45,6 +45,15 @@
     font-size: 30px;
   }
   #faq .paragrafo-1 {
-    font-size: 15.5px;
+    font-size: 14.5px;
+  }
+  #faq .duvida {
+    padding: 10px 15px 10px 15px;
+  }
+  #faq .perguntas {
+    margin-bottom: 10px;
+  }
+  #faq .content-icon svg {
+    width: 20px;
   }
 }

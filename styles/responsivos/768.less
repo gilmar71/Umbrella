@@ -15,12 +15,25 @@
     font-size: 26px;
   }
 
+  .titulo-4 {
+    font-size: 15px;
+  }
+
   .paragrafo-1 {
     font-size: 17px;
   }
 
   .paragrafo-2 {
-    font-size: 13.5px;
+    font-size: 12px;
+  }
+
+  .link-3 {
+    font-size: 13px;
+  }
+
+  .bt {
+    height: 35px;
+    font-size: 12px;
   }
 
   header {
@@ -172,7 +185,7 @@
 
     .content-icon {
       svg {
-        width: 26px;
+        width: 24px;
       }
     }
 
@@ -200,6 +213,7 @@
     padding-bottom: 40px;
 
     .bt {
+      height: 35px;
       font-size: 12.5px;
 
       img {
@@ -245,18 +259,129 @@
   }
 
   #clientes {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .owl-carousel {
+      .owl-stage {
+        img {
+          height: 100px;
+        }
+
+        img + img {
+          margin-top: 12px;
+        }
+      }
+    }
+
+    .owl-carousel + * {
+      margin-top: 10px;
+    }
+
+    h2 {
+      .detalhe {
+        img {
+          width: 22px;
+        }
+      }
+    }
+
+    h2 + * {
+      margin-top: 10px;
+    }
   }
 
   #contato {
-    padding-top: 35px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+
+    .container_umbrella {
+      gap: 12px;
+      .contato-lista {
+        gap: 3px;
+
+        li {
+          gap: 7px;
+          img {
+            width: 15px;
+          }
+        }
+      }
+
+      .contatos {
+        max-width: 280px;
+      }
+
+      .formulario {
+        max-width: 380px;
+
+        input {
+          height: 30px;
+          padding: 5px;
+          font-size: 12px;
+        }
+
+        input + * {
+          margin-top: 5px;
+        }
+
+        textarea {
+          height: 95px;
+          padding: 5px;
+          font-size: 12px;
+        }
+
+        textarea + * {
+          margin-top: 10px;
+        }
+      }
+
+      .underline {
+        img {
+          width: 125px;
+          bottom: -2px;
+        }
+      }
+    }
   }
 
   #rodape {
+    padding-top: 20px;
+    .container_umbrella {
+      .seta {
+        top: unset;
+        width: 30px;
+      }
+
+      .logo {
+        max-width: 150px;
+      }
+
+      .logo + * {
+        margin-top: 10px;
+      }
+
+      nav + * {
+        margin-top: 10px;
+      }
+
+      .navegacao {
+        gap: 5px;
+      }
+    }
   }
 
   footer {
+    .container_umbrella {
+      span {
+        font-size: 14px;
+        gap: 5px;
+      }
+      .codie-link {
+        img {
+          max-width: 58px;
+        }
+      }
+    }
   }
 }

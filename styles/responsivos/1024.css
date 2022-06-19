@@ -19,7 +19,7 @@
     font-size: 26.5px;
   }
   .titulo-4 {
-    font-size: 16.5px;
+    font-size: 16px;
   }
   .paragrafo-1 {
     font-size: 18px;
@@ -28,7 +28,7 @@
     font-size: 14.5px;
   }
   .link-3 {
-    font-size: 14.5px;
+    font-size: 14px;
   }
   header .container_umbrella {
     max-width: 1000px;
@@ -232,7 +232,7 @@
     padding: 18px 28px 18px 33px;
   }
   #faq .content-icon svg {
-    width: 30px;
+    width: 26px;
   }
   #faq .perguntas {
     margin-bottom: 15px;
@@ -294,64 +294,93 @@
     width: 20px;
   }
   #clientes {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  #clientes .owl-carousel .owl-stage img {
+    height: 120px;
+  }
+  #clientes .owl-carousel .owl-stage img + img {
+    margin-top: 20px;
+  }
+  #clientes .owl-carousel + * {
+    margin-top: 10px;
+  }
+  #clientes h2 {
+    margin: 0;
+  }
+  #clientes h2 .detalhe img {
+    width: 26px;
+    top: -8px;
   }
   #clientes h2 + * {
     margin-top: 10px;
   }
   #contato {
-    padding-top: 50px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
   #contato .container_umbrella {
     flex-direction: column;
     gap: 25px;
     align-items: center;
   }
-  #contato .container_umbrella .contato-lista li {
-    margin-top: 10px;
+  #contato .container_umbrella .contato-lista {
+    gap: 5px;
   }
-  #contato .container_umbrella .contatos {
-    width: 100%;
+  #contato .container_umbrella .contato-lista li {
+    gap: 10px;
+  }
+  #contato .container_umbrella .contato-lista li img {
+    width: 18px;
   }
   #contato .container_umbrella .contatos h2 + * {
-    margin-top: 15px;
+    margin-top: 10px;
   }
   #contato .container_umbrella .formulario {
-    width: 100%;
+    max-width: 420px;
   }
   #contato .container_umbrella .formulario input {
-    height: 50px;
+    height: 35px;
+    font-size: 13px;
   }
   #contato .container_umbrella .formulario textarea {
-    height: 150px;
+    height: 110px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  #contato .container_umbrella .formulario textarea + * {
+    margin-top: 12px;
   }
   #contato .container_umbrella .underline img {
-    width: 170px;
-  }
-  #contato .bt {
-    height: 55px;
+    width: 150px;
+    bottom: -1px;
   }
   #rodape {
     padding-top: 20px;
   }
   #rodape .container_umbrella .seta {
     top: -10px;
-    width: 45px;
+    width: 40px;
   }
   #rodape .container_umbrella .logo {
-    max-width: 170px;
+    max-width: 180px;
   }
   #rodape .container_umbrella .logo + * {
-    margin-top: 25px;
+    margin-top: 15px;
   }
   #rodape .container_umbrella nav + * {
-    margin-top: 25px;
+    margin-top: 15px;
   }
   #rodape .container_umbrella .navegacao {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+  }
+  footer .container_umbrella span {
+    font-size: 15px;
+  }
+  footer .container_umbrella .codie-link img {
+    max-width: 60px;
   }
 }

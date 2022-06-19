@@ -14,6 +14,9 @@
   .titulo-3 {
     font-size: 30px;
   }
+  .titulo-4 {
+    font-size: 18px;
+  }
   header .logo {
     max-width: 142px;
   }
@@ -190,22 +193,43 @@
   #clientes {
     padding-top: 70px;
   }
+  #clientes h2 .detalhe img {
+    width: 30px;
+    top: -12px;
+  }
   #contato .container_umbrella {
     gap: 50px;
   }
   #contato .container_umbrella .contato-lista {
     gap: 12px;
   }
+  #contato .container_umbrella .contatos {
+    max-width: 400px;
+  }
   #contato .container_umbrella .formulario {
     max-width: 550px;
   }
+  #contato .container_umbrella .formulario label {
+    margin-bottom: 2px;
+  }
   #contato .container_umbrella .formulario input {
     height: 50px;
+  }
+  #contato .container_umbrella .formulario input + * {
+    margin-top: 12px;
   }
   #contato .container_umbrella .formulario textarea {
     height: 160px;
   }
   #contato .container_umbrella .underline img {
-    width: 200px;
+    width: 180px;
+    bottom: -5px;
+    right: 0;
+  }
+  #contato .container_umbrella .botoes {
+    gap: 20px;
+  }
+  #rodape .container_umbrella .logo {
+    max-width: 220px;
   }
 }

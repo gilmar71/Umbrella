@@ -11,11 +11,21 @@
   .titulo-3 {
     font-size: 26px;
   }
+  .titulo-4 {
+    font-size: 15px;
+  }
   .paragrafo-1 {
     font-size: 17px;
   }
   .paragrafo-2 {
-    font-size: 13.5px;
+    font-size: 12px;
+  }
+  .link-3 {
+    font-size: 13px;
+  }
+  .bt {
+    height: 35px;
+    font-size: 12px;
   }
   header .logo {
     max-width: 122px;
@@ -119,7 +129,7 @@
     padding: 15px 20px 15px 30px;
   }
   #faq .content-icon svg {
-    width: 26px;
+    width: 24px;
   }
   #faq .perguntas {
     margin-bottom: 12px;
@@ -140,6 +150,7 @@
     padding-bottom: 40px;
   }
   #acompanhe .bt {
+    height: 35px;
     font-size: 12.5px;
   }
   #acompanhe .bt img {
@@ -174,11 +185,90 @@
     margin-top: unset;
   }
   #clientes {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #clientes .owl-carousel .owl-stage img {
+    height: 100px;
+  }
+  #clientes .owl-carousel .owl-stage img + img {
+    margin-top: 12px;
+  }
+  #clientes .owl-carousel + * {
+    margin-top: 10px;
+  }
+  #clientes h2 .detalhe img {
+    width: 22px;
+  }
+  #clientes h2 + * {
+    margin-top: 10px;
   }
   #contato {
-    padding-top: 35px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  #contato .container_umbrella {
+    gap: 12px;
+  }
+  #contato .container_umbrella .contato-lista {
+    gap: 3px;
+  }
+  #contato .container_umbrella .contato-lista li {
+    gap: 7px;
+  }
+  #contato .container_umbrella .contato-lista li img {
+    width: 15px;
+  }
+  #contato .container_umbrella .contatos {
+    max-width: 280px;
+  }
+  #contato .container_umbrella .formulario {
+    max-width: 380px;
+  }
+  #contato .container_umbrella .formulario input {
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  #contato .container_umbrella .formulario input + * {
+    margin-top: 5px;
+  }
+  #contato .container_umbrella .formulario textarea {
+    height: 95px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  #contato .container_umbrella .formulario textarea + * {
+    margin-top: 10px;
+  }
+  #contato .container_umbrella .underline img {
+    width: 125px;
+    bottom: -2px;
+  }
+  #rodape {
+    padding-top: 20px;
+  }
+  #rodape .container_umbrella .seta {
+    top: unset;
+    width: 30px;
+  }
+  #rodape .container_umbrella .logo {
+    max-width: 150px;
+  }
+  #rodape .container_umbrella .logo + * {
+    margin-top: 10px;
+  }
+  #rodape .container_umbrella nav + * {
+    margin-top: 10px;
+  }
+  #rodape .container_umbrella .navegacao {
+    gap: 5px;
+  }
+  footer .container_umbrella span {
+    font-size: 14px;
+    gap: 5px;
+  }
+  footer .container_umbrella .codie-link img {
+    max-width: 58px;
   }
 }

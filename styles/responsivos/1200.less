@@ -308,24 +308,48 @@
     }
   }
 
+  #clientes {
+    h2 {
+      .detalhe {
+        img {
+          width: 28px;
+          top: -10px;
+        }
+      }
+    }
+  }
+
   #contato {
     .container_umbrella {
       gap: 35px;
 
       .contato-lista {
         gap: 10px;
+
+        li {
+          gap: 10px;
+        }
       }
 
       .contatos {
         max-width: 350px;
+
+        h2 + * {
+          margin-top: 20px;
+        }
       }
 
       .formulario {
-        max-width: 480px;
+        max-width: 450px;
 
         input {
           height: 45px;
         }
+
+        input + * {
+          margin-top: 10px;
+        }
+
         textarea {
           height: 150px;
         }
@@ -333,8 +357,12 @@
 
       .underline {
         img {
-          width: 180px;
+          width: 165px;
         }
+      }
+
+      .botoes {
+        gap: 15px;
       }
     }
   }
@@ -344,12 +372,21 @@
       width: 55px;
     }
 
-    .logo {
-      max-width: 200px;
-    }
     .container_umbrella {
+      .logo {
+        max-width: 200px;
+      }
+
+      .logo + * {
+        margin-top: 40px;
+      }
+
       .navegacao {
         gap: 35px;
+      }
+
+      nav + * {
+        margin-top: 25px;
       }
     }
   }

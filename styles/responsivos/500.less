@@ -15,7 +15,7 @@
   }
 
   .titulo-4 {
-    font-size: 12px;
+    font-size: 11.5px;
   }
 
   .paragrafo-1 {
@@ -23,16 +23,22 @@
   }
 
   .paragrafo-2 {
-    font-size: 12px;
+    font-size: 11.5px;
+  }
+
+  .link-3 {
+    font-size: 11.5px;
   }
 
   .bt {
-    height: 35px;
-    font-size: 12px;
+    height: 25px;
+    font-size: 9px;
+    padding: 0 15px;
+    gap: 5px;
   }
 
   .whattsapp {
-    width: 16px;
+    width: 13px;
   }
 
   header {
@@ -154,7 +160,7 @@
 
   #faq {
     .paragrafo-1 {
-      font-size: 15px;
+      font-size: 12.5px;
     }
 
     padding-top: 30px;
@@ -168,12 +174,20 @@
     }
 
     .duvida {
-      padding: 8px 15px 8px 20px;
+      padding: 8px 15px 8px 15px;
+
+      span {
+        line-height: 14px;
+      }
+    }
+
+    .perguntas {
+      margin-bottom: 8px;
     }
 
     .content-icon {
       svg {
-        width: 22px;
+        width: 18px;
       }
     }
   }
@@ -198,19 +212,121 @@
 
       .box-right {
         max-width: 100px;
+
+        a {
+          margin-left: -32px;
+        }
       }
       .box-left {
         max-width: 142px;
+
+        a {
+          margin-left: -8px;
+        }
       }
     }
 
     .bt {
-      font-size: 11.5px;
+      font-size: 10px;
       padding: 0 15px;
-      height: 30px;
+      height: 25px;
 
       img {
         width: 13px;
+      }
+    }
+  }
+
+  #clientes {
+    h2 {
+      text-align: center;
+      .detalhe {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #contato {
+    padding-top: 12px;
+    padding-bottom: 20px;
+
+    .container_umbrella {
+      gap: 8px;
+      .contato-lista {
+        gap: unset;
+
+        li {
+          gap: 5px;
+          img {
+            width: 10px;
+          }
+        }
+      }
+
+      .contatos {
+        max-width: 230px;
+      }
+
+      .formulario {
+        max-width: 340px;
+
+        input {
+          height: 25px;
+          font-size: 10px;
+        }
+
+        textarea {
+          height: 65px;
+          font-size: 10px;
+        }
+      }
+
+      .underline {
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  #rodape {
+    .container_umbrella {
+      .seta {
+        width: 25px;
+      }
+
+      .logo {
+        max-width: 120px;
+      }
+
+      .logo + * {
+        margin-top: 10px;
+      }
+
+      nav + * {
+        margin-top: 10px;
+      }
+
+      .navegacao {
+        gap: unset;
+      }
+    }
+  }
+
+  footer {
+    margin-top: -6px;
+    .container_umbrella {
+      span {
+        padding-top: 3px;
+        font-size: 12px;
+        gap: 2px;
+      }
+      .codie-link {
+        img {
+          max-width: 55px;
+        }
       }
     }
   }
