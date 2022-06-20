@@ -42,25 +42,12 @@ $(document).ready(function () {
       dots: false,
       mouseDrag: true,
       margin: 30,
+      autoWidth: true,
+      autoplay: true,
       navText: [
         '<img src="./images/nav-left.png" />',
         '<img src="./images/nav-right.png" />',
       ],
-      responsive: {
-        500: {
-          items: 2,
-        },
-        769: {
-          items: 3,
-          margin: 10,
-        },
-        1025: {
-          items: 4,
-        },
-        1201: {
-          items: 6,
-        },
-      },
     });
   }
 
