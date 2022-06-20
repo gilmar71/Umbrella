@@ -21,13 +21,21 @@
     font-size: 12px;
   }
   .bt {
-    height: 28px;
+    height: 30px;
     font-size: 10px;
-    padding: 0 15px;
+    padding: 0 20px;
     gap: 5px;
   }
   .whattsapp {
     width: 13px;
+  }
+  header .itens {
+    width: 100vw;
+    padding-left: unset;
+    align-items: center;
+  }
+  header .itens.active {
+    opacity: 0.8;
   }
   header .logo {
     max-width: 112px;
@@ -47,7 +55,7 @@
   }
   #quem_somos {
     padding-top: 155px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
   }
   #quem_somos .paragrafo-2 {
     font-size: 12px;
@@ -65,9 +73,6 @@
   #registro_marca {
     padding-top: 18px;
     padding-bottom: 20px;
-  }
-  #registro_marca .container_umbrella {
-    max-width: 430px;
   }
   #registro_marca .container_umbrella p {
     margin-top: 8px;
@@ -103,9 +108,6 @@
   #como_funciona .list h2 .underline img {
     width: 110px;
   }
-  #como_funciona .list ul + * {
-    margin-top: -5px;
-  }
   #faq {
     padding-top: 30px;
   }
@@ -140,16 +142,16 @@
     max-width: 150px;
   }
   #acompanhe .redes-sociais .box-right {
-    max-width: 100px;
+    max-width: 135px;
   }
   #acompanhe .redes-sociais .box-right a {
-    margin-left: -52px;
+    margin-left: -38px;
   }
   #acompanhe .redes-sociais .box-left {
-    max-width: 142px;
+    max-width: 172px;
   }
   #acompanhe .redes-sociais .box-left a {
-    margin-left: -27px;
+    margin-left: -12px;
   }
   #acompanhe .bt {
     font-size: 10px;

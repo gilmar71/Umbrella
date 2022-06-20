@@ -65,7 +65,7 @@
       padding-top: 100px;
       z-index: 100;
       background-color: #fff;
-      padding-left: 28px !important;
+      padding-left: 28px;
       gap: 15px;
       overflow-y: auto;
       transform: translateX(100%);
@@ -75,6 +75,7 @@
       li {
         a {
           padding: 0;
+          font-size: 19px;
         }
       }
     }
@@ -140,7 +141,9 @@
   }
 
   #quem_somos {
+    padding-top: 180px;
     padding-bottom: 50px;
+
     .text {
       display: flex;
       flex-direction: column;
@@ -178,7 +181,7 @@
           display: none;
         }
         .box-middle {
-          padding-bottom: 165px;
+          padding-bottom: 185px;
           margin-left: auto;
           margin-right: auto;
 
@@ -187,7 +190,7 @@
           }
 
           p + * {
-            margin-top: 30px;
+            margin-top: 25px;
           }
         }
 
@@ -259,6 +262,14 @@
     }
 
     .list {
+      .item:nth-child(odd) {
+        background-color: #f9e372;
+      }
+
+      ul + * {
+        margin-top: 2px;
+      }
+
       .item {
         gap: 10px;
       }
@@ -276,10 +287,6 @@
       }
 
       ul {
-      }
-
-      ul + * {
-        margin-top: 0;
       }
     }
   }

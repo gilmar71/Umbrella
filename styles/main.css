@@ -42,7 +42,7 @@ button:hover *:not(g, path) {
 ol,
 ul {
   list-style: none !important;
-  padding-left: 0 !important;
+  padding-left: 0;
   margin-bottom: 0 !important;
 }
 .cep-mask,
@@ -94,6 +94,7 @@ ul {
 .bt--tertiary:hover {
   background-color: gold;
   border-radius: 0;
+  color: #000;
 }
 body {
   background-color: #fdfdfd;
@@ -747,4 +748,13 @@ footer .container_umbrella span {
 footer .container_umbrella .codie-link img {
   width: 100%;
   max-width: 69px;
+}
+.whattsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
 }

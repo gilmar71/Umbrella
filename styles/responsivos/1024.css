@@ -51,7 +51,7 @@
     padding-top: 100px;
     z-index: 100;
     background-color: #fff;
-    padding-left: 28px !important;
+    padding-left: 28px;
     gap: 15px;
     overflow-y: auto;
     transform: translateX(100%);
@@ -60,6 +60,7 @@
   }
   header .itens li a {
     padding: 0;
+    font-size: 19px;
   }
   header .itens.active {
     transform: translateX(0%);
@@ -107,6 +108,7 @@
     margin-top: 30px;
   }
   #quem_somos {
+    padding-top: 180px;
     padding-bottom: 50px;
   }
   #quem_somos .text {
@@ -140,7 +142,7 @@
     display: none;
   }
   #registro_marca .container_umbrella .content .box-middle {
-    padding-bottom: 165px;
+    padding-bottom: 185px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -148,7 +150,7 @@
     max-width: 560px;
   }
   #registro_marca .container_umbrella .content .box-middle p + * {
-    margin-top: 30px;
+    margin-top: 25px;
   }
   #registro_marca .container_umbrella .content .box-right {
     display: none;
@@ -202,6 +204,12 @@
     display: flex;
     justify-content: center;
   }
+  #como_funciona .list .item:nth-child(odd) {
+    background-color: #f9e372;
+  }
+  #como_funciona .list ul + * {
+    margin-top: 2px;
+  }
   #como_funciona .list .item {
     gap: 10px;
   }
@@ -210,9 +218,6 @@
   }
   #como_funciona .list h2 + * {
     margin-top: 20px;
-  }
-  #como_funciona .list ul + * {
-    margin-top: 0;
   }
   #faq {
     padding-top: 50px;

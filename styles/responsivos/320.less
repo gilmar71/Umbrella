@@ -26,16 +26,6 @@
   header {
     padding: 10px 0;
 
-    .itens {
-      width: 100vw;
-      padding-left: unset;
-      align-items: center;
-    }
-
-    .itens.active {
-      opacity: 0.75;
-    }
-
     .logo {
       max-width: 65px;
     }
@@ -83,6 +73,13 @@
     .container_umbrella {
       p {
         margin-top: 5px;
+      }
+      .content {
+        .box-middle {
+          p {
+            padding: 12px;
+          }
+        }
       }
     }
   }
@@ -133,14 +130,6 @@
           line-height: 17px;
           margin-bottom: 10px;
         }
-      }
-
-      .item:nth-child(odd) {
-        background-color: #dddddd;
-      }
-
-      ul + * {
-        margin-top: 2px;
       }
 
       .number {

@@ -64,6 +64,9 @@
   #registro_marca .container_umbrella p {
     margin-top: 5px;
   }
+  #registro_marca .container_umbrella .content .box-middle p {
+    padding: 12px;
+  }
   #valores {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -97,12 +100,6 @@
   #como_funciona .list .item p {
     line-height: 17px;
     margin-bottom: 10px;
-  }
-  #como_funciona .list .item:nth-child(odd) {
-    background-color: #dddddd;
-  }
-  #como_funciona .list ul + * {
-    margin-top: 2px;
   }
   #como_funciona .list .number {
     margin-top: -3px;
