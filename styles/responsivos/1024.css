@@ -216,173 +216,173 @@
   #como_funciona h2 + * {
     margin-top: 20px;
   }
-}
-#faq {
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-#faq .paragrafo-1 {
-  font-size: 18px;
-}
-#faq h2 {
-  margin-bottom: 20px;
-}
-#faq h2 .detalhe img {
-  width: 26px;
-  top: -8px;
-}
-#faq .duvida {
-  padding: 18px 28px 18px 33px;
-}
-#faq .content-icon svg {
-  width: 26px;
-}
-#faq .perguntas {
-  margin-bottom: 15px;
-}
-#redes_sociais {
-  background-color: var(--primary-color);
-  padding-top: 50px;
-}
-#redes_sociais .container_umbrella {
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-}
-#redes_sociais .container_umbrella .image {
-  max-width: 330px;
-}
-#acompanhe {
-  padding-top: 155px;
-}
-#acompanhe .redes-sociais {
-  padding-top: unset;
-  flex-direction: column;
-}
-#acompanhe .text {
-  max-width: 348px;
-  text-align: center;
-  margin-bottom: unset;
-  margin-left: unset;
-}
-#acompanhe .text img {
-  top: -14px;
-  max-width: 230px;
-}
-#acompanhe .image {
-  display: flex;
-  justify-content: unset;
-  gap: 50px;
-  padding-right: 30px;
-}
-#acompanhe .image .box-left {
-  max-width: 222px;
-}
-#acompanhe .image .box-left .laptop + * {
-  margin-top: 11px;
-}
-#acompanhe .image .box-right {
-  max-width: 173px;
-}
-#acompanhe .image .box-right a {
-  margin-left: -5px;
-}
-#acompanhe .image .links {
-  display: none;
-}
-#acompanhe .bt {
-  font-size: 14.5px;
-}
-#acompanhe .bt img {
-  width: 20px;
-}
-#clientes {
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-#clientes .owl-carousel .owl-stage img + img {
-  margin-top: 20px;
-}
-#clientes .owl-carousel + * {
-  margin-top: 10px;
-}
-#clientes h2 {
-  margin: 0;
-}
-#clientes h2 .detalhe img {
-  width: 26px;
-  top: -8px;
-}
-#clientes h2 + * {
-  margin-top: 10px;
-}
-#contato {
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-#contato .container_umbrella {
-  flex-direction: column;
-  gap: 25px;
-  align-items: center;
-}
-#contato .container_umbrella .contato-lista {
-  gap: 5px;
-}
-#contato .container_umbrella .contato-lista li {
-  gap: 10px;
-}
-#contato .container_umbrella .contato-lista li img {
-  width: 18px;
-}
-#contato .container_umbrella .contatos h2 {
-  text-align: center;
-}
-#contato .container_umbrella .contatos h2 + * {
-  margin-top: 10px;
-}
-#contato .container_umbrella .formulario {
-  max-width: 420px;
-}
-#contato .container_umbrella .formulario input {
-  height: 35px;
-  font-size: 13px;
-}
-#contato .container_umbrella .formulario textarea {
-  height: 110px;
-  padding: 10px;
-  font-size: 13px;
-}
-#contato .container_umbrella .formulario textarea + * {
-  margin-top: 12px;
-}
-#contato .container_umbrella .underline img {
-  width: 150px;
-  bottom: -1px;
-}
-#rodape {
-  padding-top: 20px;
-}
-#rodape .container_umbrella .seta {
-  top: -10px;
-  width: 40px;
-}
-#rodape .container_umbrella .logo {
-  max-width: 180px;
-}
-#rodape .container_umbrella .logo + * {
-  margin-top: 15px;
-}
-#rodape .container_umbrella nav + * {
-  margin-top: 15px;
-}
-#rodape .container_umbrella .navegacao {
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
-footer .container_umbrella span {
-  font-size: 15px;
-}
-footer .container_umbrella .codie-link img {
-  max-width: 60px;
+  #faq {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  #faq .paragrafo-1 {
+    font-size: 18px;
+  }
+  #faq h2 {
+    margin-bottom: 20px;
+  }
+  #faq h2 .detalhe img {
+    width: 26px;
+    top: -8px;
+  }
+  #faq .duvida {
+    padding: 18px 28px 18px 33px;
+  }
+  #faq .content-icon svg {
+    width: 26px;
+  }
+  #faq .perguntas {
+    margin-bottom: 15px;
+  }
+  #redes_sociais {
+    background-color: var(--primary-color);
+    padding-top: 50px;
+  }
+  #redes_sociais .container_umbrella {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  #redes_sociais .container_umbrella .image {
+    max-width: 330px;
+  }
+  #acompanhe {
+    padding-top: 155px;
+  }
+  #acompanhe .redes-sociais {
+    padding-top: unset;
+    flex-direction: column;
+  }
+  #acompanhe .text {
+    max-width: 348px;
+    text-align: center;
+    margin-bottom: unset;
+    margin-left: unset;
+  }
+  #acompanhe .text img {
+    top: -14px;
+    max-width: 230px;
+  }
+  #acompanhe .image {
+    display: flex;
+    justify-content: unset;
+    gap: 50px;
+    padding-right: 30px;
+  }
+  #acompanhe .image .box-left {
+    max-width: 222px;
+  }
+  #acompanhe .image .box-left .laptop + * {
+    margin-top: 11px;
+  }
+  #acompanhe .image .box-right {
+    max-width: 173px;
+  }
+  #acompanhe .image .box-right a {
+    margin-left: -5px;
+  }
+  #acompanhe .image .links {
+    display: none;
+  }
+  #acompanhe .bt {
+    font-size: 14.5px;
+  }
+  #acompanhe .bt img {
+    width: 20px;
+  }
+  #clientes {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  #clientes .owl-carousel .owl-stage img + img {
+    margin-top: 20px;
+  }
+  #clientes .owl-carousel + * {
+    margin-top: 10px;
+  }
+  #clientes h2 {
+    margin: 0;
+  }
+  #clientes h2 .detalhe img {
+    width: 26px;
+    top: -8px;
+  }
+  #clientes h2 + * {
+    margin-top: 10px;
+  }
+  #contato {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  #contato .container_umbrella {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+  #contato .container_umbrella .contato-lista {
+    gap: 5px;
+  }
+  #contato .container_umbrella .contato-lista li {
+    gap: 10px;
+  }
+  #contato .container_umbrella .contato-lista li img {
+    width: 18px;
+  }
+  #contato .container_umbrella .contatos h2 {
+    text-align: center;
+  }
+  #contato .container_umbrella .contatos h2 + * {
+    margin-top: 10px;
+  }
+  #contato .container_umbrella .formulario {
+    max-width: 420px;
+  }
+  #contato .container_umbrella .formulario input {
+    height: 35px;
+    font-size: 13px;
+  }
+  #contato .container_umbrella .formulario textarea {
+    height: 110px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  #contato .container_umbrella .formulario textarea + * {
+    margin-top: 12px;
+  }
+  #contato .container_umbrella .underline img {
+    width: 150px;
+    bottom: -1px;
+  }
+  #rodape {
+    padding-top: 20px;
+  }
+  #rodape .container_umbrella .seta {
+    top: -10px;
+    width: 40px;
+  }
+  #rodape .container_umbrella .logo {
+    max-width: 180px;
+  }
+  #rodape .container_umbrella .logo + * {
+    margin-top: 15px;
+  }
+  #rodape .container_umbrella nav + * {
+    margin-top: 15px;
+  }
+  #rodape .container_umbrella .navegacao {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  footer .container_umbrella span {
+    font-size: 15px;
+  }
+  footer .container_umbrella .codie-link img {
+    max-width: 60px;
+  }
 }
