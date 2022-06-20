@@ -8,6 +8,10 @@
   .paragrafo-1 {
     font-size: 16.5px;
   }
+  .whattsapp-link {
+    bottom: 20px;
+    right: 20px;
+  }
   #quem_somos .text p + * {
     margin-top: 18px;
   }

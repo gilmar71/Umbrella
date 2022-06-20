@@ -750,11 +750,15 @@ footer .container_umbrella .codie-link img {
   max-width: 69px;
 }
 .whattsapp-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   width: 60px;
   height: 60px;
   bottom: 40px;
   right: 40px;
   background-color: #25d366;
-  color: #fff;
+  border-radius: 50%;
+  z-index: 999;
 }

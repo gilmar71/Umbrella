@@ -204,9 +204,7 @@
     display: flex;
     justify-content: center;
   }
-  #como_funciona .list .item:nth-child(odd) {
-    background-color: #f9e372;
-  }
+
   #como_funciona .list ul + * {
     margin-top: 2px;
   }

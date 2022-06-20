@@ -47,18 +47,18 @@ $(document).ready(function () {
         '<img src="./images/nav-right.png" />',
       ],
       responsive: {
-        600: {
-          items: 1,
+        500: {
+          items: 2,
         },
-        1024: {
+        769: {
           items: 3,
+          margin: 10,
         },
-        1300: {
+        1025: {
           items: 4,
         },
-        1600: {
+        1201: {
           items: 6,
-          nav: true,
         },
       },
     });

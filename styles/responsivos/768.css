@@ -24,6 +24,14 @@
     height: 35px;
     font-size: 12px;
   }
+  .whattsapp-link {
+    width: 45px;
+    height: 45px;
+  }
+  .whattsapp-link svg {
+    width: 25px;
+    height: 25px;
+  }
   header .logo {
     max-width: 122px;
   }
@@ -186,11 +194,14 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  #clientes .owl-carousel {
+    padding: 0;
+  }
   #clientes .owl-carousel .owl-stage img {
-    height: 100px;
+    height: 90px;
   }
   #clientes .owl-carousel .owl-stage img + img {
-    margin-top: 12px;
+    margin-top: 5px;
   }
   #clientes .owl-carousel + * {
     margin-top: 10px;
