@@ -21,7 +21,7 @@
     max-width: 142px;
   }
   header .itens {
-    gap: 1vw;
+    gap: clamp(15px, 1vw, 46px);
   }
   header .itens a {
     font-size: 17px;

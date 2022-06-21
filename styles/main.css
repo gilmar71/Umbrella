@@ -147,7 +147,7 @@ header img {
 }
 header .itens {
   display: flex;
-  gap: 2.4vw;
+  gap: clamp(15px, 2.4vw, 46px);
 }
 header .itens a {
   color: #000000;
@@ -641,10 +641,15 @@ header .itens a {
   flex-direction: column;
   gap: 15px;
 }
-#contato .container_umbrella .contato-lista li {
+#contato .container_umbrella .contato-lista li a,
+#contato .container_umbrella .contato-lista li span {
   display: flex;
   gap: 15px;
   align-items: center;
+  color: #fff;
+}
+#contato .container_umbrella .contato-lista li a:hover {
+  gap: 10px;
 }
 #contato .container_umbrella .contato-lista li img {
   width: 20px;
@@ -725,6 +730,21 @@ header .itens a {
 }
 #rodape .container_umbrella .navegacao a {
   color: #fff;
+  position: relative;
+}
+#rodape .container_umbrella .navegacao a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  background-color: currentColor;
+  -webkit-transition: 0.3s;
+}
+#rodape .container_umbrella .navegacao a:hover::after {
+  width: 100%;
+  transition: 0.3s;
 }
 #rodape .container_umbrella .seta {
   position: relative;

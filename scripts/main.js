@@ -41,13 +41,37 @@ $(document).ready(function () {
       loop: true,
       dots: false,
       mouseDrag: true,
-      margin: 30,
-      autoWidth: true,
       autoplay: true,
       navText: [
         '<img src="./images/nav-left.png" />',
         '<img src="./images/nav-right.png" />',
       ],
+      responsive: {
+        0: {
+          items: 1,
+          margin: 0,
+        },
+        600: {
+          items: 2,
+          margin: 15,
+        },
+        1024: {
+          items: 3,
+          margin: 15,
+        },
+        1300: {
+          items: 4,
+          margin: 20,
+        },
+        1500: {
+          items: 5,
+          margin: 25,
+        },
+        1600: {
+          items: 6,
+          margin: 30,
+        },
+      },
     });
   }
 
@@ -62,7 +86,7 @@ const menuMobile = document.querySelector("header .itens"); // ou ele vai retorn
 const bgMobile = document.querySelector("header .bg-mobile");
 const blockBar = document.querySelector("header .block_bar");
 const closeMenu = document.querySelector("header .close");
-const itensMenu = document.querySelector("header .itens li a");
+const itensMenu = document.getElementsByClassName("link-menu");
 
 if (menuMobile && blockBar && bgMobile && closeMenu) {
   blockBar.addEventListener("click", function () {
@@ -80,10 +104,12 @@ if (menuMobile && blockBar && bgMobile && closeMenu) {
     bgMobile.classList.remove("active");
   });
 
-  itensMenu.addEventListener("click", function () {
-    menuMobile.classList.remove("active");
-    bgMobile.classList.remove("active");
-  });
+  for (const menu of itensMenu) {
+    menu.addEventListener("click", function () {
+      menuMobile.classList.remove("active");
+      bgMobile.classList.remove("active");
+    });
+  }
 }
 
 //FAQ

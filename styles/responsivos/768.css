@@ -1,4 +1,10 @@
 @media only screen and (max-width: 768px) {
+  #clientes .owl-carousel {
+    max-width: 400px;
+  }
+  #clientes .owl-carousel img {
+    margin: 0 auto;
+  }
   .titulo-1 {
     font-size: 40px;
   }

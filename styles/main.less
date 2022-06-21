@@ -176,8 +176,7 @@ header {
 
   .itens {
     display: flex;
-
-    gap: 2.4vw;
+    gap: clamp(15px, 2.4vw, 46px);
 
     a {
       color: #000000;
@@ -783,10 +782,15 @@ header {
       gap: 15px;
 
       li {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-
+        a, span {
+          display: flex;
+          gap: 15px;
+          align-items: center;
+          color: #fff;
+        }
+        a:hover {
+          gap: 10px;
+        }
         img {
           width: 20px;
         }
@@ -885,6 +889,23 @@ header {
 
       a {
         color: #fff;
+        position: relative;
+      }
+
+      a::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        background-color: currentColor;
+        -webkit-transition: 0.3s;
+      }
+
+      a:hover::after {
+        width: 100%;
+        transition: 0.3s;
       }
     }
 

@@ -1,24 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Umbrella</title>
+  <head>
+    <meta charset="utf-8">
+  
+    <title>Umbrella</title>
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="keywords" content="">
+    <meta name="description" content="descrição">
 
+    <meta property="og:title" content="Código da Carne">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="URL">
+    <meta property="og:image" content="image">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="300">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="descrição">
 
+    <meta name="content-language" content="pt-br">
+    <meta name="rating" content="general">
+    <meta name="distribution" content="global">
+    <meta name="copyright" content="">
+    <link rev="made" href="html/by codie" rel="license">
+    <meta name="author" content="Codie">
+    <meta name="robots" content="index,follow,all">
+    <link rel="canonical" href="Url">
+    <meta name="theme-color" content="#4fbab5">
 
-  <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128">
+    
+    <meta name="application-name" content="&nbsp;">
+    <meta name="msapplication-TileColor" content="#">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
   <link href="./scripts/owl-carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" />
   <link href="./scripts/owl-carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.typekit.net/nhc8xdv.css" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link href="./styles/reset.css" rel="stylesheet" />
   <link href="./styles/fonts.css" rel="stylesheet" />
@@ -31,11 +72,12 @@
   <link rel="stylesheet" href="styles/responsivos/768.css" />
   <link rel="stylesheet" href="styles/responsivos/600.css" />
   <link rel="stylesheet" href="styles/responsivos/500.css" />
-  <link rel="stylesheet" href="styles/responsivos/320.css" />
-</head>
+    </head>
+
+
 
 <body>
-  <header>
+  <header id="header">
     <div class="container_umbrella">
       <img class="logo" src="images/logo.png" alt="logomarca" />
 
@@ -55,23 +97,23 @@
             </svg>
           </li>
 
-          <li>
+          <li class="link-menu">
             <a class="link-2 -montserrat medium" href="#contato"> Contato</a>
           </li>
-          <li>
+          <li class="link-menu">
             <a class="link-2 -montserrat medium" href="#faq">
               Perguntas frequentes</a>
-          </li>
-          <li>
+          </li class="link-menu">
+          <li class="link-menu">
             <a class="link-2 -montserrat medium" href="#como_funciona">Como funciona</a>
           </li>
-          <li>
+          <li class="link-menu">
             <a class="link-2 -montserrat medium" href="#clientes">Clientes</a>
           </li>
-          <li>
+          <li class="link-menu">
             <a class="link-2 -montserrat medium" href="#registro_marca">Nossos serviços</a>
           </li>
-          <li>
+          <li class="link-menu">
             <a class="link-2 -montserrat medium" href="#quem_somos">Quem somos</a>
           </li>
         </ul>
@@ -622,38 +664,53 @@
 
           <ul class="contato-lista">
             <li class="titulo-4 -montserrat medium">
-              <img src="images/contato-whatsapp.png" alt="" />
-              (43) 9 9978-6664
+              <a  rel="external" target="_blanck" href="https://api.whatsapp.com/send/?phone=554399786664&text=Ol%C3%A1%21+%3A+Em+que+podemos+te+ajudar%3F&app_absent=0">
+                <img src="images/contato-whatsapp.png" alt="" />
+                (43) 9 9978-6664
+              </a>
             </li>
 
             <li class="titulo-4 -montserrat medium">
-              <img src="images/contato-horario.png" alt="" />
-              Segunda a sexta-feira (exceto feriados)
+              <span>
+                <img src="images/contato-horario.png" alt="" />
+                Segunda a sexta-feira (exceto feriados)
+              </span>
             </li>
 
             <li class="titulo-4 -montserrat medium">
-              <img src="images/contato-local.png" alt="" />
-              Av. Ayrton Senna da Silva, 300, sala 210 Londrina-PR, 86050-460
+              <a rel="external" target="_blanck" href="https://www.google.com/maps/place/Av.+Ayrton+Senna+da+Silva,+300+-+Sala+210+-+Gleba+Fazenda+Palhano,+Londrina+-+PR,+86050-460/data=!4m2!3m1!1s0x94eb434d6dc898ed:0x6d9e489aacb7b0bf?sa=X&ved=2ahUKEwjX9tfVhr_4AhU8CbkGHZv3APQQ8gF6BAgVEAE">
+                <img src="images/contato-local.png" alt="" />
+                Av. Ayrton Senna da Silva, 300, sala 210 Londrina-PR, 86050-460
+              </a>
             </li>
 
             <li class="titulo-4 -montserrat medium">
-              <img src="images/contato-mail.png" alt="" />
-              contato@umbrellamarcas.com.br
+              <a rel="external" target="_blanck" href="mailto:contato@umbrellamarcas.com.br">
+                <img src="images/contato-mail.png" alt="" />
+                contato@umbrellamarcas.com.br
+              </a>
             </li>
 
             <li class="titulo-4 -montserrat medium">
-              <img src="images/contato-instagram.png" alt="" />
-              @umbrellamep
+              <a rel="external" target="_blanck" href="https://www.instagram.com/umbrellamep/">
+                <img src="images/contato-instagram.png" alt="" />
+                @umbrellamep
+              </a>
             </li>
 
             <li class="titulo-4 -montserrat medium">
-              <img src="images/contato-facebook.png" alt="" />
+              <a rel="external" target="_blanck" href="https://www.facebook.com/umbrellamarcas">
+                <img src="images/contato-facebook.png" alt="" />
               /umbrellamarcas
+              </a>
+          
             </li>
 
             <li class="titulo-4 -montserrat medium">
-              <img src="images/contato-linkedin.png" alt="" />
-              /umbrella-marcas-e-patentes
+              <a rel="external" target="_blanck" href="https://www.linkedin.com/company/umbrella-marcas-e-patentes/">
+                <img src="images/contato-linkedin.png" alt="" />
+                /umbrella-marcas-e-patentes
+              </a>
             </li>
           </ul>
         </div>
@@ -689,7 +746,10 @@
 
     <section id="rodape">
       <div class="container_umbrella">
-        <img class="seta" src="images/seta-footer.png" alt="" />
+        <a href="#header">
+          <img class="seta" src="images/seta-footer.png" alt="" />
+        </a>
+
         <img class="logo" src="images/logo.png" alt="" />
 
         <nav>
@@ -719,7 +779,6 @@
     </section>
 
     <a class="whattsapp-link" href="https://api.whatsapp.com/send/?phone=554399786664&text=Ol%C3%A1%21+%3A+Em+que+podemos+te+ajudar%3F&app_absent=0" target="_blank">
-      <?xml version="1.0"?>
       <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40px" height="40px">
         <path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z" />
       </svg>
@@ -738,7 +797,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
-  <script src="./scripts/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="./scripts/owl-carousel/dist/owl.carousel.min.js"></script>
 
   <script src="./scripts/jquery.mask.min.js"></script>
 
